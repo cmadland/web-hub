@@ -19,5 +19,6 @@ hero:
     title:
         text: 'Narrating my Learning'
 media_order: 'benjamin-voros-333663-unsplash.jpg,blog-header.jpg,florian-klauer-253-unsplash.jpg,rawpixel-315198-unsplash.jpg,perpetualbeta.png,perpetualbeta-aurora.png'
+show_sidebar: false
 ---
 
