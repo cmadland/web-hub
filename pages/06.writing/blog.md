@@ -1,5 +1,5 @@
 ---
-title: writing
+title: Writing
 root_of_blog: true
 content:
     items:
