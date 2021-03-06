@@ -6,7 +6,7 @@ order:
 date: '06:13 09-10-2019'
 hide_git_sync_repo_link: false
 hide_hypothesis: false
-visible: true
+visible: false
 date_format: 'F Y'
 locale: en
 ---
