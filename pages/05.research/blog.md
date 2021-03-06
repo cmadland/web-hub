@@ -1,5 +1,5 @@
 ---
-title: Reasearch
+title: Research
 root_of_blog: true
 content:
     items:
@@ -9,4 +9,3 @@ content:
         by: folder
         dir: asc
 ---
-
