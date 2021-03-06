@@ -14,7 +14,6 @@ show_breadcrumbs: '1'
 show_pagination: '1'
 post_icon: ''
 hide_from_post_list: '0'
-published: true
+published: false
 visible: false
 ---
-
