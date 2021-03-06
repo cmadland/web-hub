@@ -1,7 +1,8 @@
 ---
 title: Research
 date: '22:20 18-11-2018'
-visible: true
+visible: false
+published: false
 hide_git_sync_repo_link: false
 hide_hypothesis: false
 hide_page_title: true
