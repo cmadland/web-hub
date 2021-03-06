@@ -1,12 +1,10 @@
 ---
-title: Settler Research
+title: 'Settler Research'
 date: '06:37 09-12-2019'
 hide_git_sync_repo_link: false
 hide_hypothesis: false
 hide_page_title: false
-hide_page_title: true
 ---
-
 
 !!!! I study and work as an uninvited guest on the traditional lands of the Lekwungen-speaking peoples on whose traditional territory the University of Victoria stands, and I am grateful for the hospitality of the Songhees, Esquimalt and WSÁNEĆ peoples whose historical relationships with the land continue to this day.
 
