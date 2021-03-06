@@ -5,18 +5,9 @@ hide_git_sync_repo_link: false
 hide_hypothesis: false
 hide_page_title: true
 visible: true
-anchors:
-    active: true
-    selectors: h3
 ---
 
-### Page Contents
-[Problem](#problem)  
-[Purposes and Possible Questions](#purposes-and-possible-questions)  
-[Potential Methods](#potential-methods)  
-[Significance of the Research](#significance-of-the-research)  
-[About the Researcher](#about-the-researcher)  
-[References](#references)  
+
 
 ### Understanding the Impact of Online Assessment Practices in Higher Education (Expanded)
 
