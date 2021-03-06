@@ -8,6 +8,7 @@ content:
     order:
         by: date
         dir: desc
+    pagination: true
 feed:
     limit: 10
 hero:
@@ -18,7 +19,7 @@ hero:
     subtitle: 'Thinking out loud'
     title:
         text: 'Narrating my Learning'
-media_order: 'benjamin-voros-333663-unsplash.jpg,blog-header.jpg,florian-klauer-253-unsplash.jpg,rawpixel-315198-unsplash.jpg,perpetualbeta.png,perpetualbeta-aurora.png'
+media_order: 'benjamin-voros-333663-unsplash.jpg,florian-klauer-253-unsplash.jpg,perpetualbeta-wh.png'
 show_sidebar: false
 ---
 
