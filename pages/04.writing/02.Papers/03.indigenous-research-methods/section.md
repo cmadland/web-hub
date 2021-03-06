@@ -18,7 +18,6 @@ published: true
 visible: true
 ---
 
-
 ## What is a Worldview or Paradigm?
 
 All research is grounded in a particular tradition or worldview, often called a *paradigm*. A research paradigm is a set of philosophical assumptions and values about the universe and the ways in which we can learn and know about it (Johnson, 2017). According to (Held, 2019), research paradigms are generally concerned with the answers to questions related to:
