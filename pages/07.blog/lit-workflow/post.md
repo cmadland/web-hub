@@ -12,6 +12,14 @@ show_sidebar: true
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
 ---
 
 [embedly url="https://twitter.com/raulpacheco/status/1100659069126365184"][/embedly]
