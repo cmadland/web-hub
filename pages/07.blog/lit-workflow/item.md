@@ -16,6 +16,7 @@ hide_from_post_list: false
 
 [embedly url="https://twitter.com/raulpacheco/status/1100659069126365184][/embedly]
 
+
 A tweet showed up in my timeline, thanks to [@_valeriei](https://twitter.com/_valeriei), from [@raulpacheco](https://twitter.com/raulpacheco) talking about how he manages his workflow for printed papers. Here's my digital workflow. It takes a bit of technical setup, but it's worth it.
 
 ===
