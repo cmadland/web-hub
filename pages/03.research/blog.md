@@ -9,5 +9,10 @@ content:
         by: folder
         dir: asc
     pagination: true
+hero:
+    subtitle: 'Understanding the Impact of Online Assessment Practices in Higher Education'
+    title:
+        text: 'Current Research'
+    image: andrew-seaman--m88z7ily-w-unsplash.jpg
 ---
 
