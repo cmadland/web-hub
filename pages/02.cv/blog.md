@@ -12,5 +12,7 @@ content:
 hero:
     image: camille-orgel-brsK3C6XpxM-unsplash.jpg
     subtitle: 'Colin M. Madland'
+    title:
+        text: 'Curriculum Vitae'
 ---
 
