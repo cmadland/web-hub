@@ -13,11 +13,10 @@ show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
 ---
-[columns]
+
 [embedly url="https://twitter.com/raulpacheco/status/1100659069126365184"][/embedly]
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I’m going to use this paper to showcase how I highlight, scribble and file my printed materials. I use Sharpie fineliners to write, Stick’n rigid plastic tabs to sort and organize and I’m testing these Faber-Castell highlighters. <a href="https://t.co/5bKx4P6xrR">pic.twitter.com/5bKx4P6xrR</a></p>&mdash; Dr Raul Pacheco-Vega (@raulpacheco) <a href="https://twitter.com/raulpacheco/status/1100659069126365184?ref_src=twsrc%5Etfw">February 27, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-[/columns]
 
 A tweet showed up in my timeline, thanks to [@_valeriei](https://twitter.com/_valeriei), from [@raulpacheco](https://twitter.com/raulpacheco) talking about how he manages his workflow for printed papers. Here's my digital workflow. It takes a bit of technical setup, but it's worth it.
 
