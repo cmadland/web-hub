@@ -14,5 +14,7 @@ hero:
     subtitle: 'Colin M. Madland'
     title:
         text: 'Curriculum Vitae'
+show_sidebar: false
+show_pagination: true
 ---
 
