@@ -14,5 +14,7 @@ hero:
     title:
         text: 'Current Research'
     image: andrew-seaman--m88z7ily-w-unsplash.jpg
+show_sidebar: false
+show_pagination: true
 ---
 
