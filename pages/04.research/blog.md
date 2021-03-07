@@ -8,5 +8,5 @@ content:
     order:
         by: folder
         dir: asc
+    pagination: true
 ---
-

@@ -8,5 +8,5 @@ content:
     order:
         by: date
         dir: desc
+    pagination: true
 ---
-
