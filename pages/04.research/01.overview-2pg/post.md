@@ -1,5 +1,5 @@
 ---
-title: 'Research Overview'
+title: 'Research Overview - Short'
 date: '09:09 15-02-2021'
 hide_git_sync_repo_link: false
 hide_hypothesis: false
@@ -7,10 +7,8 @@ hide_page_title: true
 visible: true
 ---
 
-# 2 Understanding the Impact of Online Assessment Practices in Higher Education
+# Understanding the Impact of Online Assessment Practices in Higher Education
 
-[Google Docs - create and edit documents online, for
-free.](https://docs.google.com/document/d/1j14bZLgB_SYqJRd6AqCvmQL2Ho2Lx-t9M2bwX-VhHKI/edit?usp=sharing)
 
 ## **Problem**
 
@@ -142,45 +140,22 @@ annual Congress of the Humanities and Social Sciences.
 
 ## **References**
 
------
-
-[archived](https://www.notion.so/archived-77703632fc934197825ce7f1a7543361)
-
-<div id="refs" class="references">
-
-<div id="ref-bairdAssessmentLearningFields2017">
 
 Baird, J.-A., Andrich, D., Hopfenbeck, T. N., & Stobart, G. (2017).
 Assessment and learning: Fields apart? *Assessment in Education:
-Principles, Policy & Practice*, *24*(3), 317–350.
+Principles, Policy & Practice, 24* (3), 317–350.
 <https://doi.org/10/gf3brt>
-
-</div>
-
-<div id="ref-benjaminRaceTechnologyAbolitionist2019">
 
 Benjamin, R. (2019). *Race after technology: Abolitionist tools for the
 new Jim Code*. Polity.
-
-</div>
-
-<div id="ref-biggsTeachingQualityLearning2011">
 
 Biggs, J., & Tang, C. (2011). *Teaching for quality learning at
 university: What the student does* (4th ed.). Society for Research into
 Higher Education & Open University Press.
 
-</div>
-
-<div id="ref-blackAssessmentClassroomLearning1998">
-
 Black, P., & Wiliam, D. (1998). Assessment and Classroom Learning.
 *Assessment in Education: Principles, Policy & Practice*, *5*(1), 7–74.
 <https://doi.org/10/fpnss4>
-
-</div>
-
-<div id="ref-broadfootAssessmentTwentyFirstCenturyLearning2016">
 
 Broadfoot, P. (2016). Assessment for Twenty-First-Century Learning: The
 Challenges Ahead. In M. J. Spector, B. B. Lockee, & M. D. Childress
@@ -188,66 +163,34 @@ Challenges Ahead. In M. J. Spector, B. B. Lockee, & M. D. Childress
 International Publishing.
 <https://doi.org/10.1007/978-3-319-17727-4_64-1>
 
-</div>
-
-<div id="ref-brookhartDevelopingMeasurementTheory2003">
-
 Brookhart, S. M. (2003). Developing Measurement Theory for Classroom
 Assessment Purposes and Uses. *Educational Measurement: Issues and
 Practice*, *22*(4), 5–12. <https://doi.org/10/dj7bxr>
-
-</div>
-
-<div id="ref-gerritsen-vanleeuwenkampAssessmentQualityTertiary2017">
 
 Gerritsen-van Leeuwenkamp, K. J., Joosten-ten Brinke, D., & Kester, L.
 (2017). Assessment quality in tertiary education: An integrative
 literature review. *Studies in Educational Evaluation*, *55*, 94–116.
 <https://doi.org/10/ghjbhx>
 
-</div>
-
-<div id="ref-guskeyExploringFactorsTeachers2019">
-
 Guskey, T. R., & Link, L. J. (2019). Exploring the factors teachers
 consider in determining students’ grades. *Assessment in Education:
 Principles, Policy & Practice*, *26*(3), 303–320.
 <https://doi.org/10/ghg8j7>
-
-</div>
-
-<div id="ref-lipnevichWhatGradesMean2020">
 
 Lipnevich, A. A., Guskey, T. R., Murano, D. M., & Smith, J. K. (2020).
 What do grades mean? Variation in grading criteria in American college
 and university courses. *Assessment in Education: Principles, Policy &
 Practice*, *27*(5), 480–500. <https://doi.org/10/ghjw3k>
 
-</div>
-
-<div id="ref-oldfieldAssessmentDigitalAge">
-
 Oldfield, A., Broadfoot, P., Sutherland, R., & Timmis, S. (n.d.).
 *Assessment in a Digital Age: A research review*. Graduate School of
 Education, University of Bristol. Retrieved January 14, 2021, from
 <https://www.bristol.ac.uk/media-library/sites/education/documents/researchreview.pdf>
 
-</div>
-
-<div id="ref-pellegrinoPerspectivesIntegrationTechnology2010">
-
 Pellegrino, J. W., & Quellmalz, E. S. (2010). Perspectives on the
 Integration of Technology and Assessment. *Journal of Research on
 Technology in Education*, *43*(2), 119–134. <https://doi.org/10/ggfh8z>
 
-</div>
-
-<div id="ref-shuteAdvancesScienceAssessment2016">
-
 Shute, V. J., Leighton, J. P., Jang, E. E., & Chu, M.-W. (2016).
 Advances in the Science of Assessment. *Educational Assessment*,
 *21*(1), 34–59. <https://doi.org/10/gfgtrs>
-
-</div>
-
-</div>
