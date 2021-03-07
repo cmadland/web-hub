@@ -12,7 +12,7 @@ hero:
         text: 'Colin M. Madland'
         color: auto
     title2: {  }
-    content: 'I am an experienced educator and technologist working on my PhD in educational technology at the University of Victoria.'
+    content: 'Educator, technology steward, and PhD student examining assessment in online higher education at the University of Victoria.'
     buttons:
         -
             text: Teaching

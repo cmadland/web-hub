@@ -1,7 +1,7 @@
 ---
 title: 'Contact Me'
 subtitle: 'Find out more information'
-section_classes: 'bg-primary-darker text-primary-light py-8 md:py-24'
+section_classes: 'bg-primary-dark text-primary-light py-8 md:py-24'
 title_text: light
 ---
 
