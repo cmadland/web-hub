@@ -9,4 +9,7 @@ content:
         by: folder
         dir: asc
     pagination: true
+hero:
+    image: camille-orgel-brsK3C6XpxM-unsplash.jpg
 ---
+
