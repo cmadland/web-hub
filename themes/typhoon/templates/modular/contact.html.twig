@@ -1,0 +1,9 @@
+{% extends 'modular/partials/base.html.twig' %}
+
+{% block module_content %}
+  {% include 'modular/partials/title.html.twig' with {include_content: true} %}
+
+  <div class="max-w-xl mx-auto text-gray-700">
+    {% include "forms/form.html.twig" %}
+  </div>
+{% endblock %}

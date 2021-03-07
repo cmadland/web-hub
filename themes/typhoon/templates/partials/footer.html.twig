@@ -1,0 +1,71 @@
+{% set menu_enabled = theme_config.footer.menu_enabled %}
+{% set menu = site.footer.menu|defined(theme_config.footer.menu) %}
+{% set social_enabled = theme_config.footer.social_enabled %}
+{% set social = site.footer.social|defined(theme_config.footer.social) %}
+
+<footer class="bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 text-sm">
+  <div class="{{ theme_var('wrapper_spacing')|e }} py-8">
+
+    <div class="relative flex flex-col md:flex-row justify-between min-h-16 text-gray-600 dark:text-gray-500">
+      {% if menu_enabled and menu %}
+        <div class="flex font-medium space-x-6 md:space-x-8 items-center justify-center mb-6 md:mb-0 md:justify-start ">
+          {% for item in menu %}
+            <a href="{{ url(item.link) }}" class="hover:text-primary transition duration-300">{{ item.label }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if social_enabled and social %}
+        <div class="flex social mb-2 space-x-2 items-center justify-center mb-6 md:mb-0 md:justify-start">
+          {% for item in social %}
+            {% if item.network|contains('__') %}
+              {% set item_parts = item.network|split('__') %}
+              {% set icon = item_parts|last ~ '/' ~ item_parts|first ~ '.svg' %}
+              {% set link_class = 'bg-' ~ item_parts|first ~ ' text-white p-1 rounded-full w-8 h-8' %}
+              {% set icon_class = '' %}
+            {% else %}
+              {% set icon = 'social/' ~ item.network ~ '.svg' %}
+              {% set link_class = 'text-' ~ item.network %}
+              {% set icon_class = 'w-8 h-8 fill-current stroke-current' %}
+            {% endif %}
+            {% set extra = item.network == 'github' ? 'dark:text-gray-500' %}
+            <a href="{{ url(item.link) }}" aria-label="{{ item.network }}"
+               class="{{ link_class }} {{ extra }} hover:filter-more-bright transition duration-300">
+              {{ svg_icon(icon, icon_class)|raw }}
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+    <div class="relative flex flex-col md:flex-row justify-between mt-0 md:mt-6 text-gray-600 dark:text-gray-500 md:items-center">
+      <div class="text-center md:text-left mb-6 md:mb-0">
+        {{ theme_config.footer.copyright|markdown|shortcodes|raw }}
+      </div>
+
+      {% if theme_config.appearance.selector %}
+        <div class="max-w-64 mx-auto md:mx-0">
+          <div class="theme-chooser flex items-center rounded-md border border-gray-300 dark:border-gray-600 pl-2 pr-0">
+                <span>
+                  <span x-cloak :class="{'inline-block' : appearance === 'system', 'hidden': appearance !== 'system'}">
+                  {{ svg_icon('tabler/device-desktop.svg', 'w-6 h-6 stroke-current')|raw }}
+                  </span>
+                  <span x-cloak :class="{'inline-block' : appearance === 'light', 'hidden': appearance !== 'light'}">
+                  {{ svg_icon('tabler/sun.svg', 'w-6 h-6 stroke-current')|raw }}
+                  </span>
+                  <span x-cloak :class="{'inline-block' : appearance === 'dark', 'hidden': appearance !== 'dark'}">
+                  {{ svg_icon('tabler/moon.svg', 'w-6 h-6 stroke-current')|raw }}
+                  </span>
+                </span>
+            <select x-model="appearance" @change="typhoonStore({ appearance: $event.target.value });"
+                    class="form-select focus:ring-transparent focus:outline-none focus:shadow-none"
+                    aria-label="Change color theme">
+              <option value="system" :selected="appearance === 'system'">System</option>
+              <option value="light" :selected="appearance === 'light'">Light</option>
+              <option value="dark" :selected="appearance === 'dark'">Dark</option>
+            </select>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,104 @@
+/* BREADCRUMBS PLUGIN OVERRIDES */
+#breadcrumbs {
+    @apply pl-0 text-base leading-normal h-auto text-base;
+
+    & > span {
+        @apply px-0;
+
+        & span {
+          @apply px-0;
+        }
+    }
+
+    a span {
+        @apply text-primary transition duration-300;
+        &:hover {
+            @apply text-primary-darker dark:text-primary-lighter;
+         }
+    }
+}
+
+.fa-angle-right:before {
+    @apply text-gray-500 block;
+    content: '/';
+}
+/* END BREADCRUMBS PLUGIN OVERRIDES */
+
+/* RELATED PAGES PLUGIN OVERRIDES */
+ul.related-pages {
+    @apply list-none !important;
+    @apply pl-0 !important;
+
+    li {
+        @apply my-3;
+    }
+    .score {
+        @apply border-2 border-primary p-1;
+    }
+}
+/* END RELATED PAGES PLUGIN OVERRIDES */
+
+/* ARCHIVES PLUGIN OVERRIDES */
+ul.archives > li {
+
+  .label {
+    @apply inline-flex items-center px-2 rounded-full text-xs font-bold mr-1 leading-5 bg-primary text-gray-200;
+  }
+
+  a:hover {
+    .label {
+      @apply bg-primary-darker dark:bg-primary-lighter;
+    }
+  }
+
+  &:before {
+    @apply hidden;
+  }
+}
+/* END ARCHIVES PLUGIN OVERRIDES */
+
+/* NOTICES PLUGIN OVERRIDES */
+.notices a {
+  @apply dark:text-gray-100;
+  &:hover {
+    @apply dark:text-white;
+  }
+}
+.notices.red {
+  @apply bg-red-100 text-red-800 border-red-200 dark:bg-red-800 dark:text-red-200 dark:border-red-900;
+}
+.notices.blue {
+  @apply bg-blue-100 text-blue-800 border-blue-200 dark:bg-blue-800 dark:text-blue-200 dark:border-blue-900;
+}
+.notices.green {
+  @apply bg-green-100 text-blue-800 border-green-200 dark:bg-green-800 dark:text-green-200 dark:border-green-900;
+}
+.notices.yellow {
+  @apply bg-orange-100 text-blue-800 border-orange-200 dark:bg-orange-800 dark:text-orange-200 dark:border-orange-900;
+}
+/* END NOTICES PLUGIN OVERRIDES */
+
+/* LIGHTBOX GALLERY PLUGIN */
+.glightbox-clean .gslide-description, .glightbox-modern .gslide-description {
+  @apply dark:bg-gray-800;
+}
+/* END LIGHTBOX GALLERY */
+
+/* SIMPLESEARCH PLUGIN */
+.search-wrapper .search-results {
+    @apply p-0;
+    ul {
+        @apply my-0;
+
+        li {
+            @apply m-0 p-0;
+            padding-left: inherit;
+
+            &:before {
+                @apply hidden;
+            }
+        }
+    }
+}
+/* END SIMPLESEARCH */
+

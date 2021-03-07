@@ -1,0 +1,49 @@
+title: Gallery
+extends@: partials/modular
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.media_order:
+              ordering@: 99
+
+            header.gallery.grid_classes:
+              type: text
+              default: 'grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-2 gap-x-2'
+              help: TailwindCSS classes that define the columns at various breakpoints + spacing
+              label: Grid Classes
+
+            header.gallery.thumb.width:
+              type: number
+              label: Thumbnail Width
+              size: x-small
+              append: px
+              default: 600
+
+            header.gallery.thumb.height:
+              type: number
+              label: Thumbnail Height
+              size: x-small
+              append: px
+              default: 450
+
+            header.gallery.items:
+              type: list
+              style: vertical
+              label: Features
+
+              fields:
+                .title:
+                  type: text
+                  label: Title
+                .image:
+                  type: filepicker
+                  preview_images: true
+                  label: Image
+                .desc:
+                  type: textarea
+                  rows: 4
+                  label: Description

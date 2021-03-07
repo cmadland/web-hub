@@ -1,0 +1,45 @@
+form:
+  fields:
+    header.header_bar.background:
+      toggleable: true
+      type: select
+      label: Background
+      help: Top logo/menu section background for this page
+      config-default@: theme.header_bar.background
+      options:
+        auto: Automatic Background Color
+        light: Light Background Color
+        dark: Dark Background Color
+        transparent: Transparent Background
+        custom: Custom Background CSS
+
+    header.header_bar.custom_style:
+      toggleable: true
+      type: text
+      label: Custom Background Style
+      help: If you set Background to custom, this CSS is used for the background of the header bar
+      default: 'linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 100%)'
+
+    header.header_bar.text:
+      toggleable: true
+      type: select
+      label: Text
+      help: Top logo/menu section text for this page
+      config-default@: theme.header_bar.text
+      options:
+        auto: Automatic Text Color
+        light: Light Text Color
+        dark: Dark Text Color
+
+    header.show_children_in_secondary_menu:
+      toggleable: true
+      type: toggle
+      label: Show Children in Secondary menu
+      highlight: 0
+      default: 0
+      size: medium
+      options:
+        1: PLUGIN_ADMIN.YES
+        0: PLUGIN_ADMIN.NO
+      validate:
+        type: bool

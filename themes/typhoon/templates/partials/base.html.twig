@@ -1,0 +1,95 @@
+{% extends 'partials/theme-variables.html.twig' %}
+{% use 'blocks/base.html.twig' %}
+{% block render_body %}
+
+
+  <!DOCTYPE html>
+<html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}"
+      data-appearance="{{ {
+        appearance: theme_config.appearance.theme|default(''),
+        store: theme_config.appearance.storage ? 1 : 0
+      }|json_encode|e }}"
+      x-data="{ show_mobile_nav: false, theme: typhoonRetrieve().theme, appearance: typhoonRetrieve().appearance }"
+      :class="[ show_mobile_nav ? 'overflow-hidden' : '', theme ]" class="overflow-x-hidden">
+<head>
+  {% block head %}
+    <meta charset="utf-8"/>
+    <title>
+      {%- if header.title -%}{{- header.title|e('html') -}}{%- endif -%}
+      {%- if theme_config.append_site_title -%}
+        {%- if header.title and site.title %} | {% endif -%}{{- site.title|e('html') -}}
+      {%- endif -%}
+    </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    {% include 'partials/metadata.html.twig' %}
+
+    <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}"/>
+    <link rel="canonical" href="{{ page.url(true, true) }}"/>
+  {% endblock head %}
+
+  {% block stylesheets %}
+    {% if theme_config.production %}
+      {% do assets.addCss('theme://build/css/site.prod.css') %}
+    {% else %}
+      {% do assets.addCss('theme://build/css/site.css') %}
+    {% endif %}
+    {% set tailwind_theme %}
+      {% include 'partials/theme.css.twig' %}
+    {% endset %}
+    {% do assets.addInlineCss(tailwind_theme) %}
+
+  {% endblock %}
+
+  {% block javascripts %}
+    {% do assets.addJs('theme://js/alpine.js', {loading: 'defer'}) %}
+    {% do assets.addJs('theme://js/appearance.js', {group: 'bottom'}) %}
+  {% endblock %}
+
+  {% block assets deferred %}
+  {{ assets.css() | raw }}
+  {{ assets.js() | raw }}
+  {% endblock %}
+</head>
+
+<body
+        id="top"
+        class="flex flex-col items-stretch min-h-screen antialiased relative bg-white dark:bg-gray-900 overflow-x-hidden {{ base_text_style }} {% if debugger_enabled %}debug-screens {% endif %}{{ page.header.body_classes }}"
+        @typhoon-theme.window="theme = $event.detail.theme || ''; appearance = $event.detail.appearance || '';">
+{% include 'partials/notices.html.twig' %}
+<div class="flex-1 flex flex-col relative">
+  {% block header %}
+    {% include 'partials/header.html.twig' %}
+  {% endblock %}
+
+  {% block hero %}
+    {% if hero_display %}
+      {% include 'partials/hero.html.twig' %}
+    {% endif %}
+  {% endblock %}
+
+  {% block body %}
+    <section class="flex-1">
+      <div class="{{ hero_display ? 'pt-0' : 'pt-16' }}">
+        {{ block('content_surround') }}
+      </div>
+    </section>
+  {% endblock %}
+
+  {% block footer %}
+    {% include 'partials/footer.html.twig' %}
+  {% endblock %}
+
+  {% block mobile_nav %}
+    {% if theme_config.menu.mobile_nav == true %}
+      {% include 'partials/mobile-navigation.html.twig' %}
+    {% endif %}
+  {% endblock %}
+</div>
+
+{% block bottom %}
+  {{ assets.js("bottom") | raw }}
+{% endblock %}
+</body>
+</html>
+{% endblock %}

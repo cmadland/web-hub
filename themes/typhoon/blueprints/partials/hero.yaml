@@ -1,0 +1,178 @@
+form:
+  fields:
+
+    section_herotab:
+      type: section
+      title: Hero Content
+      underline: true
+
+    header.hero.subtitle:
+      toggleable: true
+      type: text
+      label: Subtitle
+      help: Subtitle that displays above the title
+
+    header.hero.title.text:
+      toggleable: true
+      type: text
+      label: Title Text
+      placeholder: Defaults to page title if not provided
+
+    header.hero.title.color:
+      toggleable: true
+      type: text
+      label: Title Color
+      placeholder: Any valid Tailwind color, e.g. text-primary | text-gray-800 | text-blue-700 etc
+
+    header.hero.title2.text:
+      toggleable: true
+      type: text
+      label: Title 2 Text
+      placeholder: Defaults to page title if not provided
+
+    header.hero.title2.color:
+      toggleable: true
+      type: text
+      label: Title 2 Color
+      placeholder: Any valid Tailwind color, e.g. text-primary | text-gray-800 | text-blue-700 etc
+
+    header.hero.text:
+      toggleable: true
+      type: select
+      label: Default Text
+      help: Default text for the hero section, if 'Auto', the color is determined by the overlay
+      default: auto
+      options:
+        auto: Auto Selected Color
+        light: Light Text Color
+        dark: Dark Text Color
+
+    header.hero.content:
+      toggleable: true
+      type: textarea
+      label: Hero Content
+      rows: 5
+
+    header.hero.buttons:
+      type: list
+      toggleable: true
+      label: Buttons
+      style: horizontal
+
+      fields:
+        .text:
+          toggleable: true
+          type: text
+          label: Text
+        .link:
+          toggleable: true
+          type: text
+          label: Link
+        .classes:
+          toggleable: true
+          type: text
+          label: Classes
+          default: bg-primary text-white
+
+    section_herosettings:
+      type: section
+      title: Hero Settings
+      underline: true
+
+    header.hero.display:
+      type: toggle
+      toggleable: true
+      label: Display
+      help: If this page should have a hero
+      config-default@: theme.hero.display
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.YES
+        0: PLUGIN_ADMIN.NO
+      validate:
+        type: bool
+
+    header.hero.alignment:
+      toggleable: true
+      type: toggle
+      label: Hero Alignment
+      config-default@: theme.hero.alignment
+      highlight: left
+      options:
+        left: Left
+        center: Center
+        right: Right
+
+    header.hero.image:
+      toggleable: true
+      type: filepicker
+      label: Image
+      preview_images: true
+      accept:
+        - .png
+        - .jpg
+
+    header.hero.padding:
+      toggleable: true
+      type: text
+      label: Padding Classes
+      config-default@: theme.hero.padding
+
+    section_overlay:
+      type: section
+      title: Hero Overlay
+      underline: true
+
+    header.hero.overlay:
+      toggleable: true
+      type: select
+      label: Overlay
+      help: Select custom and provide a custom color below for an exact color, else select the best choice for the image
+      config-default@: theme.hero.overlay
+      options:
+        dark: Dark
+        darker: Darker
+        light: Light
+        lighter: Lighter
+        primary: Primary
+        none: None
+        custom: Custom
+
+    header.hero.custom:
+      toggleable: true
+      type: colorpicker
+      label: Custom Overlay Color
+      config-default@: theme.hero.custom
+      help: You must set the Overlay to "custom" for this to be used
+
+    header.hero.overlay_gradient:
+      toggleable: true
+      type: selectize
+      label: Overlay Gradient Opacity
+      help: Provide a start and end opacity for Overlay
+      default: [0.8, 0.3]
+      classes: fancy
+      validate:
+        type: commalist
+
+    header.hero.overlay_direction:
+      toggleable: true
+      type: select
+      label: Overlay Gradient Direction
+      config-default@: theme.hero.overlay_direction
+      options:
+        right: To Right
+        bottom: To Bottom
+        top: To Top
+        left: To Left
+
+
+
+
+
+
+
+
+
+

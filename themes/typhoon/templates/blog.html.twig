@@ -1,0 +1,45 @@
+{% extends 'partials/base.html.twig' %}
+{% set blog = theme_var('root_of_blog', null, null, true)|e %}
+{% set collection = page.collection() %}
+{% set show_sidebar = theme_var('show_sidebar', true)|e %}
+{% set show_pagination = theme_var('show_pagination', true)|e %}
+{% set show_breadcrumbs = theme_var('show_breadcrumbs', true)|e %}
+
+{% block body %}
+  <section class="flex-1 bg-gray-100 dark:bg-gray-800">
+    <div class="blog-layout">
+      {{ block('content_surround') }}
+    </div>
+  </section>
+{% endblock %}
+
+{% block content_wrapper %}
+  {% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
+    {% include 'partials/breadcrumbs.html.twig' %}
+  {% endif %}
+
+  {% embed 'partials/layout.html.twig' %}
+
+    {% block items %}
+
+      <div class="flex flex-wrap -mx-4">
+        {% for post in collection %}
+          {% include "partials/post-item.html.twig" with {page: post} %}
+        {% endfor %}
+      </div>
+
+      {% if config.plugins.pagination.enabled %}
+        <div class="flex justify-center w-full p-6 mx-auto">
+          {% include 'partials/pagination.html.twig' with {base_url: blog.url, pagination: collection.params.pagination} %}
+        </div>
+      {% endif %}
+
+    {% endblock %}
+
+    {% block sidebar %}
+      {% include 'partials/sidebar.html.twig' %}
+    {% endblock %}
+
+  {% endembed %}
+
+{% endblock %}

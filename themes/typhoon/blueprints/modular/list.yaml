@@ -1,0 +1,32 @@
+title: List
+extends@: partials/modular
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.media_order:
+              ordering@: 99
+
+            header.list:
+              name: features
+              type: list
+              style: vertical
+              label: Features
+
+              fields:
+                .title:
+                  type: text
+                  label: Title
+                .text:
+                  type: editor
+                  label: Text
+                .category:
+                  type: text
+                  label: Category
+                .color:
+                  type: text
+                  toggleable: true
+                  label: Color Classes

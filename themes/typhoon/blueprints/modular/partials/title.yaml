@@ -1,0 +1,17 @@
+form:
+  fields:
+
+    header.subtitle:
+      toggleable: true
+      type: text
+      label: Subtitle
+
+    header.title_text:
+      toggleable: true
+      type: select
+      label: Title Color
+      default: auto
+      options:
+        auto: Auto Selected Text
+        light: Light Text
+        dark: Dark Text

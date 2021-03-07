@@ -1,0 +1,50 @@
+{% macro nav_loop(links, classes_config, alpine, svg = {open: '', closed: ''}) %}
+  {% import _self as macros %}
+  {% for l in links %}
+
+    {{ dump(l) }}
+
+    {% set default = classes_config.default %}
+    {% set classes = attribute(classes_config, 'level_' ~ l.level) ?: default %}
+
+    {% set a_classes = classes.a|defined(default.a) %}
+    {% set ul_classes = classes.ul_classes|defined(default.ul) %}
+    {% set icon_classes = classes.icon|defined(default.icon) %}
+
+    {% set li_classes = classes.li.base|defined(default.li.base) %}
+    {% set li_active = is_active_item(l) %}
+    {% set li_highlight = li_active ? classes.li.active|defined(default.li.active) : classes.li.inactive|defined(default.inactive) %}
+    {% set has_children = l.links > 0 %}
+
+    <li {{ alpine.parent|replace({'MENU_STATE': li_active ? 'true':'false'})|raw }}
+            class="{{ li_classes }} {{ li_highlight }} {{ has_children ? 'has-submenu' }}">
+      <div class="flex w-full h-full">
+        {% if l.routable %}
+          <a class="w-full {{ a_classes }}" href="{{ l.href }}">{{- l.text|e -}}</a>
+        {% else %}
+          <span class="w-full {{ a_classes }} cursor-pointer">{{- l.text|e -}}</span>
+        {% endif %}
+        {%- if has_children -%}
+          <button {{ alpine.button|raw }} class="focus:outline-none" aria-label="Expand / collapse menu">
+            {% if svg.open and svg.closed %}
+              <div {{ alpine.svg_open|raw }}>{{ svg.open|raw }}</div>
+              <div {{ alpine.svg_closed|raw }}>{{ svg.closed|raw }}</div>
+            {% elseif svg is iterable %}
+              <div {{ alpine.svg_open|raw }}>-</div>
+              <div {{ alpine.svg_closed|raw }}>+</div>
+            {% elseif svg %}
+              {{ svg|raw }}
+            {% else %}
+              {{ svg_icon('tabler/chevron-down.svg', icon_classes)|raw }}
+            {% endif %}
+          </button>
+        {% endif %}
+      </div>
+      {%- if has_children -%}
+        <ul {{ alpine.child|raw }} class="{{ 'level_' ~ l.level }} {{ ul_classes }}">
+          {{ macros.nav_loop(l.links, classes_config, alpine, svg) }}
+        </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+{% endmacro %}

@@ -1,0 +1,103 @@
+{% set hero = page.header.hero %}
+{% set hero_overlay = theme_var('hero.overlay')|e %}
+{% set hero_alignment = theme_var('hero.alignment')|e %}
+{% set hero_overlay__direction = theme_var('hero.overlay_direction')|e %}
+{% set hero_gradient = [0.9, 0.5] %}
+{% set hero_default = theme_var('hero.image')|e %}
+{% set hero_text = theme_var('hero.text', 'auto')|e %}
+{% set hero_image = hero_image ?? ((page.header.hero.image|defined(hero_default))|hero_image) %}
+{% set hero_align_classes = 'flex' %}
+{% set hero_padding = theme_var('hero.padding', 'pt-32 md:pt-40 lg:pt-48 xl:pt-56 pb-16 md:pb-20 lg:pb-24 xl:pb-32')|e %}
+
+{% if hero_overlay == 'custom' %}
+  {% set hero_overlay = theme_var('hero.custom')|e %}
+  {% set hero_gradient = [0.9, 0.5] %}
+{% elseif hero_overlay == 'dark' %}
+  {% set hero_gradient = [0.6, 0.2] %}
+{% elseif hero_overlay == 'darker' %}
+  {% set hero_gradient = [0.9, 0.5] %}
+{% elseif hero_overlay == 'light' %}
+  {% set hero_gradient = [0.8, 0.4] %}
+{% elseif hero_overlay == 'lighter' %}
+  {% set hero_gradient = [1.0, 0.6] %}
+{% elseif hero_overlay == 'none' %}
+  {% set hero_gradient = [0, 0] %}
+{% endif %}
+
+{% if hero_overlay != 'none' %}
+  {% set hero_gradient = theme_var('hero.overlay_gradient', hero_gradient)|e %}
+{% endif %}
+{% set hero_color = hero_overlay|color_object %}
+{% set rgb = hero_color.getRgb() %}
+{% set hero_overlay_output = 'linear-gradient(to '~hero_overlay__direction~', rgba('~rgb.R~','~rgb.G~','~rgb.B~','~hero_gradient|first~'), rgba('~rgb.R~','~rgb.G~','~rgb.B~','~hero_gradient|last~'))' %}
+
+{% if hero_text == 'auto' %}
+  {% set hero_text = hero_color.isLight() ? 'dark' : 'light' %}
+{% endif %}
+
+{% if hero_alignment == 'center' %}
+  {% set hero_align_classes = hero_align_classes ~ ' text-center justify-center' %}
+  {% set button_classes = 'justify-center' %}
+{% elseif hero_alignment == 'right' %}
+  {% set hero_align_classes = hero_align_classes ~ ' text-right justify-end' %}
+  {% set button_classes = 'justify-end' %}
+{% endif %}
+
+{% set subtitle = subtitle|defined(hero.subtitle) %}
+
+<section id="hero" class="relative {% if hero_animated %}animated{% endif %} overflow-hidden {{ hero_height }}">
+  {{ hero_image.sizes('80vw').classes('background-image absolute inset-0 object-cover h-full w-full').html(null, 'Hero Image')|raw }}
+  <div class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+       style="background-image: {{ hero_overlay_output }};"></div>
+  <div class="{{ theme_var('wrapper_spacing')|e }} relative {{ hero_padding }}">
+    <div class="{{ hero_align_classes }}">
+      <div class="w-5/6 md:w-3/4 lg:w-2/3 xl:w-1/2">
+
+        {% if subtitle %}
+          <div class="text-xs md:text-sm opacity-75 font-semibold uppercase tracking-wide {{ hero_text == 'dark' ? 'text-gray-700' : 'text-gray-300' }} ">
+            {{ subtitle|raw }}
+          </div>
+        {% endif %}
+
+        {% set default_h1_color = hero_text == 'dark' ? 'text-gray-900' : 'text-gray-100' %}
+        {% set h1_color = hero.title.color == 'auto' or hero.title.color is not defined ? default_h1_color : hero.title.color %}
+        <h1 class="mt-1 tracking-tight leading-tighter text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold {{ h1_color }}">
+          {{ hero.title.text|defined(page.title)|e }}
+          {% if hero.title2.text %}
+            {% set h2_color = hero.title2.color == 'auto' or hero.title2.color is not defined ? default_h1_color : hero.title2.color %}
+            <br/>
+            <span class="{{ h2_color }}">{{ hero.title2.text }}</span>
+          {% endif %}
+        </h1>
+
+        {% if hero_tags %}
+          <div class="mt-2 {{ hero_text == 'dark' ? 'text-gray-700' : 'text-gray-300' }} ">
+            {% include 'partials/blog/taxonomy.html.twig' %}
+          </div>
+        {% endif %}
+
+        {% if hero.content %}
+          <div class="mt-3 {{ hero_text == 'dark' ? 'text-gray-800' : 'text-gray-200' }} text-lg md:text-xl">
+            {{ hero.content|markdown|shortcodes|raw }}
+          </div>
+        {% endif %}
+
+
+        {% if hero.buttons %}
+          <div class="mt-5 mt-8 flex space-x-4 {{ button_classes }}">
+            {% for button in hero.buttons %}
+
+              <div class="rounded-md shadow">
+                <a href="{{ url(button.link) }}"
+                   class="{{ button.classes }} w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md focus:outline-none focus:ring transition duration-300 ease-in-out md:py-4 md:text-lg md:px-10">
+                  {{ button.text|markdown(false)|shortcodes|raw }}
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+
+    </div>
+  </div>
+</section>

@@ -1,0 +1,37 @@
+form:
+  fields:
+    header.show_breadcrumbs:
+      type: toggle
+      toggleable: true
+      label: Show Breadcrumbs
+      highlight: 1
+      size: medium
+      options:
+        1: PLUGIN_ADMIN.YES
+        0: PLUGIN_ADMIN.NO
+      validate:
+        type: bool
+
+    header.show_sidebar:
+      type: toggle
+      toggleable: true
+      label: Show Sidebar
+      highlight: 1
+      size: medium
+      options:
+        1: PLUGIN_ADMIN.YES
+        0: PLUGIN_ADMIN.NO
+      validate:
+        type: bool
+
+    header.show_pagination:
+      type: toggle
+      toggleable: true
+      label: Show Pagination
+      highlight: 1
+      size: medium
+      options:
+        1: PLUGIN_ADMIN.YES
+        0: PLUGIN_ADMIN.NO
+      validate:
+        type: bool

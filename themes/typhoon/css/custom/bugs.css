@@ -1,0 +1,3 @@
+.safari-corner-overflow-fix {
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+}

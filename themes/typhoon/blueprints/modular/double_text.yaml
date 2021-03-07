@@ -1,0 +1,38 @@
+title: Double Text
+extends@: partials/modular
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.media_order:
+              ordering@: 99
+
+            header.title_color:
+              type: text
+              toggleable: true
+              label: Title Color
+              placeholder: 'text-dark'
+
+            header.size_left:
+              type: text
+              toggleable: true
+              placeholder: 'w-full md:w-1/2 mr-0 md:mr-8 mb-4 md:mb-0'
+              label: Size Classes Left
+
+            header.size_right:
+              type: text
+              toggleable: true
+              placeholder: 'w-full md:w-1/2'
+              label: Size Classes Right
+
+            header.content:
+              type: editor
+              toggleable: true
+              label: Right Content
+
+            content:
+              ordering@: 6
+              label: Left Content

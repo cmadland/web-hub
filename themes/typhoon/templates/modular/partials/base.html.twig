@@ -1,0 +1,10 @@
+{% extends 'partials/theme-variables.html.twig' %}
+{% block render_body %}
+  <div id="{{ page.menu|hyphenize }}"></div>
+  <div class="{{ theme_var('section_classes')|e }}">
+    <div class="{{ theme_var('wrapper_spacing')|e }}">
+      {% block module_content %}{% endblock %}
+    </div>
+  </div>
+{% endblock %}
+

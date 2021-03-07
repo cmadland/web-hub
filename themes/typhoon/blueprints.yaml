@@ -1,0 +1,443 @@
+name: Typhoon
+version: 1.0.11
+type: theme
+slug: typhoon
+premium: true
+description: Typhoon theme utilizing the Tailwind 2 CSS framework
+icon: bolt
+author:
+  name: Trilby Media, LLC
+  email: hello@trilby.media
+homepage: https://getgrav.org/premium/typhoon
+demo: https://demo.getgrav.org/typhoon/
+keywords: grav, theme, tailwind, responsive, modern, premium
+bugs: https://github.com/getgrav/grav-premium-issues/labels/typhoon
+docs: https://getgrav.org/premium/typhoon/docs
+license: https://getgrav.org/premium/license
+
+dependencies:
+  - { name: grav, version: '>=1.6.31' }
+  - { name: color-tools, version: '>=1.0.0' }
+  - { name: svg-icons, version: '>=1.0.0'}
+  - { name: shortcode-core, version: '>=4.0.0'}
+
+form:
+  validation: loose
+  fields:
+    production:
+      type: toggle
+      label: Mode
+      highlight: 1
+      default: 1
+      options:
+        1: Production
+        0: Development
+      validate:
+        type: bool
+
+    append_site_title:
+      type: toggle
+      label: Append Site Title to HTML Title
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.YES
+        0: PLUGIN_ADMIN.NO
+      validate:
+        type: bool
+
+    typhoon_tabs:
+      type: tabs
+      style: subtle
+      fields:
+        typhoon_config_tab:
+          type: tab
+          title: Configuration
+          fields:
+
+            section_colors:
+              type: section
+              title: Default Colors
+              underline: true
+
+              fields:
+                colors.text_style:
+                  type: text
+                  label: Text Color
+                  placeholder: text-gray-500
+                  help: Any valid Tailwind color, e.g. text-primary | text-gray-800 | text-blue-700 etc
+
+                colors.primary:
+                  type: colorpicker
+                  label: Primary Color
+                  default: '#3085ee'
+                  help: The primary color used throughout the page
+
+                colors.brightness_lighter:
+                  type: range
+                  label: Lighter Brightness
+                  help: The percentage amount brighter for *-primary-lighter colors
+                  default: 20
+                  validate:
+                    min: 0
+                    max: 100
+                    step: 5
+
+                colors.brightness_darker:
+                  type: range
+                  label: Darker Brightness
+                  help: The percentage amount darker for *-primary-darker colors
+                  validate:
+                    min: 0
+                    max: 100
+                    step: 5
+
+            section_appearance:
+              type: section
+              title: Theme Defaults
+              underline: true
+
+              fields:
+                appearance.theme:
+                  type: select
+                  label: Theme
+                  help: Defines the default theme appearance, light or dark. When System is selected, it will obey the system settings
+                  options:
+                    system: System
+                    light: Light
+                    dark: Dark
+
+                appearance.selector:
+                  type: toggle
+                  label: User Selector
+                  help: Allows the user to switch appearance from the footer dropdown
+                  highlight: 1
+                  default: 1
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+
+                appearance.storage:
+                  type: toggle
+                  label: Remember Selection
+                  help: Allows the user to remember the selection persistently. When disabled the selection will only be remember within the current session.
+                  highlight: 1
+                  default: 1
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+
+            section_layout:
+              type: section
+              title: Layout Defaults
+              underline: true
+
+              fields:
+                wrapper_spacing:
+                  type: text
+                  label: Wrapper Classes
+                  default: 'xl:container xl:mx-auto md:px-6 px-4'
+                  help: Overide the wrapper classes used to set the max-width of the page
+
+                section_classes:
+                  type: text
+                  label: Section Classes
+                  default: 'bg-white py-8 md:py-24'
+                  help: Override the classes to wrap the content section for regular or modular pages
+
+            section_menu:
+              type: section
+              title: Menu Configuration
+              underline: true
+
+              fields:
+                menu.primary_location:
+                  type: select
+                  label: Primary Menu Location
+                  help: Either in the horizontal "header" or "sidebar" location
+                  default: header
+                  options:
+                    header: Header
+                    sidebar: Sidebar
+
+                menu.primary_menu_levels:
+                  type: range
+                  label: Primary Header Levels
+                  help: The number of level in the primary menu.  Further nested levels will be shown in a side navigation. Only valid for 'header' primary menu
+                  config-default: theme.typhoon.menu.primary_menu_levels
+                  validate:
+                    min: 0
+                    max: 7
+                    step: 1
+
+                menu.mobile_nav:
+                  type: toggle
+                  label: Display Mobile Navigation
+                  help: Display the hambuger menu for mobile navigation on small devices
+                  highlight: 1
+                  default: 1
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+
+            section_header_bar:
+              type: section
+              title: Header Bar Defaults
+              underline: true
+
+              fields:
+                custom_logo:
+                  type: file
+                  label: Custom Logo
+                  size: large
+                  destination: 'user://assets/typhoon'
+                  multiple: false
+                  description: Will be used instead of default Grav logo
+                  accept:
+                    - image/*
+
+                custom_logo_strip_svg_style:
+                  type: toggle
+                  label: Strip Logo SVG Style
+                  help: Use this if your Custom Logo SVG has hardcoded style and you want the fill color to be dynamic
+                  highlight: 0
+                  default: 0
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+
+                header_bar.background:
+                  type: select
+                  label: Background
+                  help: Top logo/menu section background for this page
+                  options:
+                    auto: Automatic Background Color
+                    light: Light Background Color
+                    dark: Dark Background Color
+                    transparent: Transparent Background
+                    custom: Custom Background CSS
+
+                header_bar.custom_style:
+                  type: text
+                  label: Custom Background Style
+                  help: If you set Background to custom, this CSS is used for the background of the header bar
+                  default: 'linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 100%)'
+
+                header_bar.text:
+                  type: select
+                  label: Text
+                  help: Top logo/menu section text for this page
+                  options:
+                    auto: Automatic Text Color
+                    light: Light Text Color
+                    dark: Dark Text Color
+
+
+
+            section_hero:
+              type: section
+              title: Hero Defaults
+              underline: true
+
+              fields:
+                hero.display:
+                  type: toggle
+                  label: Display
+                  help: If this page should have a hero
+                  highlight: 1
+                  default: 1
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+
+                hero.alignment:
+                  type: toggle
+                  label: Hero Alignment
+                  highlight: left
+                  options:
+                    left: Left
+                    center: Center
+                    right: Right
+
+                hero.image:
+                  type: text
+                  label: Image
+                  help: Stream location of default hero image
+
+                hero.padding:
+                  type: text
+                  label: Padding Classes
+
+                section_overlay:
+                  type: section
+                  title: Hero Overlay
+                  underline: true
+
+                hero.overlay:
+                  type: select
+                  label: Overlay
+                  help: Select custom and provide a custom color below for an exact color, else select the best choice for the image
+                  options:
+                    dark: Dark
+                    darker: Darker
+                    light: Light
+                    lighter: Lighter
+                    primary: Primary
+                    none: None
+                    custom: Custom
+
+                hero.custom:
+                  type: colorpicker
+                  label: Custom Overlay Color
+                  default: '#3C4043'
+                  help: You must set the Overlay to "custom" for this to be used
+
+                hero.overlay_gradient:
+                  type: selectize
+                  label: Overlay Gradient Opacity
+                  help: Provide a start and end opacity for Overlay
+                  default: [ 0.8, 0.3 ]
+                  classes: fancy
+                  validate:
+                    type: commalist
+
+                hero.overlay_direction:
+                  type: select
+                  label: Overlay Gradient Direction
+                  default: right
+                  options:
+                    right: To Right
+                    bottom: To Bottom
+                    top: To Top
+                    left: To Left
+
+        typhoon_content_tab:
+          type: tab
+          title: Content
+          fields:
+            section_footer:
+              type: section
+              title: Footer
+              underline: true
+
+              fields:
+
+                footer.menu_enabled:
+                  type: toggle
+                  label: Enable Menu Links
+                  help: If Menu links should display
+                  highlight: 1
+                  default: 1
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+
+                footer.menu:
+                  type: list
+                  label: Menu Links
+                  fields:
+                    .label:
+                      type: text
+                      label: Menu Item
+                      placeholder: Some Link
+                    .link:
+                      type: text
+                      label: Link
+                      placeholder: '/some/page or https://acme.com/path'
+
+                footer.social_enabled:
+                  type: toggle
+                  label: Enable Social Links
+                  help: If social links should display
+                  highlight: 1
+                  default: 1
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+
+                footer.social:
+                  type: list
+                  label: Social Links
+                  fields:
+                    .network:
+                      type: select
+                      label: Social Network
+                      options:
+                        github: Github
+                        twitter: Twitter
+                        facebook: Facebook
+                        instagram: Instragram
+                        linkedin: LinkedIn
+                        pinterest: Pinterest
+                        500px__brands: 500px
+                        gitbook__brands: Gitbook
+                    .link:
+                      type: text
+                      label: Link
+                      placeholder: 'https://socialnetwork.com/username'
+
+                footer.copyright:
+                  type: editor
+                  rows: 5
+                  label: Footer Copyright
+
+        typhoon_notices_tab:
+          type: tab
+          title: Notices
+          fields:
+            notices:
+              type: list
+              label:
+              style: vertical
+              collapsed: true
+
+              fields:
+                .content:
+                  type: textarea
+                  label: Notice Content
+                .enabled:
+                  type: toggle
+                  label: Enabled
+                  highlight: 1
+                  default: 1
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+                .only_homepage:
+                  type: toggle
+                  label: Only Homepage
+                  highlight: 1
+                  default: 1
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+                .type:
+                  type: select
+                  label: Type
+                  default: alert
+                  options:
+                    alert: Alert (blue)
+                    critical: Critical (red)
+                    note: Note (yellow)
+                    success: Success (green)
+                .learn_more_link:
+                  type: text
+                  label: Learn More Link

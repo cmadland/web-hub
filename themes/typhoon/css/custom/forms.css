@@ -1,0 +1,113 @@
+
+form {
+  .form-input, .form-textarea, .form-select, .search-input  {
+    @apply border bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-100 rounded-md border-gray-300 dark:border-gray-600 w-full;
+
+    &:focus {
+      @apply border-primary focus:ring-transparent focus:outline-none focus:shadow-none;
+    }
+    &::placeholder {
+      @apply text-gray-500;
+    }
+  }
+}
+
+.form-button {
+  @apply inline-block leading-6 font-medium rounded-md text-white bg-primary hover:bg-primary-darker focus:outline-none px-8 py-3 focus:ring transition duration-300 ease-in-out;
+}
+
+.form-field {
+  @apply mb-4;
+
+  .radio {
+    @apply mb-1;
+    .form-radio {
+      @apply h-5 w-5 mr-2 bg-white border-gray-300 border dark:bg-transparent dark:border-gray-600;
+      &:checked {
+        @apply bg-primary border-transparent;
+      }
+      & + label {
+        @apply text-inherit;
+      }
+    }
+  }
+
+  label {
+    @apply text-gray-700 dark:text-gray-400;
+  }
+
+  .form-input-wrapper > input[type=checkbox], .checkboxes > input[type=checkbox] {
+    @apply hidden;
+
+    & + label {
+      @apply inline text-inherit relative cursor-pointer pl-0 mr-6 align-middle;
+
+      &:before {
+        content:"\2713";
+        @apply text-lg text-center static leading-none rounded-md inline-block text-transparent w-5 h-5 mr-2 border border-gray-300 dark:border-gray-600;
+      }
+
+    }
+
+    &:checked + label:before {
+      content:"\2713";
+      @apply text-lg bg-primary leading-none border-transparent text-white text-center;
+    }
+  }
+
+  .checkboxes.toggleable >  input[type=checkbox] + label {
+    @apply -mr-2;
+  }
+
+}
+
+.switch-toggle {
+  @apply border-gray-300 dark:border-gray-600;
+
+  input.highlight:checked + label {
+    @apply bg-primary text-white;
+  }
+
+  input:checked + label {
+    @apply bg-gray-500 text-white;
+  }
+}
+
+.form-tabs {
+  .tabs-nav {
+    a {
+      @apply border-gray-300 dark:border-gray-600;
+
+      &.active {
+        @apply border-b-0 border-gray-300 dark:border-gray-600;
+        span {
+          @apply text-gray-800 dark:text-gray-100;
+        }
+      }
+    }
+  }
+}
+
+.form-input-file {
+  &.dropzone {
+    @apply bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-600;
+  }
+}
+
+.signature-pad {
+  @apply rounded-md border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800;
+}
+
+.signature-pad--body {
+  @apply rounded-none;
+}
+
+.signature-pad--body canvas {
+  @apply rounded-none;
+}
+
+.signature-pad--footer {
+  @apply text-gray-500
+}
+
+

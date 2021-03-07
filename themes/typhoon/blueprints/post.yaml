@@ -1,0 +1,27 @@
+title: Blog
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+
+        post:
+          type: tab
+          title: Post
+          ordering@: 2
+
+          fields:
+
+            blog_layout_section:
+              type: section
+              title: Layout Configuration
+              underline: true
+              ordering@: 1
+
+              import@:
+                type: partials/blog
+
+
+
+

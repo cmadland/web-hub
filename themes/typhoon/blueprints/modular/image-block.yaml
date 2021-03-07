@@ -1,0 +1,31 @@
+title: Image Block
+extends@: partials/modular
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.media_order:
+              ordering@: 99
+
+            header.image:
+              type: filepicker
+              toggleable: true
+              preview_images: true
+              label: Image
+
+            header.image_align:
+              type: toggle
+              toggleable: true
+              label: Image Alignment
+              default: right
+              highlight: right
+              size: medium
+              options:
+                left: Left Side
+                right: Right Side
+
+            content:
+              ordering@: 9

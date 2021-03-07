@@ -1,0 +1,11 @@
+{% if page.taxonomy.tag %}
+  <div class="tags text-sm">
+    {% for tag in page.taxonomy.tag %}
+      <a href="{{ blog.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}#blog_list">
+            <span class="mr-2">
+                {{ tag }}
+            </span>
+      </a>
+    {% endfor %}
+  </div>
+{% endif %}

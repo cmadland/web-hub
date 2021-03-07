@@ -1,0 +1,49 @@
+title: Default
+extends@: default
+form:
+  fields:
+    tabs:
+      fields:
+
+        advanced:
+          fields:
+            columns:
+              fields:
+                column1:
+                  fields:
+                    header.body_classes:
+                      unset@: true
+
+            section_layout:
+              type: section
+              title: Layout Classes
+              underline: true
+              ordering@: 1
+
+              import@:
+                type: partials/layout
+
+            section_colors:
+              type: section
+              title: Colors
+              underline: true
+              ordering@: 1
+
+              import@:
+                type: partials/colors
+
+            section_header:
+              type: section
+              title: Header Configuration
+              underline: true
+              ordering@: 1
+
+              import@:
+                type: partials/header
+        hero:
+          title: Hero
+          type: tab
+          ordering@: 1
+
+          import@:
+            type: partials/hero

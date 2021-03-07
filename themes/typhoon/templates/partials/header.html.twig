@@ -1,0 +1,33 @@
+{% if header_background == 'custom' and header_custom_style %}
+  {% set header_style = 'background: ' ~ header_custom_style ~ ';' %}
+{% else %}
+  {% set header_style = header_background == 'dark' ? 'background-color: rgba(0,0,0,0.5);' : header_background == 'light' ? 'background-color: rgba(255,255,255,0.5);' : '' %}
+{% endif %}
+{% set header_text_class = header_text == 'auto' ? 'text-gray-800 dark:text-gray-200' : header_text == 'light' ? 'text-gray-200' : 'text-gray-800' %}
+<header class="absolute w-full z-10 pb-1 h-16 flex items-center {{ header_background == 'auto' ? 'bg-white dark:bg-gray-900' }}"
+        style="{{ header_style }}">
+  <div class="flex-auto {{ theme_var('wrapper_spacing')|e }}">
+    <nav class="header-nav relative flex items-center justify-between lg:justify-start animated ">
+      <div class="flex items-center">
+        <div class="flex items-center justify-between w-full md:w-auto">
+          <a href="{{ home_url }}" aria-label="Logo" class="{{ header_text_class }}">
+            {% include 'partials/logo.html.twig' %}
+          </a>
+        </div>
+      </div>
+      {% if theme_config.menu.primary_location == 'header' %}
+        <div class="hidden h-full md:flex md:flex-grow justify-end">
+          {% include 'partials/navigation.html.twig' %}
+        </div>
+      {% endif %}
+    </nav>
+  </div>
+  {% if theme_config.menu.mobile_nav == true %}
+    <div class="flex items-center md:hidden justify-end">
+      <button @click="show_mobile_nav = true" aria-label="Mobile menu" type="button"
+              class="{{ header_text_class }} inline-flex items-center justify-center p-2 mr-2 rounded-md focus:outline-none transition duration-150 ease-in-out">
+        {{ svg_icon('tabler/menu.svg', 'current-color h-8 w-8')|raw }}
+      </button>
+    </div>
+  {% endif %}
+</header>

@@ -1,0 +1,7 @@
+{%- set results = [] -%}
+
+{%- for result in search_results -%}
+{%- set results = results|merge([{ title: result.title, route: url(result.route) }]) -%}
+{%- endfor -%}
+
+{{- results|json_encode|raw -}}

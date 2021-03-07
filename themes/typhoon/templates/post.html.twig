@@ -1,0 +1,63 @@
+{% extends 'partials/base.html.twig' %}
+{% set blog = theme_var('root_of_blog', null, null, true)|e %}
+{% set show_sidebar = theme_var('show_sidebar', true)|e %}
+{% set show_pagination = theme_var('show_pagination', true)|e %}
+{% set show_breadcrumbs = theme_var('show_breadcrumbs', true)|e %}
+{% set subtitle = include('partials/blog/date.html.twig')|raw %}
+{% set icon_left = svg_icon('tabler/chevron-left.svg', 'w-5') %}
+{% set icon_right = svg_icon('tabler/chevron-right.svg', 'w-5') %}
+
+{% if page.header.author %}
+  {% set subtitle = subtitle ~ ' - ' ~ page.header.author %}
+{% endif %}
+
+{% set hero_tags = true %}
+
+{% block content_wrapper %}
+  {% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
+    {% include 'partials/breadcrumbs.html.twig' %}
+  {% endif %}
+
+  {% embed 'partials/layout.html.twig' %}
+
+    {% block items %}
+
+      <article class="{{ prose_style }} max-w-none my-6">
+        {{ page.content|raw }}
+      </article>
+
+      <div class="flex-none flex-centered w-full p-6 mx-auto">
+        <div class="space-x-3 text-center">
+          {% if not page.isLast %}
+            <a class="text-sm rounded-md border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 inline-block px-4 py-2"
+               href="{{ page.prevSibling.url }}">{{ icon_left|raw }} {{ 'THEME_TYPHOON.BLOG.ITEM.PREV_POST'|t }}</a>
+          {% endif %}
+
+          {% if not page.isFirst %}
+            <a class="text-sm rounded-md border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 inline-block px-4 py-2"
+               href="{{ page.nextSibling.url }}">{{ 'THEME_TYPHOON.BLOG.ITEM.NEXT_POST'|t }} {{ icon_right|raw }}</a>
+          {% endif %}
+        </div>
+      </div>
+
+      {% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
+        <h4 class="text-xl font-bold mt-4">Other Related Posts:</h4>
+        <div class="flex flex-wrap -mx-4">
+          {% for related_path, score in related_pages|slice(0,2) %}
+            {% set related = grav['pages'].get(related_path) %}
+            {% if related %}
+              {% include "partials/post-item.html.twig" with {page: related} %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+    {% endblock %}
+
+    {% block sidebar %}
+      {% include 'partials/sidebar.html.twig' %}
+    {% endblock %}
+
+  {% endembed %}
+
+{% endblock %}

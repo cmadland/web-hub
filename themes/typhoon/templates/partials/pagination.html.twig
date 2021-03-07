@@ -1,0 +1,55 @@
+{% set pagination = pagination|default(page.collection.params.pagination) %}
+{% set base_url = base_url|default(page.url) %}
+{% set li_class = 'flex items-center border-r last:border-0 border-gray-300 dark:border-gray-700' %}
+{% set item_class = 'opacity-50 inline-block px-4 py-2' %}
+{% set link_class = 'opacity-100 text-primary hover:text-primary-darker dark:hover:text-primary-lighter' %}
+{% set icon_left = svg_icon('tabler/chevrons-left.svg', 'w-5') %}
+{% set icon_right = svg_icon('tabler/chevrons-right.svg', 'w-5') %}
+
+{% if pagination|length > 1 %}
+  <ul class="flex border rounded-md border-gray-300 dark:border-gray-700">
+    {% if pagination.hasPrev %}
+      {% set url =  (base_url ~ pagination.params ~ pagination.prevUrl)|replace({'//':'/'}) %}
+      <li class="{{ li_class }}">
+        <a class="{{ item_class }} {{ link_class }}" rel="prev" href="{{ url }}">
+          {{ icon_left|raw }}
+        </a>
+      </li>
+    {% else %}
+      <li class="{{ li_class }}">
+            <span class="{{ item_class }}">
+                {{ icon_left|raw }}
+            </span>
+      </li>
+    {% endif %}
+
+    {% for paginate in pagination %}
+
+      {% if paginate.isCurrent %}
+        <li class="{{ li_class }}"><span class="{{ item_class }} font-bold">{{ paginate.number }}</span></li>
+      {% elseif paginate.isInDelta %}
+        {% set url = (base_url ~ pagination.params ~ paginate.url)|replace({'//':'/'}) %}
+        <li class="{{ li_class }}"><a class="{{ item_class }} {{ link_class }}"
+                                      href="{{ url }}">{{ paginate.number }}</a></li>
+      {% elseif paginate.isDeltaBorder %}
+        <li class="{{ li_class }}"><span class="{{ item_class }}">&hellip;</span></li>
+      {% endif %}
+
+    {% endfor %}
+    {% if pagination.hasNext %}
+      {% set url = (base_url ~ pagination.params ~ pagination.nextUrl)|replace({'//':'/'}) %}
+      <li class="{{ li_class }}">
+        <a class="{{ item_class }} {{ link_class }}" rel="next" href="{{ url }}">
+          {{ icon_right|raw }}
+        </a>
+      </li>
+    {% else %}
+      <li class="{{ li_class }}">
+            <span class="{{ item_class }}">
+                {{ icon_right|raw }}
+            </span>
+      </li>
+    {% endif %}
+  </ul>
+
+{% endif %}

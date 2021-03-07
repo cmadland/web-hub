@@ -1,0 +1,48 @@
+{% set feed_url = blog.url == '/' or blog.url == base_url_relative ? (base_url_relative~'/'~blog.slug) : blog.url %}
+{% set new_base_url = blog.url == '/' ? '' : blog.url %}
+{% set embed_page = page.find('/modules/sidebar') %}
+
+<aside class="col-count-2 md:col-count-1 {{ prose_style }} max-w-none">
+  {% if config.plugins.simplesearch.enabled %}
+    <div class="sidebar-content">
+      {% include 'partials/simplesearch_searchbox.html.twig' with { sidebar: true } %}
+    </div>
+  {% endif %}
+  {% if config.plugins.random.enabled %}
+    <div class="sidebar-content">
+      <h4 class="text-xl font-bold mt-2 mb-1">{{ 'THEME_TYPHOON.SIDEBAR.RANDOM_ARTICLE.HEADLINE'|t }}</h4>
+      <a class="btn px-2"
+         href="{{ base_url }}/random">{{ svg_icon('tabler/dice.svg', 'w-5 inline-block align-middle')|raw }} <span
+                class="align-middle">{{ 'THEME_TYPHOON.SIDEBAR.RANDOM_ARTICLE.FEELING_LUCKY'|t }}</span></a>
+    </div>
+  {% endif %}
+
+  {% if embed_page %}
+    <div class="sidebar-content">
+      {{ embed_page.content|raw }}
+    </div>
+  {% endif %}
+
+  {% if config.plugins.taxonomylist.enabled %}
+    <div class="sidebar-content">
+      <h4 class="text-xl font-bold mt-2 mb-1">{{ 'THEME_TYPHOON.SIDEBAR.POPULAR_TAGS.HEADLINE'|t }}</h4>
+      {% include 'partials/taxonomylist.html.twig' with {'base_url':new_base_url, 'taxonomy':'tag'} %}
+    </div>
+  {% endif %}
+  {% if config.plugins.archives.enabled %}
+    <div class="sidebar-content">
+      <h4 class="text-xl font-bold mt-2 mb-1">{{ 'THEME_TYPHOON.SIDEBAR.ARCHIVES.HEADLINE'|t }}</h4>
+      {% include 'partials/archives.html.twig' with {'base_url':new_base_url} %}
+    </div>
+  {% endif %}
+  {% if config.plugins.feed.enabled %}
+    <div class="sidebar-content syndicate">
+      <h4 class="text-xl font-bold mt-2 mb-1">{{ 'THEME_TYPHOON.SIDEBAR.SYNDICATE.HEADLINE'|t }}</h4>
+      {% set rss_icon = svg_icon('tabler/rss.svg', 'w-5 inline-block algin-middle') %}
+      <a class="btn mb-4" href="{{ feed_url }}.atom">{{ rss_icon|raw }} <span class="ml-1 align-middle">Atom</span></a>
+      <a class="btn mb-4" href="{{ feed_url }}.rss">{{ rss_icon|raw }} <span class="ml-1 align-middle">RSS</span></a>
+      {% if config.plugins.feed.enable_json_feed %}<a class="btn" href="{{ feed_url }}.json"><i
+                class="fa fa-rss-square"></i> JSON</a>{% endif %}
+    </div>
+  {% endif %}
+</aside>

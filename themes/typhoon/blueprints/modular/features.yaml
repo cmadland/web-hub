@@ -1,0 +1,37 @@
+title: Features
+extends@: partials/modular
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.media_order:
+              ordering@: 99
+
+            header.variation:
+              type: select
+              label: Variation
+              options:
+                horizontal: Horizontal
+                vertical: Vertical
+
+            header.features:
+              type: list
+              style: vertical
+              label: Features
+
+              fields:
+                .title:
+                  type: text
+                  label: Title
+                .text:
+                  type: text
+                  label: Text
+                .icon:
+                  type: text
+                  label: Icon
+                .link:
+                  type: text
+                  label: Link

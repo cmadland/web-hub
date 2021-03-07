@@ -1,0 +1,52 @@
+{% set colors = {
+  default: 'text-gray-700',
+  active: 'text-gray-900',
+} %}
+
+{% if header_text == 'light' %}
+  {% set colors = {
+    default: 'text-gray-400',
+    active: 'text-gray-100',
+  } %}
+{% endif %}
+
+{% if header_text == 'auto' %}
+  {% set colors = {
+    default: 'text-gray-700 hover:text-primary dark:text-gray-400 dark:hover:text-primary',
+    active: 'text-gray-900 dark:text-gray-100',
+  } %}
+{% endif %}
+
+{% set colors_default = {
+  default: 'text-gray-700 hover:text-primary dark:text-gray-400 dark:hover:text-primary',
+  active: 'text-gray-900 dark:text-gray-100',
+} %}
+
+
+{% set classes = classes ? classes : {
+  root: 'flex h-16 mr-8',
+  default: {
+    a: 'flex px-3 py-2 w-full hover:bg-gray-100 dark:hover:bg-gray-900',
+    li: {
+      base: 'flex leading-5 relative',
+      inactive: ' ' ~ colors_default.default,
+      active: colors_default.active,
+    },
+    icon: 'w-4 h-4 ml-1 text-gray-800er',
+    ul: 'flex transition duration-300 z-10 absolute py-2 flex-col w-48 rounded-b bg-white dark:bg-gray-800 border-t-2 border-gray-200 dark:border-gray-600 shadow-lg text-gray-700 dark:text-gray-300',
+  },
+  level_1: {
+    a: 'flex items-center h-full px-3',
+    li: {
+      base: 'flex ml-4 text-sm relative inline-flex items-center pt-1 border-b-2 font-medium leading-5 transition duration-150 ease-in-out ',
+      inactive: 'border-transparent ' ~ colors.default ~' hover:text-primary hover:border-primary focus:outline-none focus:text-primary focus:border-gray-300 ',
+      active: 'border-primary text-sm focus:outline-none focus:border-primary ' ~ colors.active,
+    },
+    ul: 'flex transition duration-300 z-10 absolute py-2 flex-col w-48 rounded-b bg-white border-gray-200 shadow-lg',
+  }
+} %}
+
+{% import 'macros/macros.html.twig' as macros %}
+<ul class='{{ classes.root }}'>
+  {{ macros.nav_loop(typhoon_primary_menu(), classes, alpine, svg) }}
+</ul>
