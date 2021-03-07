@@ -5,7 +5,7 @@ hero:
     overlay: dark
     overlay_gradient:
         - '0.6'
-    image: colin.jpeg
+    image: colin-copy.jpeg
     alignment: right
     text: auto
     title:
@@ -33,4 +33,3 @@ hero:
     subtitle: 'phd student | assessment | edtech'
 media_order: colin.jpeg
 ---
-
