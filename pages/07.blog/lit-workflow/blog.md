@@ -3,7 +3,7 @@ title: 'My Lit Workflow'
 published: true
 taxonomy:
     category:
-        - Lit Review
+        - 'Lit Review'
 hide_git_sync_repo_link: false
 hero_classes: 'overlay-dark-gradient text-light'
 hero_image: florian-klauer-489-unsplash.jpg
