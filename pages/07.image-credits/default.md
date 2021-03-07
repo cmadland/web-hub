@@ -1,5 +1,10 @@
 ---
 title: 'Image Credits'
+hero:
+    subtitle: 'Thank you to all the photographers linked below!'
+    title:
+        text: 'Image Credits'
+    image: randy-fath-PoEiHeMXRvM-unsplash.jpg
 ---
 
 [columns]
