@@ -9,5 +9,9 @@ content:
         by: date
         dir: desc
     pagination: true
+hero:
+    title:
+        text: 'Unpublished Writing'
+    image: markus-spiske-3j0asuIdULY-unsplash.jpg
 ---
 
