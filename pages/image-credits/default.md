@@ -7,7 +7,7 @@ hero:
     image: randy-fath-PoEiHeMXRvM-unsplash.jpg
 ---
 
-[columns]
+[columns="3"]
 [embedly url="https://unsplash.com/photos/PoEiHeMXRvM"]
 [embedly url="https://unsplash.com/photos/brsK3C6XpxM"]
 [embedly url="https://unsplash.com/photos/0gkw_9fy0eQ"]
