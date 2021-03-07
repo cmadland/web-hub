@@ -6,7 +6,6 @@ hide_hypothesis: false
 hide_page_title: true
 ---
 
-
 ### Education
 ##### Ph.D. Student, University of Victoria, Current
 

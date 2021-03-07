@@ -6,8 +6,6 @@ hide_hypothesis: false
 hide_page_title: true
 ---
 
-
-
 ### Learners
 The learner is most central to the process of learning. It is their motivations, backgrounds, contexts, and experiences that must first inform the structure of the learning environment and the approach taken in the learning process. In addition, it is their work which brings about learning. The instructor's role, then, is to provide and maintain an environment that is safe and welcoming for learners from all contexts and to invite learners to engage in doing the work of making sense of the domain of study. In my courses, this happens both synchronously and asynchronously as learners work with each other and with me to explore ideas and competencies through various media channels and then reflect on their process and its outcomes.
 
