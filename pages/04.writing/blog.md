@@ -13,5 +13,7 @@ hero:
     title:
         text: 'Unpublished Writing'
     image: markus-spiske-3j0asuIdULY-unsplash.jpg
+show_sidebar: false
+show_pagination: true
 ---
 
