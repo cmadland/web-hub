@@ -2,8 +2,6 @@
   {% import _self as macros %}
   {% for l in links %}
 
-    {{ dump(l) }}
-
     {% set default = classes_config.default %}
     {% set classes = attribute(classes_config, 'level_' ~ l.level) ?: default %}
 
@@ -20,7 +18,7 @@
             class="{{ li_classes }} {{ li_highlight }} {{ has_children ? 'has-submenu' }}">
       <div class="flex w-full h-full">
         {% if l.routable %}
-          <a class="w-full {{ a_classes }}" href="{{ l.href }}">{{- l.text|e -}}</a>
+          <a class="w-full {{ a_classes }}" href="{{ l.href }}" {% if l.external %}target="_blank"{% endif %}>{{- l.text|e -}}</a>
         {% else %}
           <span class="w-full {{ a_classes }} cursor-pointer">{{- l.text|e -}}</span>
         {% endif %}

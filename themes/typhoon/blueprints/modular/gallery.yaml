@@ -47,3 +47,7 @@ form:
                   type: textarea
                   rows: 4
                   label: Description
+                .video:
+                  type: text
+                  label: Video
+                  help: Either a local video file, or an external YouTube URL

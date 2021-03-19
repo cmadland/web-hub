@@ -19,7 +19,11 @@
           {% set desc = ".desc-" ~ md5(item.desc) %}
         {% endif %}
         {% set content = item_image.cropZoom(thumb_width,thumb_height).classes('transform duration-200 group-hover:scale-110 group-hover:filter-more-bright').html(title, title) %}
-        {% set image =  item_image.url %}
+        {% if item.video %}
+          {% set video = item.video %}
+        {% else %}
+          {% set image = item.image %}
+        {% endif %}
         {% set class = 'inline-block' %}
         {% include "partials/lightbox.html.twig" %}
       </div>
