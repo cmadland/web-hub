@@ -1,5 +1,5 @@
 ---
-title: 
+title: Landing Page
 body_classes: modular
 image: kanban.png
 image_align: right

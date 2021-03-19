@@ -1,5 +1,5 @@
 ---
-title: intro
+title: 
 body_classes: modular
 columns: 1
 ---
