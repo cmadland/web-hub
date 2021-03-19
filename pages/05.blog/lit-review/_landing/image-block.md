@@ -1,5 +1,5 @@
 ---
-title: landing
+title: 
 body_classes: modular
 ---
 
