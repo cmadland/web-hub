@@ -1,5 +1,5 @@
 name: Typhoon
-version: 1.0.11
+version: 1.0.12
 type: theme
 slug: typhoon
 premium: true
@@ -32,6 +32,17 @@ form:
       options:
         1: Production
         0: Development
+      validate:
+        type: bool
+
+    external_in_new_tab:
+      type: toggle
+      label: External URLs in new tab
+      highlight: 0
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.YES
+        0: PLUGIN_ADMIN.NO
       validate:
         type: bool
 
@@ -383,6 +394,7 @@ form:
                         instagram: Instragram
                         linkedin: LinkedIn
                         pinterest: Pinterest
+                        youtube__brands: YouTube
                         500px__brands: 500px
                         gitbook__brands: Gitbook
                     .link:

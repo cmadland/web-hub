@@ -1,3 +1,14 @@
+# v1.0.12
+## 03/15/2021
+
+1. [](#new)
+    * Added support for External URLs in new tabs [getgrav/grav-premium-issues#63](https://github.com/getgrav/grav-premium-issues/issues/63)
+1. [](#improved)
+    * Added **YouTube** to footer social icons [getgrav/grav-premium-issues#64](https://github.com/getgrav/grav-premium-issues/issues/64)
+    * Added **Video** Support to the Gallery modular page type [getgrav/grav-premium-issues#61](https://github.com/getgrav/grav-premium-issues/issues/61)
+1. [](#bugfix)
+    * Removed a testing `dump()` statement
+  
 # v1.0.11
 ## 03/01/2021
 

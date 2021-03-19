@@ -1,5 +1,6 @@
 enabled: true                                                       # Enable the theme
 production: false                                                   # production | development (compiled or development version of css)
+external_in_new_tab: false                                          # Open external URLs in new tab
 append_site_title: true                                             # Append Site Title to HTML Title
 custom_logo:                                                        # Will be used instead of default Grav logo
 custom_logo_strip_svg_style: false                                  # Use this if your Custom Logo SVG has hardcoded style and you want the fill color to be dynamic

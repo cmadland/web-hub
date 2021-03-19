@@ -346,6 +346,8 @@ class Typhoon extends Theme
         $split_level = $level >= ($this->primary_menu_levels ?? 100);
         $page_split_level = $page->header()->show_children_in_secondary_menu ?? false;
         $show_children_in_secondary_menu =  $split_level ?: $page_split_level;
+        $open_in_new_tab = $this->config->get( 'theme.external_in_new_tab', false);
+        $external_url = $page->header()->external_url ?? false;
 
         $link['rawroute'] = $page->rawRoute();
         $link['href'] = $page->url();
@@ -354,6 +356,7 @@ class Typhoon extends Theme
         $link['level'] = $level;
         $link['show_children_in_secondary_menu'] = $show_children_in_secondary_menu;
         $link['routable'] = $page->routable();
+        $link['external'] = $external_url && $open_in_new_tab;
 
         if ($has_children) {
             $child_links = [];
