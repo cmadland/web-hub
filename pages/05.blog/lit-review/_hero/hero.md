@@ -2,7 +2,7 @@
 title: hero
 body_classes: modular
 hero:
-    image: notion-logo-white.png
-media_order: notion-logo-white.png
+    image: 'notion characters.png'
+media_order: 'notion-logo-white.png,notion characters.png'
 ---
 
