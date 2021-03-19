@@ -1,5 +1,5 @@
 ---
-title: hero
+title: Notion
 body_classes: modular
 hero:
     image: 'notion characters.png'
