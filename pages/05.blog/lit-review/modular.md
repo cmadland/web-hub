@@ -18,7 +18,8 @@ summary:
     enabled: '1'
     format: short
 hide_from_post_list: false
-published: false
+published: true
+visible: false
 ---
 
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
