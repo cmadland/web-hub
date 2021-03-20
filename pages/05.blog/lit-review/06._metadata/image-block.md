@@ -11,3 +11,5 @@ You can see the metadata that I create around each article as a way to help orga
 Many people use Zotero or other citation management tools, and those are indispensable and a key part of my workflow. However, I find the interface for metadata to be clunky, and searching and sorting are downright awful.
 
 The most important part of this process is extracting `Key Ideas` from each article, which get entered into another database, called `Synthesis Matrix`. BTW, these databases are all connected, so when Ivcreate a `Key Idea` entry in the metadata of an article, that also creates that same item in the `Synthesis Matrix` database. So a full `item` in one database, say `Synthesis Matrix` is a `property` in another database like `Articles`.
+
+You can also see yet another database called `Future Research`, set up the same way.
