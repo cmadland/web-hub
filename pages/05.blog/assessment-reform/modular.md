@@ -1,9 +1,9 @@
 ---
-title: 'Lit Review'
+title: 'Assessment 2020'
 content:
     items: '@self.modular'
-media_order: 'notion team portraits.png'
+media_order: 'af.png'
 hero:
-    image: 'notion team portraits.png'
+    image: 'af.png'
 visible: false
 ---
