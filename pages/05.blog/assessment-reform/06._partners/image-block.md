@@ -1,10 +1,10 @@
 ---
 title:
 body_classes: modular
-image: links.png
+image: 3.png
 image_align: left
 ---
-# ... students and teachers become responsible partners in learning and assessment.
+
 ### ... students progressively take responsibility for assessment and feedback procesess.
 The overall aims of higher education include developing students’ critical thinking abilities, which include self-critique, independent judgement, and other skills for continuing learning. Personal responsibility for assessing performance and providing and responding to feedback is a desired graduate outcome. It is necessary and appropriate for university programs to foster this development throughout the curriculum.
 

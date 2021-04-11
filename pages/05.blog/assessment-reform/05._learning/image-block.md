@@ -1,10 +1,9 @@
 ---
 title:
 body_classes: modular
-image: links.png
+image: 2.png
 image_align: right
 ---
-# ... feedback is used to actively improve student learning.
 
 ### ... feedback is informative and supportive and facilitates a positive attitude to future learning.
 Students benefit from clear and helpful feedback on their learning. Everyday learning activities as well as special tasks and tests provide opportunities for the provision of feedback. This places responsibility on staff to plan assessment in order to (a) develop their own skills in providing quality feedback, and (b) develop in students the skills they need to provide sound feedback to each other.

@@ -1,10 +1,10 @@
 ---
 title:
 body_classes: modular
-image: links.png
-image_align: right
+image: 7.png
+image_align: left
 ---
-# ... assessment provides inclusive and trustworthy representation of student achievement.
+
 
 ### ... interim assessment results used for feedback on learning and progress do not play a significant role in determining students’ final grades.
 For purposes of certification, care must be taken to avoid the formal use of early grades that do not represent the outcomes reached by course or program completion. Entry-level knowledge, learning rates and final achievement levels differ. Although learning itself is cumulative, progressively adding marks throughout the learning period towards the final grade can distort representation of end-of-study achievement. What is important is using interim outcomes to improve learning.

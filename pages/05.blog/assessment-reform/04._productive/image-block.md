@@ -1,10 +1,9 @@
 ---
 title:
 body_classes: modular
-image: links.png
+image: 1.png
 image_align: left
 ---
-# ... assessment is used to engage students in learning that is productive.
 
 ### ... assessment is designed to focus students on learning
 To improve student engagement in learning, and to support better quality learning outcomes, it is necessary that assessment tasks are designed to direct student attention to what needs to be learned and to the activities that best lead to this. Effective learning can be hampered by assessment tasks that focus student attention on grades and marks or reproductive thinking.

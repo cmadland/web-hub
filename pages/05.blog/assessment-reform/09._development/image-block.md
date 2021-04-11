@@ -1,10 +1,10 @@
 ---
 title:
 body_classes: modular
-image: links.png
-image_align: left
+image: 6.png
+image_align: right
 ---
-# ... assessment for learning is a focus for staff and institutional development.
+
 
 ### ... professional and scholarly approaches to assessment by academic staff are developed, deployed, recognised and rewarded by institutions.
 Academics need particular support in developing expertise required for subject and program assessment responsibilities. Such support could include mentoring, dialogue with peers in informal and formal moderation activities or formal courses. However, while enhanced assessment skills are essential, their acquisition is not sufficient to ensure good assessment practice. Institutions should have explicit requirements that professional and scholarly proficiency in assessment is necessary for satisfactory teaching performance. Further, leadership and exemplary performance in assessment matters should be recognised for promotion, awards and grants.
