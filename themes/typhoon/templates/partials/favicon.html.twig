@@ -1,0 +1,2 @@
+{% set favicon_path = favicon_file ? (favicon_file|first).path : 'theme://images/favicon.png' %}
+<link rel="icon" type="{{ get_mime_type(favicon_path) }}" href="{{ url(favicon_path) }}"/>

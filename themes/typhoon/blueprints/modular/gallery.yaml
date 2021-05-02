@@ -13,19 +13,20 @@ form:
             header.gallery.grid_classes:
               type: text
               default: 'grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-2 gap-x-2'
-              help: TailwindCSS classes that define the columns at various breakpoints + spacing
-              label: Grid Classes
+              label: THEME_TYPHOON.BLUEPRINTS.GRID_CLASSES
+              help: THEME_TYPHOON.BLUEPRINTS.GRID_CLASSES_HELP
+
 
             header.gallery.thumb.width:
               type: number
-              label: Thumbnail Width
+              label: THEME_TYPHOON.BLUEPRINTS.THUMBNAIL_WIDTH
               size: x-small
               append: px
               default: 600
 
             header.gallery.thumb.height:
               type: number
-              label: Thumbnail Height
+              label: THEME_TYPHOON.BLUEPRINTS.THUMBNAIL_HEIGHT
               size: x-small
               append: px
               default: 450
@@ -33,21 +34,21 @@ form:
             header.gallery.items:
               type: list
               style: vertical
-              label: Features
+              label: THEME_TYPHOON.BLUEPRINTS.GALLERY_ITEMS
 
               fields:
                 .title:
                   type: text
-                  label: Title
+                  label: THEME_TYPHOON.BLUEPRINTS.TITLE
                 .image:
                   type: filepicker
                   preview_images: true
-                  label: Image
+                  label: THEME_TYPHOON.BLUEPRINTS.IMAGE
                 .desc:
                   type: textarea
                   rows: 4
-                  label: Description
+                  label: THEME_TYPHOON.BLUEPRINTS.DESCRIPTION
                 .video:
                   type: text
-                  label: Video
-                  help: Either a local video file, or an external YouTube URL
+                  label: THEME_TYPHOON.BLUEPRINTS.VIDEO
+                  help: THEME_TYPHOON.BLUEPRINTS.VIDEO_HELP

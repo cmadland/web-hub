@@ -32,9 +32,13 @@ class Typhoon extends Theme
         ];
     }
 
-    // Not currently used
     public function onThemeInitialized()
     {
+        if ($this->isAdmin()) {
+            $this->enable([
+                'onTwigTemplatePaths' => ['onTwigTemplatePaths', 0],
+            ]);
+        }
     }
 
     public function registerNextGenEditorPluginShortcodes($event) {
@@ -81,6 +85,13 @@ class Typhoon extends Theme
         $twig->twig()->addFunction(
             new TwigFunction('is_active_item', [$this, 'isActiveItem'])
         );
+        $twig->twig()->addFunction(
+            new TwigFunction('get_mime_type', [$this, 'getMimeType'])
+        );
+        $twig->twig()->addFunction(
+            new TwigFunction('page_exists', [$this, 'pageExists'])
+        );
+
 
         $form_class_variables = [
             'form_outer_classes' => '',
@@ -100,6 +111,15 @@ class Typhoon extends Theme
 
         $twig->twig_vars = array_merge($twig->twig_vars, $form_class_variables);
 
+    }
+
+        /**
+     * Add twig paths to plugin templates.
+     */
+    public function onTwigTemplatePaths()
+    {
+        $twig = $this->grav['twig'];
+        $twig->twig_paths[] = __DIR__ . '/templates';
     }
 
     public function onPageInitialized(Event $e)
@@ -330,6 +350,25 @@ class Typhoon extends Theme
         $item_rawroute = $link['rawroute'];
         $active = Utils::startsWith($page_rawroute, $item_rawroute);
         return $active;
+    }
+
+    public function getMimeType($file)
+    {
+        return Utils::getMimeByFilename($file);
+    }
+
+    public function pageExists($field)
+    {
+        $config = $this->config();
+        $pages = $this->grav['pages'];
+        $page_field = $field['page_field'] ?? '';
+        $page_template = $field['page_template'] ?? '';
+        $page_route = $config[$page_field] ?? '';
+
+        $pages->enablePages();
+        $found_page = $pages->find($page_route);
+
+        return ($found_page instanceof PageInterface && $found_page->template() === $page_template);
     }
 
     /**

@@ -14,19 +14,19 @@ form:
               name: features
               type: list
               style: vertical
-              label: Features
+              label: THEME_TYPHOON.BLUEPRINTS.FEATURES
 
               fields:
                 .title:
                   type: text
-                  label: Title
+                  label: THEME_TYPHOON.BLUEPRINTS.TITLE
                 .text:
                   type: editor
-                  label: Text
+                  label: THEME_TYPHOON.BLUEPRINTS.TEXT
                 .category:
                   type: text
-                  label: Category
+                  label: THEME_TYPHOON.BLUEPRINTS.CATEGORY
                 .color:
                   type: text
                   toggleable: true
-                  label: Color Classes
+                  label: THEME_TYPHOON.BLUEPRINTS.COLOR_CLASSES

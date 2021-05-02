@@ -21,13 +21,13 @@ form:
 
             blog_config_section:
               type: section
-              title: Blog Configuration
+              title: THEME_TYPHOON.BLUEPRINTS.BLOG_CONFIGURATION
               underline: true
 
               fields:
                 header.root_of_blog:
                   type: toggle
-                  label: Root of Blog
+                  label: THEME_TYPHOON.BLUEPRINTS.BLOG_ROOT
                   default: 1
                   highlight: 1
                   options:
@@ -39,7 +39,7 @@ form:
                 header.content.items:
                   type: textarea
                   yaml: true
-                  label: Items
+                  label: THEME_TYPHOON.BLUEPRINTS.BLOG_ITEMS
                   default: '@self.children'
                   validate:
                     required: true
@@ -48,7 +48,7 @@ form:
                 header.content.filter:
                   type: textarea
                   yaml: true
-                  label: Filter
+                  label: THEME_TYPHOON.BLUEPRINTS.BLOG_FILTER
                   placeholder: 'published: true'
                   validate:
                     required: false
@@ -56,7 +56,7 @@ form:
 
                 header.content.limit:
                   type: number
-                  label: Max Item Count
+                  label: THEME_TYPHOON.BLUEPRINTS.BLOG_MAX_ITEM_COUNT
                   default: 10
                   validate:
                     required: true
@@ -65,26 +65,26 @@ form:
 
                 header.content.order.by:
                   type: select
-                  label: Order By
+                  label: THEME_TYPHOON.BLUEPRINTS.BLOG_ORDER_BY
                   default: date
                   options:
-                    folder: Folder
-                    title: Title
-                    date: Date
-                    default: Default
+                    folder: THEME_TYPHOON.BLUEPRINTS.BLOG_ORDER_BY_FOLDER
+                    title: THEME_TYPHOON.BLUEPRINTS.BLOG_ORDER_BY_TITLE
+                    date: THEME_TYPHOON.BLUEPRINTS.BLOG_ORDER_BY_DATE
+                    default: THEME_TYPHOON.BLUEPRINTS.BLOG_ORDER_BY_DEFAULT
 
                 header.content.order.dir:
                   type: select
-                  label: Order
+                  label: THEME_TYPHOON.BLUEPRINTS.BLOG_ORDER
                   default: desc
                   options:
-                    asc: Ascending
-                    desc: Descending
+                    asc: THEME_TYPHOON.BLUEPRINTS.BLOG_ORDER_ASC
+                    desc: THEME_TYPHOON.BLUEPRINTS.BLOG_ORDER_DESC
 
                 header.content.url_taxonomy_filters:
                   toggleable: true
                   type: toggle
-                  label: URL Taxonomy Filters
+                  label: THEME_TYPHOON.BLUEPRINTS.BLOG_TAXONOMY_FILTERS
                   highlight: 1
                   default: 1
                   options:
@@ -96,7 +96,7 @@ form:
                 header.content.pagination:
                   toggleable: true
                   type: toggle
-                  label: Pagination
+                  label: THEME_TYPHOON.BLUEPRINTS.BLOG_PAGINATION
                   highlight: 1
                   default: 1
                   options:
@@ -108,7 +108,7 @@ form:
 
             blog_layout_section:
               type: section
-              title: Layout Configuration
+              title: THEME_TYPHOON.BLUEPRINTS.LAYOUT_CONFIGURATION
               underline: true
               ordering@: 1
 

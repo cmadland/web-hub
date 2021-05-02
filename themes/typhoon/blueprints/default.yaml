@@ -16,7 +16,7 @@ form:
 
             section_layout:
               type: section
-              title: Layout Classes
+              title: THEME_TYPHOON.BLUEPRINTS.LAYOUT_CLASSES
               underline: true
               ordering@: 1
 
@@ -25,7 +25,7 @@ form:
 
             section_colors:
               type: section
-              title: Colors
+              title: THEME_TYPHOON.BLUEPRINTS.COLORS
               underline: true
               ordering@: 1
 
@@ -34,14 +34,14 @@ form:
 
             section_header:
               type: section
-              title: Header Configuration
+              title: THEME_TYPHOON.BLUEPRINTS.HEADER_CONFIGURATION
               underline: true
               ordering@: 1
 
               import@:
                 type: partials/header
         hero:
-          title: Hero
+          title: THEME_TYPHOON.BLUEPRINTS.HERO
           type: tab
           ordering@: 1
 

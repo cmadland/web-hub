@@ -6,8 +6,9 @@
 } %}
 
 {% set is_homepage = page.route == '/' %}
+{% set notices = page.find(theme_config.notices_page_route).header.notices ?: theme_config.notices %}
 
-{% for notice in theme_config.notices %}
+{% for notice in notices %}
   {% if notice.enabled and not (notice.only_homepage and not is_homepage) %}
     <div class="relative {{ colors[notice.type]|first }}">
       <div class="max-w-screen-xl mx-auto py-3 px-3 sm:px-6 lg:px-8">

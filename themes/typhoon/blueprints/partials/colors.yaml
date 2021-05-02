@@ -3,13 +3,14 @@ form:
     header.colors.text_style:
       toggleable: true
       type: text
-      label: Default Text Color
+      label: THEME_TYPHOON.BLUEPRINTS.COLORS_DEFAULT_TEXT_COLOR
+      help: THEME_TYPHOON.BLUEPRINTS.COLORS_DEFAULT_TEXT_COLOR_HELP
       config-default@: theme.colors.text_style
-      help: Any valid Tailwind color, e.g. text-primary | text-gray-800 | text-blue-700 etc
 
     header.colors.primary:
       toggleable: true
       type: colorpicker
-      label: Primary Color
+      label: THEME_TYPHOON.BLUEPRINTS.COLORS_PRIMARY_COLOR
+      help: THEME_TYPHOON.BLUEPRINTS.COLORS_PRIMARY_COLOR_HELP
       config-default@: theme.colors.primary
-      help: The primary color used throughout the page
+

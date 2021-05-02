@@ -12,26 +12,26 @@ form:
 
             header.variation:
               type: select
-              label: Variation
+              label: THEME_TYPHOON.BLUEPRINTS.VARIATION
               options:
-                horizontal: Horizontal
-                vertical: Vertical
+                horizontal: THEME_TYPHOON.BLUEPRINTS.VARIATION_HORIZONTAL
+                vertical: THEME_TYPHOON.BLUEPRINTS.VARIATION_VERTICAL
 
             header.features:
               type: list
               style: vertical
-              label: Features
+              label: THEME_TYPHOON.BLUEPRINTS.VARIATION
 
               fields:
                 .title:
                   type: text
-                  label: Title
+                  label: THEME_TYPHOON.BLUEPRINTS.TITLE
                 .text:
                   type: text
-                  label: Text
+                  label: THEME_TYPHOON.BLUEPRINTS.TEXT
                 .icon:
                   type: text
-                  label: Icon
+                  label: THEME_TYPHOON.BLUEPRINTS.ICON
                 .link:
                   type: text
-                  label: Link
+                  label: THEME_TYPHOON.BLUEPRINTS.LINK

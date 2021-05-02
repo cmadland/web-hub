@@ -1,18 +1,19 @@
 enabled: true                                                       # Enable the theme
-production: false                                                   # production | development (compiled or development version of css)
 external_in_new_tab: false                                          # Open external URLs in new tab
 append_site_title: true                                             # Append Site Title to HTML Title
 custom_logo:                                                        # Will be used instead of default Grav logo
 custom_logo_strip_svg_style: false                                  # Use this if your Custom Logo SVG has hardcoded style and you want the fill color to be dynamic
+custom_favicon:                                                     # will be used instead of default Grav Favicon
 colors:                                                             # Doesn't work for modular as the CSS is page-level
   text_style: 'text-gray-600 dark:text-gray-400'                    # Text color (Any valid Tailwind color)
-  brightness_lighter: '10'                                          # The percentage amount brighter for *-primary-lighter colors
-  brightness_darker: '10'                                           # The percentage amount darker for *-primary-darker colors
+  brightness_lighter: '20'                                          # The percentage amount brighter for *-primary-lighter colors
+  brightness_darker: '20'                                           # The percentage amount darker for *-primary-darker colors
   primary: '#006AE1'                                                # The primary accent color used throughout the page (Any valid Tailwind color)
 appearance:
   theme: system                                                     # Defines the default theme appearance: light|dark|system
   selector: true                                                    # Allows the user to switch appearance from the footer dropdown
   storage: true                                                     # Allows the user to remember the selection persistently.
+body_classes:                                                       # Provide a default classes for the body tag
 section_classes: bg-white dark:bg-gray-900 py-8 md:py-24            # Override the classes to wrap the content section for regular or modular pages
 wrapper_spacing: xl:container xl:mx-auto md:px-6 px-4               # Override the wrapper classes used to set the max-width of the page
 menu:

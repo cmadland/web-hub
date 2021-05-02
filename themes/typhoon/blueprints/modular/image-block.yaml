@@ -14,18 +14,18 @@ form:
               type: filepicker
               toggleable: true
               preview_images: true
-              label: Image
+              label: THEME_TYPHOON.BLUEPRINTS.IMAGE
 
             header.image_align:
               type: toggle
               toggleable: true
-              label: Image Alignment
+              label: THEME_TYPHOON.BLUEPRINTS.IMAGE_ALIGN
               default: right
               highlight: right
               size: medium
               options:
-                left: Left Side
-                right: Right Side
+                left: THEME_TYPHOON.BLUEPRINTS.LEFT_SIDE
+                right: THEME_TYPHOON.BLUEPRINTS.RIGHT_SIDE
 
             content:
               ordering@: 9

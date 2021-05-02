@@ -42,6 +42,12 @@
   }
 }
 
+.dark .social svg.brands {
+  path, rect {
+    @apply fill-current text-gray-800;
+  }
+}
+
 .theme-chooser {
   .form-select {
     @apply border-0 w-auto pr-8 bg-transparent;

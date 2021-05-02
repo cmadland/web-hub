@@ -13,7 +13,7 @@ form:
             header.columns:
               toggleable: true
               type: range
-              label: Max Columns
+              label: THEME_TYPHOON.BLUEPRINTS.MAX_COLUMNS
               validate:
                 min: 1
                 max: 4

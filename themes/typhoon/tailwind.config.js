@@ -1,7 +1,14 @@
+const path = require('path');
+const process = require('process');
 const colors = require('tailwindcss/colors');
+const dirname = process.env.PWD || process.cwd();
+const normalize = (paths) => {
+  return paths.map((_path) => path.normalize(`${dirname}/${_path}`));
+}
 
 module.exports = {
-  purge: [
+  mode: 'jit',
+  purge: normalize([
     '../../config/**/*.yaml',
     '../../pages/**/*.md',
     './blueprints/**/*.yaml',
@@ -10,7 +17,7 @@ module.exports = {
     './typhoon.yaml',
     './typhoon.php',
     './available-classes.md',
-  ],
+  ]),
   theme: {
     extend: {
       inset: {
@@ -36,14 +43,6 @@ module.exports = {
           '"Segoe UI Symbol"',
           '"Noto Color Emoji"',
         ],
-      },
-      filter: { // defaults to {}
-        'none': 'none',
-        'grayscale': 'grayscale(1)',
-        'invert': 'invert(1)',
-        'sepia': 'sepia(1)',
-        'more-bright': 'brightness(110%)',
-        'less-bright': 'brightness(90%)',
       },
       width: {
         'content': 'max-content',
@@ -116,15 +115,14 @@ module.exports = {
         200: '#EEEEEE',
         100: '#F9F9F9',
       },
-
     },
     columnCount: [ 1, 2, 3, 4 ],
   },
   variants: {
     extend: {
       filter: ['hover', 'group-hover'],
+      brightness: ['hover', 'group-hover'],
       scale: ['hover', 'group-hover'],
-      backgroundColor: ['hover'],
       borderWidth: ['last'],
     }
   },
@@ -134,7 +132,6 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
-    require('tailwindcss-filters'),
     require('tailwindcss-multi-column')(),
     require('tailwindcss-debug-screens'),
   ],
