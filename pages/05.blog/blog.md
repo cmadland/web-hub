@@ -24,3 +24,5 @@ show_sidebar: false
 show_pagination: true
 ---
 
+<a class="button" href="{{ base_url }}.atom"><i class="fa fa-rss-square"></i> Atom 1.0</a>
+<a class="button" href="{{ base_url }}.rss"><i class="fa fa-rss-square"></i> RSS</a>
