@@ -23,6 +23,3 @@ media_order: 'benjamin-voros-333663-unsplash.jpg,florian-klauer-253-unsplash.jpg
 show_sidebar: false
 show_pagination: true
 ---
-
-<a class="button" href="{{ base_url }}.atom"><i class="fa fa-rss-square"></i> Atom 1.0</a>
-<a class="button" href="{{ base_url }}.rss"><i class="fa fa-rss-square"></i> RSS</a>
