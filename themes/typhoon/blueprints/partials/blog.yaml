@@ -3,7 +3,7 @@ form:
     header.show_breadcrumbs:
       type: toggle
       toggleable: true
-      label: Show Breadcrumbs
+      label: THEME_TYPHOON.BLUEPRINTS.BLOG_SHOW_BREADCRUMBS
       highlight: 1
       size: medium
       options:
@@ -15,7 +15,7 @@ form:
     header.show_sidebar:
       type: toggle
       toggleable: true
-      label: Show Sidebar
+      label: THEME_TYPHOON.BLUEPRINTS.BLOG_SHOW_SIDEBAR
       highlight: 1
       size: medium
       options:
@@ -27,7 +27,7 @@ form:
     header.show_pagination:
       type: toggle
       toggleable: true
-      label: Show Pagination
+      label: THEME_TYPHOON.BLUEPRINTS.BLOG_SHOW_PAGINATION
       highlight: 1
       size: medium
       options:

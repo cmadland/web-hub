@@ -1,7 +1,11 @@
-{% set menu_enabled = theme_config.footer.menu_enabled %}
-{% set menu = site.footer.menu|defined(theme_config.footer.menu) %}
-{% set social_enabled = theme_config.footer.social_enabled %}
-{% set social = site.footer.social|defined(theme_config.footer.social) %}
+{% set footer = page.find(theme_config.footer_page_route).header.footer ?: theme_config.footer %}
+
+{{ dump(theme_config.footer_page_route,footer) }}
+
+{% set menu_enabled = footer.menu_enabled %}
+{% set menu = site.footer.menu|defined(footer.menu) %}
+{% set social_enabled = footer.social_enabled %}
+{% set social = site.footer.social|defined(footer.social) %}
 
 <footer class="bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 text-sm">
   <div class="{{ theme_var('wrapper_spacing')|e }} py-8">
@@ -21,8 +25,8 @@
             {% if item.network|contains('__') %}
               {% set item_parts = item.network|split('__') %}
               {% set icon = item_parts|last ~ '/' ~ item_parts|first ~ '.svg' %}
-              {% set link_class = 'bg-' ~ item_parts|first ~ ' text-white p-1 rounded-full w-8 h-8' %}
-              {% set icon_class = '' %}
+              {% set link_class = 'bg-' ~ item_parts|first ~ ' text-white px-2 flex items-center rounded-full w-8 h-8' %}
+              {% set icon_class = 'brands w-full' %}
             {% else %}
               {% set icon = 'social/' ~ item.network ~ '.svg' %}
               {% set link_class = 'text-' ~ item.network %}
@@ -30,7 +34,7 @@
             {% endif %}
             {% set extra = item.network == 'github' ? 'dark:text-gray-500' %}
             <a href="{{ url(item.link) }}" aria-label="{{ item.network }}"
-               class="{{ link_class }} {{ extra }} hover:filter-more-bright transition duration-300">
+               class="{{ link_class }} {{ extra }} hover:filter hover:brightness-110 transition duration-300">
               {{ svg_icon(icon, icon_class)|raw }}
             </a>
           {% endfor %}
@@ -39,7 +43,7 @@
     </div>
     <div class="relative flex flex-col md:flex-row justify-between mt-0 md:mt-6 text-gray-600 dark:text-gray-500 md:items-center">
       <div class="text-center md:text-left mb-6 md:mb-0">
-        {{ theme_config.footer.copyright|markdown|shortcodes|raw }}
+        {{ footer.copyright|markdown|shortcodes|raw }}
       </div>
 
       {% if theme_config.appearance.selector %}

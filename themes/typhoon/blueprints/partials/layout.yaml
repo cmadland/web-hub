@@ -3,19 +3,19 @@ form:
     header.body_classes:
       toggleable: true
       type: text
-      label: Body Classes
-      help: Additional classes to be put in the <body> tag for this page
+      label: THEME_TYPHOON.ADMIN.BODY_CLASSES
+      help: THEME_TYPHOON.ADMIN.BODY_CLASSES_HELP
 
     header.wrapper_spacing:
       toggleable: true
       type: text
-      label: Wrapper Classes
       config-default@: theme.wrapper_spacing
-      help: Overide the wrapper classes used to set the max-width of the page
+      label: THEME_TYPHOON.ADMIN.WRAPPER_CLASSES
+      help: THEME_TYPHOON.ADMIN.WRAPPER_CLASSES_HELP
 
     header.section_classes:
       toggleable: true
       type: text
-      label: Section Classes
       config-default@: theme.section_classes
-      help: Override the classes to wrap the content section for regular or modular pages
+      label: THEME_TYPHOON.ADMIN.SECTION_CLASSES
+      help: THEME_TYPHOON.ADMIN.SECTION_CLASSES_HELP

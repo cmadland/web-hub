@@ -7,8 +7,8 @@
 @import "./custom/typography.css";
 @import "./custom/bugs.css";
 
-@tailwind utilities;
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
 

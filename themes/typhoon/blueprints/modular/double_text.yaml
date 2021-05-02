@@ -13,26 +13,26 @@ form:
             header.title_color:
               type: text
               toggleable: true
-              label: Title Color
+              label: THEME_TYPHOON.BLUEPRINTS.TITLE_COLOR
               placeholder: 'text-dark'
 
             header.size_left:
               type: text
               toggleable: true
               placeholder: 'w-full md:w-1/2 mr-0 md:mr-8 mb-4 md:mb-0'
-              label: Size Classes Left
+              label: THEME_TYPHOON.BLUEPRINTS.SIZE_CLASSES_LEFT
 
             header.size_right:
               type: text
               toggleable: true
               placeholder: 'w-full md:w-1/2'
-              label: Size Classes Right
+              label: THEME_TYPHOON.BLUEPRINTS.SIZE_CLASSES_RIGHT
 
             header.content:
               type: editor
               toggleable: true
-              label: Right Content
+              label: THEME_TYPHOON.BLUEPRINTS.RIGHT_CONTENT
 
             content:
               ordering@: 6
-              label: Left Content
+              label: THEME_TYPHOON.BLUEPRINTS.LEFT_CONTENT

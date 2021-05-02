@@ -18,11 +18,12 @@
         {% if item.desc %}
           {% set desc = ".desc-" ~ md5(item.desc) %}
         {% endif %}
-        {% set content = item_image.cropZoom(thumb_width,thumb_height).classes('transform duration-200 group-hover:scale-110 group-hover:filter-more-bright').html(title, title) %}
+        {% set content = item_image.cropZoom(thumb_width,thumb_height).classes('transform duration-200 group-hover:scale-110 group-hover:filter group-hover:brightness-110').html(title, title) %}
         {% if item.video %}
           {% set video = item.video %}
         {% else %}
           {% set image = item.image %}
+          {% set video = null %}
         {% endif %}
         {% set class = 'inline-block' %}
         {% include "partials/lightbox.html.twig" %}

@@ -18,7 +18,7 @@ form:
           fields:
             section_layout:
               type: section
-              title: Layout Classes
+              title: THEME_TYPHOON.BLUEPRINTS.LAYOUT_CLASSES
               underline: true
               ordering@: 1
 

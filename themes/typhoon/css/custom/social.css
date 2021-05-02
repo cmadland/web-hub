@@ -30,10 +30,20 @@
   background-color: #FF0100;
 }
 
+.bg-vimeo {
+  background-color: #1ab7ea;
+}
+
 .bg-gitbook {
   background-color: #3884FF;
 }
 
 .bg-500px {
   background-color: #0099E5;
+}
+
+.social svg.brands {
+  path, rect {
+    @apply fill-current text-gray-100;
+  }
 }

@@ -1,0 +1,40 @@
+{% extends "forms/field.html.twig" %}
+
+{% block field %}
+
+  {% set msg = field.error_msg %}
+  {% set color = '#999' %}
+  {% set font = 'white' %}
+  {% set overlay = false %}
+  {% set page_route = theme_var(field.page_field) %}
+  {% set found_page = admin.page.find(page_route) %}
+
+  {% if page_exists(field) %}
+    {% set msg = field.success_msg %}
+    {% set color = 'green' %}
+    {% set font = 'white' %}
+    {% set overlay = true %}
+  {% endif %}
+
+  <div style="border: 2px solid {{ color }};">
+      <div style="background-color: {{ color }};color: {{ font }};padding: 6px 1.5rem;">
+        {{ msg|tu }}
+      </div>
+      <div style="position:relative;display:grid;padding:10px 0;">
+        {% if field.classes %}
+        <div class="{{ field.classes }}">
+        {% endif %}
+
+        {% if field.fields %}
+            {% include 'forms/default/fields.html.twig' with {name: field.name, fields: field.fields} %}
+        {% endif %}
+
+        {% if field.classes %}
+        </div>
+        {% endif %}
+        {% if overlay %}
+          <div style="position: absolute;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.2);z-index:2;"></div>
+        {% endif %}
+      </div>
+  </div>
+{% endblock %}

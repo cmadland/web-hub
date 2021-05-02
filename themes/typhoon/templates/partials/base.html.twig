@@ -1,8 +1,6 @@
 {% extends 'partials/theme-variables.html.twig' %}
 {% use 'blocks/base.html.twig' %}
 {% block render_body %}
-
-
   <!DOCTYPE html>
 <html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}"
       data-appearance="{{ {
@@ -23,17 +21,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     {% include 'partials/metadata.html.twig' %}
-
-    <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}"/>
+    {% include 'partials/favicon.html.twig' %}
     <link rel="canonical" href="{{ page.url(true, true) }}"/>
   {% endblock head %}
 
   {% block stylesheets %}
-    {% if theme_config.production %}
-      {% do assets.addCss('theme://build/css/site.prod.css') %}
-    {% else %}
-      {% do assets.addCss('theme://build/css/site.css') %}
-    {% endif %}
+    {% do assets.addCss('theme://build/css/site.css') %}
     {% set tailwind_theme %}
       {% include 'partials/theme.css.twig' %}
     {% endset %}

@@ -1,7 +1,7 @@
 {% extends 'modular/partials/base.html.twig' %}
 
 {% set align_right = page.header.image_align|default('right') == 'right' %}
-{% set image = page.media.images[page.header.image].url|defined(page.media.images|first.url) %}
+{% set image = page.media.files[page.header.image].url|defined(page.media.images|first.url) %}
 
 {% block module_content %}
   {% include 'modular/partials/title.html.twig' with {include_content: false} %}
