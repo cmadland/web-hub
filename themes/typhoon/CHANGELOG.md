@@ -1,3 +1,10 @@
+# v2.0.1
+## 05/04/2021
+
+1. [](#improved)
+    * Improved the dark styling for code / pre / notices styles
+    * Updated `getting-started.md` page with latest changes + updates
+
 # v2.0.0
 ## 04/30/2021
 

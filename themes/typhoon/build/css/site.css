@@ -8,20 +8,21 @@
 }
 .dark .prose code {
     --tw-bg-opacity: 1;
-    background-color: rgba(34, 34, 34, var(--tw-bg-opacity));
+    background-color: rgba(44, 44, 44, var(--tw-bg-opacity));
     --tw-text-opacity: 1;
-    color: rgba(129, 140, 248, var(--tw-text-opacity));
+    color: rgba(191, 219, 254, var(--tw-text-opacity));
 }
 .dark .prose pre {
     --tw-bg-opacity: 1;
-    background-color: rgba(30, 58, 138, var(--tw-bg-opacity));
+    background-color: rgba(147, 197, 253, var(--tw-bg-opacity));
+    --tw-bg-opacity: 0.1;
     --tw-text-opacity: 1;
-    color: rgba(219, 234, 254, var(--tw-text-opacity));
+    color: rgba(191, 219, 254, var(--tw-text-opacity));
 }
 .dark .prose pre code {
     background-color: transparent;
     --tw-text-opacity: 1;
-    color: rgba(147, 197, 253, var(--tw-text-opacity));
+    color: rgba(191, 219, 254, var(--tw-text-opacity));
 }
 .dark .prose blockquote {
     --tw-border-opacity: 1;
@@ -509,11 +510,15 @@ ul.archives > li:before {
 }
 .dark .notices.red {
     --tw-border-opacity: 1;
-    border-color: rgba(127, 29, 29, var(--tw-border-opacity));
+    border-color: rgba(248, 113, 113, var(--tw-border-opacity));
     --tw-bg-opacity: 1;
-    background-color: rgba(153, 27, 27, var(--tw-bg-opacity));
+    background-color: rgba(252, 165, 165, var(--tw-bg-opacity));
     --tw-text-opacity: 1;
-    color: rgba(254, 202, 202, var(--tw-text-opacity));
+    color: rgba(127, 29, 29, var(--tw-text-opacity));
+}
+.dark .notices.red a {
+    --tw-text-opacity: 1;
+    color: rgba(153, 27, 27, var(--tw-text-opacity));
 }
 .notices.blue {
     --tw-border-opacity: 1;
@@ -525,11 +530,15 @@ ul.archives > li:before {
 }
 .dark .notices.blue {
     --tw-border-opacity: 1;
-    border-color: rgba(30, 58, 138, var(--tw-border-opacity));
+    border-color: rgba(96, 165, 250, var(--tw-border-opacity));
     --tw-bg-opacity: 1;
-    background-color: rgba(30, 64, 175, var(--tw-bg-opacity));
+    background-color: rgba(147, 197, 253, var(--tw-bg-opacity));
     --tw-text-opacity: 1;
-    color: rgba(191, 219, 254, var(--tw-text-opacity));
+    color: rgba(30, 58, 138, var(--tw-text-opacity));
+}
+.dark .notices.blue a {
+    --tw-text-opacity: 1;
+    color: rgba(30, 64, 175, var(--tw-text-opacity));
 }
 .notices.green {
     --tw-border-opacity: 1;
@@ -537,15 +546,19 @@ ul.archives > li:before {
     --tw-bg-opacity: 1;
     background-color: rgba(220, 252, 231, var(--tw-bg-opacity));
     --tw-text-opacity: 1;
-    color: rgba(30, 64, 175, var(--tw-text-opacity));
+    color: rgba(22, 101, 52, var(--tw-text-opacity));
 }
 .dark .notices.green {
     --tw-border-opacity: 1;
-    border-color: rgba(20, 83, 45, var(--tw-border-opacity));
+    border-color: rgba(74, 222, 128, var(--tw-border-opacity));
     --tw-bg-opacity: 1;
-    background-color: rgba(22, 101, 52, var(--tw-bg-opacity));
+    background-color: rgba(134, 239, 172, var(--tw-bg-opacity));
     --tw-text-opacity: 1;
-    color: rgba(187, 247, 208, var(--tw-text-opacity));
+    color: rgba(20, 83, 45, var(--tw-text-opacity));
+}
+.dark .notices.green a {
+    --tw-text-opacity: 1;
+    color: rgba(22, 101, 52, var(--tw-text-opacity));
 }
 .notices.yellow {
     --tw-border-opacity: 1;
@@ -553,15 +566,19 @@ ul.archives > li:before {
     --tw-bg-opacity: 1;
     background-color: rgba(255, 237, 213, var(--tw-bg-opacity));
     --tw-text-opacity: 1;
-    color: rgba(30, 64, 175, var(--tw-text-opacity));
+    color: rgba(154, 52, 18, var(--tw-text-opacity));
 }
 .dark .notices.yellow {
     --tw-border-opacity: 1;
-    border-color: rgba(124, 45, 18, var(--tw-border-opacity));
+    border-color: rgba(251, 146, 60, var(--tw-border-opacity));
     --tw-bg-opacity: 1;
-    background-color: rgba(154, 52, 18, var(--tw-bg-opacity));
+    background-color: rgba(253, 186, 116, var(--tw-bg-opacity));
     --tw-text-opacity: 1;
-    color: rgba(254, 215, 170, var(--tw-text-opacity));
+    color: rgba(124, 45, 18, var(--tw-text-opacity));
+}
+.dark .notices.yellow a {
+    --tw-text-opacity: 1;
+    color: rgba(154, 52, 18, var(--tw-text-opacity));
 }
 /* END NOTICES PLUGIN OVERRIDES */
 /* LIGHTBOX GALLERY PLUGIN */

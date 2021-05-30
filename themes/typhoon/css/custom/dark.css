@@ -11,15 +11,15 @@
   }
 
   code {
-    @apply bg-gray-800 text-indigo-400;
+    @apply bg-gray-700 text-blue-200;
   }
 
   pre {
-    @apply bg-blue-900 text-blue-100;
+    @apply bg-blue-300 bg-opacity-10 text-blue-200;
   }
 
   pre code {
-    @apply bg-transparent text-blue-300;
+    @apply bg-transparent text-blue-200;
   }
 
   blockquote {
