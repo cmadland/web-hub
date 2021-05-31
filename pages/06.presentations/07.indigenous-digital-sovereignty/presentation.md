@@ -26,6 +26,13 @@ Additionally, [I wish to acknowledge the devastating discovery of 215 residentia
 
 ---
 
+A note about this project...
+
+- it is frustratingly incomplete
+- it was disrupted by COVID
+- it is possibly emblematic of the state of the 94 Calls to Action from the Truth and Reconciliation Commission
+
+---
 
 ### Indigenist Research as a Settler
 
