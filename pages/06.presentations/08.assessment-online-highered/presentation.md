@@ -53,6 +53,12 @@ Responses might relate to purposes of assessment, reactions to assessment, belie
 
 (National Research Council, 2001)
 
+[notes]
+
+How do we come to know what learners know?
+
+[/notes]
+
 ---
 
 ### Assessment Triangle
@@ -71,9 +77,18 @@ Responses might relate to purposes of assessment, reactions to assessment, belie
 
 ---
 
+High-stakes decisions (all grading decisions, really) should have a minimum reliability (co-efficient alpha, formerly known as Cronbach's alpha) of .08.
+
+---
+
 ### Assessment as Measurement
 
 > You get what you measure. ~ Dr. Phil Laird
+
+---
+
+X=T+E
+
 ---
 
 ![](1.png)
