@@ -82,3 +82,7 @@ Responses might relate to purposes of assessment, reactions to assessment, belie
 ![](learner-grades.png)
 
 ---
+
+### Literature Sources
+
+[Direct link to Notion.so](https://www.notion.so/edtechphd/7a55677d7d544d8689b20a85493f982b?v=dabcf187dd854c9e8af840752cb5ba45)
