@@ -11,7 +11,7 @@ shortcodes: true
 
 PhD Student, University of Victoria
 
-Find these slides at https://madland.ca/presentations/indigenous-digital-sovereignty
+Find these slides at http://bit.ly/OTESSA21-B
 
 ---
 

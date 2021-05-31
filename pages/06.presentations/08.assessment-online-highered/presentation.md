@@ -11,7 +11,7 @@ shortcodes: true
 
 PhD Student, University of Victoria
 
-Find these slides at https://madland.ca/presentations/assessment-online-highered
+Find these slides at http://bit.ly/OTESSA21-A
 
 
 ---
@@ -73,6 +73,7 @@ Responses might relate to purposes of assessment, reactions to assessment, belie
 
 ### Assessment as Measurement
 
+> You get what you measure. ~ Dr. Phil Laird
 ---
 
 ![](1.png)
