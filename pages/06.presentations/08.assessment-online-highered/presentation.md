@@ -11,7 +11,7 @@ shortcodes: true
 
 PhD Student, University of Victoria
 
-
+Find these slides at https://madland.ca/presentations/assessment-online-highered
 ---
 
 ### Acknowledging the Land and the People
@@ -25,3 +25,5 @@ The University of Alberta respectfully acknowledges that we are located on Treat
 Additionally, [I wish to acknowledge the devastating discovery of 215 residential school children very close to where I was born](https://tkemlups.ca/remains-of-children-of-kamloops-residential-school-discovered/) as an uninvited settler in Tk’emlúps te Secwépemc territory.
 
 ---
+
+### Assessment

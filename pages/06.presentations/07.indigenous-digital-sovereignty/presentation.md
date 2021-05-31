@@ -11,6 +11,7 @@ shortcodes: true
 
 PhD Student, University of Victoria
 
+Find these slides at https://madland.ca/presentations/indigenous-digital-sovereignty
 
 ---
 
@@ -148,6 +149,8 @@ Pascua Yacqui tribal radio in Arizona, California, and Mexico
 First Nations owned and operated ICT Service Provider serving remote communitites in Northern Ontario.
 
 > K-Net materializes a wide range of ***capacity building services*** visualized by First Nations; such as cellular service, broadband connectivity, and online applications.
+
+[Keewaytinook Internet High School](http://ned.knet.ca/)
 
 ---
 
