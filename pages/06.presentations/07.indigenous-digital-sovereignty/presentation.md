@@ -56,6 +56,8 @@ A note about this project...
 <a class="embedly-card" data-card-key="05acda8fea1b4f099c92b66268f422dd" data-card-controls="0" data-card-type="article-full" href="https://doi.org/10.1177/0306396818823172">Digital colonialism: US empire and the new imperialism in the Global South - Michael Kwet, 2019</a>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
+*Paywalled...let me know in Mattermost if you need access.*
+
 ---
 
 ### Extractive Colonization
