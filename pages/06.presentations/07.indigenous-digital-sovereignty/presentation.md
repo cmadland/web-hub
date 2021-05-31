@@ -127,8 +127,8 @@ KPYT-LPFM
 
 Pascua Yacqui tribal radio in Arizona, California, and Mexico
 
-    Streaming radio
-    FCC licenses cubes for radio spectrum
-    tribal lands are not squares
-    language lessons, music, news, special programs
-    Elders able to share traditional knowledge with younger generations
+- Streaming radio
+- FCC licenses cubes for radio spectrum
+- tribal lands are not squares
+- language lessons, music, news, special programs
+- Elders able to share traditional knowledge with younger generations
