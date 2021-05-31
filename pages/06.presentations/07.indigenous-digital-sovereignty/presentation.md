@@ -121,7 +121,7 @@ Four essential freedoms define Free Software: the freedom to run the programme a
 
 ---
 
-I did not realize how completely tribal sovereignty shapes daily work in Indian Country and how ICTs play an integral role in circulating information critical to the daily exercise of sovereignty. ~ Marisa Elena Duarte, [“Network Sovereignty: Building the internet across Indian Country”](http://marisaduarte.net/tribalbroadband.html)
+> I did not realize how completely tribal sovereignty shapes daily work in Indian Country and how ICTs play an integral role in circulating information critical to the daily exercise of sovereignty. ~ Marisa Elena Duarte, [“Network Sovereignty: Building the internet across Indian Country” p. 38](http://marisaduarte.net/tribalbroadband.html)
 
 ---
 
@@ -141,3 +141,7 @@ Pascua Yacqui tribal radio in Arizona, California, and Mexico
 First Nations owned and operated ICT Service Provider serving remote communitites in Northern Ontario.
 
 > K-Net materializes a wide range of ***capacity building services*** visualized by First Nations; such as cellular service, broadband connectivity, and online applications.
+
+---
+
+> Before I began this project, I was operating under the following misguided assumptions. I presumed that most people on tribal reservations were impoverished and, as a result, had no reliable Internet or telecommunications services. I presumed that there was a fundamental zero-sum conflict between tribal traditions and digital design efforts; I underestimated the potential for Native peoples' digital creativity. I assumed tribes were not working together to address information and communication technologies and telecommunications problems and policies in Indian Country. I underestimated the effect of colonial legacies. ~ Marisa Elena Duarte, [“Network Sovereignty: Building the internet across Indian Country” p. 104](http://marisaduarte.net/tribalbroadband.html)
