@@ -79,6 +79,12 @@ How do we come to know what learners know?
 
 High-stakes decisions (all grading decisions, really) should have a minimum reliability (co-efficient alpha, formerly known as Cronbach's alpha) of .08.
 
+[notes]
+
+Recall from this morning's keynote that most teacher-created assessments fall around 0.4...
+
+[/notes]
+
 ---
 
 ### Assessment as Measurement
