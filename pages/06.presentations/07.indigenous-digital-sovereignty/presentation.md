@@ -6,17 +6,17 @@ shortcodes: true
 
 
 
-Indigenous Digital Self-Determination
-Colin Madland
+# Indigenous Digital Self-Determination
+### Colin Madland
 
 PhD Student, University of Victoria
 
 
 ---
 
-Acknowledging the Land and the People
+### Acknowledging the Land and the People
 
-The University of Alberta respectfully acknowledges that we are located on Treaty 6 territory and Homeland of the Métis, a traditional gathering place for diverse Indigenous peoples including the Cree, Blackfoot, Métis, Nakota Sioux, Iroquois, Dene, Ojibway/ Saulteaux/Anishinaabe, Inuitxd, and many others whose histories, languages, and cultures continue to influence our vibrant community.
+The University of Alberta respectfully acknowledges that we are located on Treaty 6 territory and Homeland of the Métis, a traditional gathering place for diverse Indigenous peoples including the Cree, Blackfoot, Métis, Nakota Sioux, Iroquois, Dene, Ojibway/ Saulteaux/Anishinaabe, Inuit, and many others whose histories, languages, and cultures continue to influence our vibrant community.
 
 
 ---
@@ -27,11 +27,11 @@ Additionally, [I wish to acknowledge the devastating discovery of 215 residentia
 ---
 
 
-Indigenist Research as a Settler
+### Indigenist Research as a Settler
 
-    supported by Indigenous Education department
-    research ‘by’, ‘with’, and ‘for’ Indigenous communities, never ‘about’ or ‘on’
-    locating and acknowledging yourself in history
+- supported by Indigenous Education department
+- research ‘by’, ‘with’, and ‘for’ Indigenous communities, never ‘about’ or ‘on’
+- locating and acknowledging yourself in history
 
 
 
@@ -47,66 +47,66 @@ Indigenist Research as a Settler
 
 ---
 
-Extractive Colonization
+### Extractive Colonization
 
-    Railroads bypass local economies
-    Gold and diamonds shipped directly to the coast, then overseas
+- Railroads bypass local economies
+- Gold and diamonds shipped directly to the coast, then overseas
 
 
 
 ---
 
-Digital Colonization
+### Digital Colonization
 
-    GAFAM (Google, Apple, Facebook, Amazon, Microsoft) bypass local economies
-    Uber takes a 25% premium on every ride plus hidden fees, leading to a net loss of revenue for the local economy
-    Google takes 70%* of all advertising revenue in South Africa; Facebook another 12%
+- GAFAM (Google, Apple, Facebook, Amazon, Microsoft) bypass local economies
+- Uber takes a 25% premium on every ride plus hidden fees, leading to a net loss of revenue for the local economy
+- Google takes 70%* of all advertising revenue in South Africa; Facebook another 12%
 
 *These numbers are likely much higher today.
 
 
 ---
 
-Imperial control
+### Imperial control
 
-    software
-    hardware
-    network infrastructure
-
-
-
----
-
-Software
-
-    Digital Rights Management
-        companies (GAFAM) exercise complete control over how their software works and how much it costs
-        users cannot view or edit the code or share it with others
+- software
+- hardware
+- network infrastructure
 
 
 
 ---
 
-Hardware
+### Software
 
-    software on 3rd party servers (SaaS)
-        [MS Office 365](https://downdetector.com/status/office-365/)
-    centralized ownership of hardware leads to low-powered, low-memory consumer devices
-        [Google Chromebooks](https://www.cnet.com/news/laptop-vs-chromebook-whats-the-difference-and-which-is-best-in-2021/)
-        [Apple computers](https://venturebeat.com/2020/11/11/apples-first-m1-chip-based-macs-are-playing-it-too-safe/)
-    hardware designed to prevent users from changing software
-        [Apple ecosystem](https://www.macrumors.com/2021/05/20/apple-right-to-repair-lobbying-efforts/)
-        [John Deere farm equipment](https://www.wired.com/story/john-deere-farmers-right-to-repair/)
+- Digital Rights Management
+   - companies (GAFAM) exercise complete control over how their software works and how much it costs
+   - users cannot view or edit the code or share it with others
 
 
 
 ---
 
-Network
+### Hardware
 
-    [Net Neutrality](https://www.michaelgeist.ca/2021/05/why-bill-c-10-undermines-the-governments-commitment-to-the-principle-of-net-neutrality/)
-    [Underwater Cable Ownership](https://www.submarinecablemap.com/#/)
-    [Internet.org](http://internet.org/)
+- software on 3rd party servers (SaaS)
+   - [MS Office 365](https://downdetector.com/status/office-365/)
+- centralized ownership of hardware leads to low-powered, low-memory consumer devices
+   - [Google Chromebooks](https://www.cnet.com/news/laptop-vs-chromebook-whats-the-difference-and-which-is-best-in-2021/)
+   - [Apple computers](https://venturebeat.com/2020/11/11/apples-first-m1-chip-based-macs-are-playing-it-too-safe/)
+- hardware designed to prevent users from changing software
+   - [Apple ecosystem](https://www.macrumors.com/2021/05/20/apple-right-to-repair-lobbying-efforts/)
+   - [John Deere farm equipment](https://www.wired.com/story/john-deere-farmers-right-to-repair/)
+
+
+
+---
+
+### Network
+
+- [Net Neutrality](https://www.michaelgeist.ca/2021/05/why-bill-c-10-undermines-the-governments-commitment-to-the-principle-of-net-neutrality/)
+- [Underwater Cable Ownership](https://www.submarinecablemap.com/#/)
+- [Internet.org](http://internet.org/)
 
 
 
@@ -125,7 +125,7 @@ I did not realize how completely tribal sovereignty shapes daily work in Indian 
 
 ---
 
-KPYT-LPFM
+### KPYT-LPFM
 
 Pascua Yacqui tribal radio in Arizona, California, and Mexico
 
@@ -139,3 +139,5 @@ Pascua Yacqui tribal radio in Arizona, California, and Mexico
 
 ### K-NET
 First Nations owned and operated ICT Service Provider serving remote communitites in Northern Ontario.
+
+> K-Net materializes a wide range of ***capacity building services*** visualized by First Nations; such as cellular service, broadband connectivity, and online applications.
