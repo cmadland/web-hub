@@ -42,6 +42,9 @@ A note about this project...
 - locating and acknowledging yourself in history
 
 
+---
+
+### [Critical Family History](https://www.christinesleeter.org/teaching-critical-family-history)
 
 ---
 
@@ -90,8 +93,6 @@ A note about this project...
 - Digital Rights Management
   - companies (GAFAM) exercise complete control over how their software works and how much it costs
   - users cannot view or edit the code or share it with others
-
-
 
 ---
 
