@@ -11,7 +11,7 @@ shortcodes: true
 
 PhD Student, University of Victoria
 
-Find these slides at http://bit.ly/OTESSA21-A
+Find these slides at <http://bit.ly/OTESSA21-A>
 
 
 ---
