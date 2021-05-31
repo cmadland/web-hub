@@ -93,7 +93,15 @@ Responses might relate to purposes of assessment, reactions to assessment, belie
 
 ### Humanizing Assessment
 
-- reduced confidence in
+Think +1...
+
+- reduced confidence in 'grades'
+- fewer categories of achievement
+- more flexibility
+- ask learners
+- Trust. Learners.
+
+---
 
 ### Literature Sources
 
