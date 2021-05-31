@@ -55,6 +55,30 @@ Responses might relate to purposes of assessment, reactions to assessment, belie
 
 ---
 
+### Assessment Triangle
+
+---
+
+![](z-assessment-triangle.png)
+
+---
+
 ### Assessment as Measurement
+
+---
+
+![](1.png)
+
+---
+
+![](2.png)
+
+---
+
+### The Problem with Percentages
+
+---
+
+![](learner-grades.png)
 
 ---
