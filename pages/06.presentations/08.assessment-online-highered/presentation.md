@@ -63,6 +63,14 @@ Responses might relate to purposes of assessment, reactions to assessment, belie
 
 ---
 
+### Validity and Reliability
+
+---
+
+![](v-r.png)
+
+---
+
 ### Assessment as Measurement
 
 ---
@@ -82,6 +90,10 @@ Responses might relate to purposes of assessment, reactions to assessment, belie
 ![](learner-grades.png)
 
 ---
+
+### Humanizing Assessment
+
+- reduced confidence in
 
 ### Literature Sources
 
