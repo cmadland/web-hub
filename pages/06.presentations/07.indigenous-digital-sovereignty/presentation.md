@@ -121,7 +121,7 @@ Four essential freedoms define Free Software: the freedom to run the programme a
 
 ---
 
-I did not realize how completely tribal sovereignty shapes daily work in Indian Country and how ICTs play an integral role in circulating information critical to the daily exercise of sovereignty. ~ Marisa Elena Duarte, “Network Sovereignty: Building the internet across Indian Country”
+I did not realize how completely tribal sovereignty shapes daily work in Indian Country and how ICTs play an integral role in circulating information critical to the daily exercise of sovereignty. ~ Marisa Elena Duarte, [“Network Sovereignty: Building the internet across Indian Country”](http://marisaduarte.net/tribalbroadband.html)
 ---
 KPYT-LPFM
 
