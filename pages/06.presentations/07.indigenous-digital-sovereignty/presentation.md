@@ -80,8 +80,8 @@ Additionally, [I wish to acknowledge the devastating discovery of 215 residentia
 ### Software
 
 - Digital Rights Management
-   - companies (GAFAM) exercise complete control over how their software works and how much it costs
-   - users cannot view or edit the code or share it with others
+  - companies (GAFAM) exercise complete control over how their software works and how much it costs
+  - users cannot view or edit the code or share it with others
 
 
 
@@ -90,13 +90,13 @@ Additionally, [I wish to acknowledge the devastating discovery of 215 residentia
 ### Hardware
 
 - software on 3rd party servers (SaaS)
-   - [MS Office 365](https://downdetector.com/status/office-365/)
+  - [MS Office 365](https://downdetector.com/status/office-365/)
 - centralized ownership of hardware leads to low-powered, low-memory consumer devices
-   - [Google Chromebooks](https://www.cnet.com/news/laptop-vs-chromebook-whats-the-difference-and-which-is-best-in-2021/)
-   - [Apple computers](https://venturebeat.com/2020/11/11/apples-first-m1-chip-based-macs-are-playing-it-too-safe/)
+  - [Google Chromebooks](https://www.cnet.com/news/laptop-vs-chromebook-whats-the-difference-and-which-is-best-in-2021/)
+  - [Apple computers](https://venturebeat.com/2020/11/11/apples-first-m1-chip-based-macs-are-playing-it-too-safe/)
 - hardware designed to prevent users from changing software
-   - [Apple ecosystem](https://www.macrumors.com/2021/05/20/apple-right-to-repair-lobbying-efforts/)
-   - [John Deere farm equipment](https://www.wired.com/story/john-deere-farmers-right-to-repair/)
+  - [Apple ecosystem](https://www.macrumors.com/2021/05/20/apple-right-to-repair-lobbying-efforts/)
+  - [John Deere farm equipment](https://www.wired.com/story/john-deere-farmers-right-to-repair/)
 
 
 
