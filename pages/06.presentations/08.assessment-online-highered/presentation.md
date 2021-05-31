@@ -122,6 +122,7 @@ Think +1...
 - more flexibility
 - ask learners
 - Trust. Learners.
+- more equity
 
 ---
 
