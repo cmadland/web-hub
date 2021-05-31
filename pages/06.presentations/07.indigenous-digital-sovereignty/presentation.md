@@ -124,7 +124,7 @@ A note about this project...
 
 ---
 
-Four essential freedoms define Free Software: the freedom to run the programme as you wish; the freedom to study how the programme works, and change it; the freedom to redistribute verbatim copies; and the freedom to distribute copies of your modified versions to others. ~ Kwet, 2019
+> Four essential freedoms define Free Software: the freedom to run the programme as you wish; the freedom to study how the programme works, and change it; the freedom to redistribute verbatim copies; and the freedom to distribute copies of your modified versions to others. ~ Kwet, 2019
 
 ---
 
