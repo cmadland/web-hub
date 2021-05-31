@@ -12,6 +12,8 @@ shortcodes: true
 PhD Student, University of Victoria
 
 Find these slides at https://madland.ca/presentations/assessment-online-highered
+
+
 ---
 
 ### Acknowledging the Land and the People
