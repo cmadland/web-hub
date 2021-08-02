@@ -20,6 +20,15 @@ menu:
   primary_location: header                                          # Location of primary menu: header|sidebar
   primary_menu_levels: 3                                            # The number of level in the primary dropdown-menu. Levels greater than this in sidebar
   mobile_nav: true                                                  # Display mobile navigation for smaller devices
+  icon_classes: 'hidden md:inline-block h-4 w-4 text-gray-500 mr-1'
+  login:
+    enabled: true
+    icon: tabler/user.svg
+    logged_in_display: username                                     # [username | fullname | email]
+    logout_icon: tabler/logout.svg
+  langswitcher:
+    enabled: true
+    icon: tabler/world.svg
 header_bar:
   background: auto                                                  # Top logo/menu section background for this page: auto|light|dark|transparent|custom
   custom_style:                                                     # If you set Background to custom, this CSS is used for the background of the header bar

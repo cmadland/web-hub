@@ -1,5 +1,5 @@
 name: Typhoon
-version: 2.0.1
+version: 2.1.1
 type: theme
 slug: typhoon
 premium: true
@@ -181,6 +181,11 @@ form:
                   validate:
                     type: bool
 
+                menu.icon_classes:
+                  type: text
+                  label: THEME_TYPHOON.ADMIN.ICON_CLASSES
+                  help: THEME_TYPHOON.ADMIN.ICON_CLASSES_HELP
+
                 external_in_new_tab:
                   type: toggle
                   label: THEME_TYPHOON.ADMIN.EXTERNAL_URLS_NEW_TAB
@@ -191,6 +196,67 @@ form:
                     0: PLUGIN_ADMIN.NO
                   validate:
                     type: bool
+
+            section_login:
+              type: section
+              title: THEME_TYPHOON.ADMIN.MENU_LOGIN_SECTION
+              underline: false
+
+              fields:
+                menu.login.enabled:
+                  type: toggle
+                  label: THEME_TYPHOON.ADMIN.ENABLE_LOGIN_MENU
+                  help: THEME_TYPHOON.ADMIN.ENABLE_LOGIN_MENU_HELP
+                  highlight: 1
+                  default: 1
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+
+                menu.login.icon:
+                  type: text
+                  label: THEME_TYPHOON.ADMIN.LOGIN_ICON
+                  help: THEME_TYPHOON.ADMIN.LOGIN_ICON_HELP
+
+                menu.login.logged_in_display:
+                  type: select
+                  label: THEME_TYPHOON.ADMIN.LOGGED_IN_DISPLAY
+                  help: THEME_TYPHOON.ADMIN.LOGGED_IN_DISPLAY_HELP
+                  default: username
+                  options:
+                    username: Username
+                    fullname: Full Name
+                    emaili: Email Address
+
+                menu.login.logout_icon:
+                  type: text
+                  label: THEME_TYPHOON.ADMIN.LOGOUT_ICON
+                  help: THEME_TYPHOON.ADMIN.LOGOUT_ICON_HELP
+
+            section_langswitcher:
+              type: section
+              title: THEME_TYPHOON.ADMIN.MENU_LANGSWITCHER_SECTION
+              underline: false
+
+              fields:
+                menu.langswitcher.enabled:
+                  type: toggle
+                  label: THEME_TYPHOON.ADMIN.ENABLE_LANGSWITCHER_MENU
+                  help: THEME_TYPHOON.ADMIN.ENABLE_LANGSWITCHER_MENU_HELP
+                  highlight: 1
+                  default: 1
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+
+                menu.langswitcher.icon:
+                  type: text
+                  label: THEME_TYPHOON.ADMIN.LANGSWITCHER_ICON
+                  help: THEME_TYPHOON.ADMIN.LANGSWITCHER_ICON_HELP
 
             section_header_bar:
               type: section

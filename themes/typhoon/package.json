@@ -6,24 +6,18 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "postcss css/site.css -o build/css/site.css",
-    "watch": "postcss css/site.css -o build/css/site.css --watch",
-    "prod": "postcss css/site.css -o build/css/site.prod.css --env production"
+    "watch": "tailwindcss -i ./css/site.css -o ./build/css/site.css --postcss --watch --minify --verbose",
+    "build": "NODE_ENV=production tailwindcss -i ./css/site.css -o ./build/css/site.css --postcss --minify"
   },
   "dependencies": {
-    "@tailwindcss/forms": "^0.3.2",
-    "@tailwindcss/typography": "^0.4.0",
-    "cssnano": "^5.0.2",
-    "postcss-cli": "^8.3.1",
-    "postcss-import": "^14.0.1",
-    "postcss-nested": "^5.0.5",
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "postcss-import": "^14.0.2",
     "precss": "^4.0.0",
+    "tailwindcss": "^2.2.4",
     "tailwindcss-debug-screens": "^2.0.0",
     "tailwindcss-multi-column": "^1.0.2"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.13",
-    "tailwindcss": "^2.1.2"
   }
 }

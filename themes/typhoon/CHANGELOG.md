@@ -1,58 +1,82 @@
+# v2.1.1
+## 06/25/2021
+
+1. [](#bugfix)
+   * Check for existence of `langswitcher` plugin to ensure an error is not thrown [getgrav/grav-premium-issues#118](https://github.com/getgrav/grav-premium-issues/issues/118)
+
+# v2.1.0
+## 06/25/2021
+
+1. [](#improved)
+   * Added `before_icon` and `after_icon` support for menu items
+   * Built-in support for `login` plugin with custom menu item with dropdown for logout
+   * Built-in support for `langswitcher` plugin with custom dropdown menu item for language  
+   * Added new `onSiteThemeMenu()` event for theme or plugins to integrate with Typhoon menu  
+   * Updated to latest Tailwind `v2.2.4`
+   * Updated Alpine.js to `v2.8.2`
+   * Broke out `post-item.htm.twig` and prose around H3 to make editing spacing easier
+   * Added author to the **Post** Tab for `post` pages
+   * Support SimpleSearch query page
+   * Changed default `content_wrapper` block to be an `<article>` tag and include `magic-content` class for SEO-Magic
+1. [](#bugfix)
+   * Fixed an issue with title's not getting cleared in `modular/gallery.html.twig` [getgrav/grav-premium-issues#109](https://github.com/getgrav/grav-premium-issues/issues/109)
+      
+
 # v2.0.1
 ## 05/04/2021
 
 1. [](#improved)
-    * Improved the dark styling for code / pre / notices styles
-    * Updated `getting-started.md` page with latest changes + updates
+   * Improved the dark styling for code / pre / notices styles
+   * Updated `getting-started.md` page with latest changes + updates
 
 # v2.0.0
 ## 04/30/2021
 
 1. [](#new)
-    * Reinstated **Tailwind JIT compiler** for much faster compilation + production quality 'purged' CSS + arbitrary styles + all variants
-    * Multi-language support for **Footer elements + Notices** via new custom modular pages.  These take precedence over the theme level configuration and is backwards compatible with existing setups.
-    * Move all lang strings into language files.  Please feel free to submit language translations!
-    * Removed redundant **Development** / **Production** mode toggle.  JIT now provides optimal CSS at runtime.  To compress use the CSS pipeline feature of Grav.
+   * Reinstated **Tailwind JIT compiler** for much faster compilation + production quality 'purged' CSS + arbitrary styles + all variants
+   * Multi-language support for **Footer elements + Notices** via new custom modular pages.  These take precedence over the theme level configuration and is backwards compatible with existing setups.
+   * Move all lang strings into language files.  Please feel free to submit language translations!
+   * Removed redundant **Development** / **Production** mode toggle.  JIT now provides optimal CSS at runtime.  To compress use the CSS pipeline feature of Grav.
 1. [](#improved)
-    * Updated to latest `v2.1.2` of Tailwind CSS
-    * Set primary darker/lighter to `20%` rather than `10%`
+   * Updated to latest `v2.1.2` of Tailwind CSS
+   * Set primary darker/lighter to `20%` rather than `10%`
   
 # v1.1.1
 ## 04/12/2021
 
 1. [](#improved)
-    * Added `body_classes` configuration option in theme settings [getgrav/grav-premium-issues#72](https://github.com/getgrav/grav-premium-issues/issues/72)
-    * Support SVG via `page.media.files` rather than `page.media.images` [getgrav/grav-premium-issues#78](https://github.com/getgrav/grav-premium-issues/issues/78)
-    * Upgraded to Tailwind 2.1.1
+   * Added `body_classes` configuration option in theme settings [getgrav/grav-premium-issues#72](https://github.com/getgrav/grav-premium-issues/issues/72)
+   * Support SVG via `page.media.files` rather than `page.media.images` [getgrav/grav-premium-issues#78](https://github.com/getgrav/grav-premium-issues/issues/78)
+   * Upgraded to Tailwind 2.1.1
 1. [](#bugfix)
-    * Forced to Roll-back JIT compilation until TailwindCSS fixes the compiler to support parent-page purge [tailwindlabs/tailwindcss#4059](https://github.com/tailwindlabs/tailwindcss/issues/4059)
-    * Fixed issue with brands-based social icons in Safari + Mobile [getgrav/grav-premium-issues#73](https://github.com/getgrav/grav-premium-issues/issues/73)
-    * Fixed tailwind import ordering [getgrav/grav-premium-issues#84](https://github.com/getgrav/grav-premium-issues/issues/84)
+   * Forced to Roll-back JIT compilation until TailwindCSS fixes the compiler to support parent-page purge [tailwindlabs/tailwindcss#4059](https://github.com/tailwindlabs/tailwindcss/issues/4059)
+   * Fixed issue with brands-based social icons in Safari + Mobile [getgrav/grav-premium-issues#73](https://github.com/getgrav/grav-premium-issues/issues/73)
+   * Fixed tailwind import ordering [getgrav/grav-premium-issues#84](https://github.com/getgrav/grav-premium-issues/issues/84)
 
 
 # v1.1.0
 ## 03/22/2021
 
 1. [](#new)
-    * Using **NEW** Tailwind JIT compiler for much faster compilation + production quality 'purged' CSS + arbitrary styles + all variants
-    * Removed redundant **Development** / **Production** mode toggle.  JIT now provides optimal CSS at runtime.  To compress use the CSS pipeline feature of Grav.
-    * Added support for custom favicon [getgrav/grav-premium-issues#65](https://github.com/getgrav/grav-premium-issues/issues/65)
+   * Using **NEW** Tailwind JIT compiler for much faster compilation + production quality 'purged' CSS + arbitrary styles + all variants
+   * Removed redundant **Development** / **Production** mode toggle.  JIT now provides optimal CSS at runtime.  To compress use the CSS pipeline feature of Grav.
+   * Added support for custom favicon [getgrav/grav-premium-issues#65](https://github.com/getgrav/grav-premium-issues/issues/65)
 1. [](#improved)
-    * Updated to latest TailwindCSS `v2.0.4`
-    * Added **Vimeo** to footer social icons [getgrav/grav-premium-issues#70](https://github.com/getgrav/grav-premium-issues/issues/70)
+   * Updated to latest TailwindCSS `v2.0.4`
+   * Added **Vimeo** to footer social icons [getgrav/grav-premium-issues#70](https://github.com/getgrav/grav-premium-issues/issues/70)
 1. [](#bugfix)
-    * Fixed an issue with Gallery modular page type not resetting `video` variable
+   * Fixed an issue with Gallery modular page type not resetting `video` variable
 
 # v1.0.12
 ## 03/15/2021
 
 1. [](#new)
-    * Added support for External URLs in new tabs [getgrav/grav-premium-issues#63](https://github.com/getgrav/grav-premium-issues/issues/63)
+   * Added support for External URLs in new tabs [getgrav/grav-premium-issues#63](https://github.com/getgrav/grav-premium-issues/issues/63)
 1. [](#improved)
-    * Added **YouTube** to footer social icons [getgrav/grav-premium-issues#64](https://github.com/getgrav/grav-premium-issues/issues/64)
-    * Added **Video** Support to the Gallery modular page type [getgrav/grav-premium-issues#61](https://github.com/getgrav/grav-premium-issues/issues/61)
+   * Added **YouTube** to footer social icons [getgrav/grav-premium-issues#64](https://github.com/getgrav/grav-premium-issues/issues/64)
+   * Added **Video** Support to the Gallery modular page type [getgrav/grav-premium-issues#61](https://github.com/getgrav/grav-premium-issues/issues/61)
 1. [](#bugfix)
-    * Removed a testing `dump()` statement
+   * Removed a testing `dump()` statement
   
 # v1.0.11
 ## 03/01/2021

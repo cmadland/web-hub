@@ -35,3 +35,8 @@ form:
         0: PLUGIN_ADMIN.NO
       validate:
         type: bool
+
+    header.author:
+      type: text
+      toggleable: true
+      label: THEME_TYPHOON.BLUEPRINTS.BLOG_AUTHOR

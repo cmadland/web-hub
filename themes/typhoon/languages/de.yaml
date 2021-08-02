@@ -1,4 +1,8 @@
 THEME_TYPHOON:
+  LANGUAGES: "Languages"
+  LOGIN:
+    LOGIN: "Anmeldung"
+    LOGOUT: "Ausloggen"
   BLOG:
     ITEM:
       CONTINUE_READING: Weiterlesen...
