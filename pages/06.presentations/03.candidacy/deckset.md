@@ -30,9 +30,11 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ![](1.png)
 
-^It used to be that assessment practices and understandings of cognition were in alignment. The behaviourists of the early and mid-20th century argued that learning was a matter of rewarding success in a highly atomized knowledge structure. As such, assessing learner knowedge of that structure could be accomplished by determining whether learners could recognize or identify the correct answer to a series of factual questions about the subject. So the use of selected response tests fit well with the model of cognition of the day. 
+^It used to be that assessment practices and understandings of cognition were in alignment. The behaviourists of the early and mid-20th century argued that learning was a matter of rewarding success in a highly atomized knowledge structure. As such, assessing learner knowedge of that structure could be accomplished by determining whether learners could recognize or identify the correct answer to a series of factual questions about the subject. So the use of selected response tests fit well with the model of cognition of the day.
 
 ---
+
+![](2.png)
 
 ^ There is a misalignment between contemporary assessment practices in higher education and modern understandings of human cognition.
 
@@ -93,12 +95,6 @@ Recall from this morning's keynote that most teacher-created assessments fall ar
 X=T+E
 
 ---
-
-![](1.png)
-
----
-
-![](2.png)
 
 ---
 
