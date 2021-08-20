@@ -1,7 +1,5 @@
 {% set footer = page.find(theme_config.footer_page_route).header.footer ?: theme_config.footer %}
 
-{{ dump(theme_config.footer_page_route,footer) }}
-
 {% set menu_enabled = footer.menu_enabled %}
 {% set menu = site.footer.menu|defined(footer.menu) %}
 {% set social_enabled = footer.social_enabled %}

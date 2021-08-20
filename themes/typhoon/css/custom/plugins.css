@@ -106,3 +106,12 @@ ul.archives > li {
 }
 /* END SIMPLESEARCH */
 
+/* LANGSWITCHER PLUGIN */
+ul.langswitcher {
+    @apply flex h-16 mr-8;
+    li {
+        @apply inline-flex ml-4 text-sm items-center pt-1 font-medium;
+    }
+}
+/* END LANGSWITCHER */
+

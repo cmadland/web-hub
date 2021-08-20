@@ -8,16 +8,22 @@ const normalize = (paths) => {
 
 module.exports = {
   mode: 'jit',
-  purge: normalize([
-    '../../config/**/*.yaml',
-    '../../pages/**/*.md',
-    './blueprints/**/*.yaml',
-    './js/**/*.js',
-    './templates/**/*.twig',
-    './typhoon.yaml',
-    './typhoon.php',
-    './available-classes.md',
-  ]),
+  purge: {
+    content: normalize([
+      '../../config/**/*.yaml',
+      '../../pages/**/*.md',
+      './blueprints/**/*.yaml',
+      './js/**/*.js',
+      './templates/**/*.twig',
+      './typhoon.yaml',
+      './typhoon.php',
+      './available-classes.md',
+    ]),
+    options: {
+      keyframes: true,
+      fontFace: true,
+    },
+  },
   theme: {
     extend: {
       inset: {
@@ -87,33 +93,26 @@ module.exports = {
           }
         }
       }),
-    },
-    colors: {
-      // Removed Teal, Orange, Pink
-      black: colors.black,
-      white: colors.white,
-      red: colors.red,
-      green: colors.green,
-      blue: colors.blue,
-      orange: colors.orange,
-      indigo: colors.indigo,
-      transparent: 'transparent',
-      'inherit': 'inherit',
-      'primary': {
-        DEFAULT: 'var(--color-primary)',
-        'lighter': 'var(--color-primary__lighter)',
-        'darker': 'var(--color-primary__darker)',
-      },
-      'gray': {
-        900: '#1B1B1B',
-        800: '#222222',
-        700: '#2C2C2C',
-        600: '#464646',
-        500: '#939393',
-        400: '#C4C4C4',
-        300: '#DFDFDF',
-        200: '#EEEEEE',
-        100: '#F9F9F9',
+      colors: {
+        orange: colors.orange,
+        transparent: 'transparent',
+        'inherit': 'inherit',
+        'primary': {
+          DEFAULT: 'var(--color-primary)',
+          'lighter': 'var(--color-primary__lighter)',
+          'darker': 'var(--color-primary__darker)',
+        },
+        'gray': {
+          900: '#1B1B1C',
+          800: '#222222',
+          700: '#2C2C2C',
+          600: '#464646',
+          500: '#939393',
+          400: '#C4C4C4',
+          300: '#DFDFDF',
+          200: '#EEEEEE',
+          100: '#F9F9F9',
+        },
       },
     },
     columnCount: [ 1, 2, 3, 4 ],
@@ -125,9 +124,6 @@ module.exports = {
       scale: ['hover', 'group-hover'],
       borderWidth: ['last'],
     }
-  },
-  corePlugins: {
-    gradientColorStops: false,
   },
   plugins: [
     require('@tailwindcss/typography'),

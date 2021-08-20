@@ -17,10 +17,11 @@
     <li {{ alpine.parent|replace({'MENU_STATE': li_active ? 'true':'false'})|raw }}
             class="{{ li_classes }} {{ li_highlight }} {{ has_children ? 'has-submenu' }}">
       <div class="flex w-full h-full">
+        {% set menu_text = l.before_icon ~ l.text|e ~ l.after_icon %}
         {% if l.routable %}
-          <a class="w-full {{ a_classes }}" href="{{ l.href }}" {% if l.external %}target="_blank"{% endif %}>{{- l.text|e -}}</a>
+          <a class="w-full {{ a_classes }}" href="{{ l.href }}" {% if l.external %}target="_blank"{% endif %}>{{ menu_text|raw }}</a>
         {% else %}
-          <span class="w-full {{ a_classes }} cursor-pointer">{{- l.text|e -}}</span>
+          <span class="w-full {{ a_classes }} cursor-pointer">{{ menu_text|raw }}</span>
         {% endif %}
         {%- if has_children -%}
           <button {{ alpine.button|raw }} class="focus:outline-none" aria-label="Expand / collapse menu">

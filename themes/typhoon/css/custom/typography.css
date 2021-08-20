@@ -14,6 +14,10 @@ body {
   }
 }
 
+.foo {
+  @apply text-3xl;
+}
+
 /** Prose fixes **/
 
 .prose {

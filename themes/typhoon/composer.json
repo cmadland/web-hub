@@ -1,0 +1,27 @@
+{
+  "name": "trilbymedia/typhoon",
+  "type": "grav-theme",
+  "description": "Typhoon theme utilizing TailwindCSS framework",
+  "keywords": ["typhoon","theme","tailwind"],
+  "homepage": "https://github.com/trilbymedia/grav-theme-typhoon",
+  "license": "Grav Premium License",
+  "authors": [
+    {
+      "name": "Trilby Media, LLC",
+      "email": "hello@trilby.media",
+      "homepage": "https://trilby.media",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Grav\\Theme\\": "classes/"
+    },
+    "classmap":  ["typhoon.php"]
+  },
+  "config": {
+    "platform": {
+      "php": "7.1.3"
+    }
+  }
+}

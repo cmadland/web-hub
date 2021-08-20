@@ -1,4 +1,8 @@
 THEME_TYPHOON:
+  LANGUAGES: "Languages"
+  LOGIN:
+    LOGIN: "Login"
+    LOGOUT: "Logout"
   BLOG:
     ITEM:
       CONTINUE_READING: Continue reading...
@@ -70,6 +74,22 @@ THEME_TYPHOON:
     STRIP_LOGO_SVG_STYLE_HELP: Use this if your Custom Logo SVG has hardcoded style and you want the fill color to be dynamic
     CUSTOM_FAVICON: Custom Favicon
     CUSTOM_FAVICON_DESC: Will be used instead of default Grav Favicon
+    ICON_CLASSES: Icon Classes
+    ICON_CLASSES_HELP: Tailwind classes to provide style for icons used in the menu
+    MENU_LOGIN_SECTION: Menu Login Section
+    ENABLE_LOGIN_MENU: Enable Login Menu
+    ENABLE_LOGIN_MENU_HELP: If Login plugin is installed and enabled you can control if the login menu item should display
+    LOGIN_ICON: Login Icon
+    LOGIN_ICON_HELP: Icon to display based on SVG-Icons support, leave blank for no icon (e.g. tabler/rocket.svg)
+    LOGGED_IN_DISPLAY: Logged-in Display
+    LOGGED_IN_DISPLAY_HELP: What should display in the menu when logged in
+    LOGOUT_ICON: Logout Icon
+    LOGOUT_ICON_HELP: Icon to display based on SVG-Icons support, leave blank for no icon (e.g. tabler/rocket.svg)
+    MENU_LANGSWITCHER_SECTION: Menu Langswitcher Section
+    ENABLE_LANGSWITCHER_MENU: Enable Langswitcher menu
+    ENABLE_LANGSWITCHER_MENU_HELP: If Langswitcher plugin is installed and enabled you can control if the login menu item should display
+    LANGSWITCHER_ICON: Langswitcher Icon
+    LANGSWITCHER_ICON_HELP: Icon to display based on SVG-Icons support, leave blank for no icon (e.g. tabler/rocket.svg)
     HEADER_BAR_BACKGROUND: Background
     HEADER_BAR_BACKGROUND_HELP: Top logo/menu section background for this page
     HEADER_BAR_BACKGROUND_AUTO: Automatic Background Color
@@ -186,6 +206,7 @@ THEME_TYPHOON:
     RIGHT_SIDE: Right Side
     COLOR_CLASSES: Color Classes
     MAX_COLUMNS: Max Columns
+    BLOG_AUTHOR: Post Author
     BLOG_SHOW_BREADCRUMBS: Show Breadcrumbs
     BLOG_SHOW_SIDEBAR: Show Sidebar
     BLOG_SHOW_PAGINATION: Show Sidebar
@@ -236,5 +257,11 @@ THEME_TYPHOON:
     COLORS: Colors
     HEADER_CONFIGURATION: Header Configuration
     POST: Post
+    MENU_BEFORE_ICON: Menu "Before" Icon
+    MENU_BEFORE_ICON_HELP: Icon to display in-front of the menu item, based on SVG-Icons support (e.g. tabler/rocket.svg)
+    MENU_AFTER_ICON: Menu "After" Icon
+    MENU_AFTER_ICON_HELP: Icon to display afer the menu item, based on SVG-Icons support (e.g. tabler/rocket.svg)
+    MENU_ICON_CLASSES: Menu Icon Classes
+    MENU_ICON_CLASSES_HELP: Extra classes to override the deafult theme-level icon classes
 
 
