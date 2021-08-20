@@ -38,9 +38,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 > Use the chat to enter a word or three that represents 'assessment in online higher education'. How would you finish the sentence that begins 'Assessment is...'?
 
-[notes]
-Responses might relate to purposes of assessment, reactions to assessment, beliefs about assessment, the results of assessment...
-[/notes]
+
 
 ---
 
