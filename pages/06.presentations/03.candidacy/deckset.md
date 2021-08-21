@@ -1,7 +1,7 @@
 
 
 
-# Approaches to Assessment in Online Higher Education
+## Approaches to Assessment in Online Higher Education
 ### Colin Madland, M.Ed.
 
 ### PhD Candidacy Oral Presentation, University of Victoria
@@ -36,13 +36,11 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ![](2.png)
 
-^ There is a misalignment between contemporary assessment practices in higher education and modern understandings of human cognition.
+^ However, as our understanding of cognitive processes and learning have advanced beyond the rewards and punishments of behaviourism towards the social constructivism of Vygotsky, assessment practices have remained relatively unchanged. Consequently, there is a misalignment between contemporary assessment practices in higher education and modern understandings of human cognition. Further, given that assessment practices exert profound influence on learners and their experiences of higher education I would like to investigate this misalignment, beginning with understanding the foundational
 
 ---
 
 ### Assessment
-
-> Use the chat to enter a word or three that represents 'assessment in online higher education'. How would you finish the sentence that begins 'Assessment is...'?
 
 
 
