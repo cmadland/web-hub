@@ -36,7 +36,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ![](2.png)
 
-^ However, as our understanding of cognitive processes and learning have advanced beyond the rewards and punishments of behaviourism towards the social constructivism of Vygotsky, assessment practices have remained relatively unchanged. Consequently, there is a misalignment between contemporary assessment practices in higher education and modern understandings of human cognition. Further, given that assessment practices exert profound influence on learners and their experiences of higher education I would like to investigate this misalignment, beginning with understanding the foundational
+^ However, as our understanding of cognitive processes and learning have advanced beyond the rewards and punishments of behaviourism towards social constructivist practices, assessment practices have remained relatively unchanged. Consequently, there is a misalignment between contemporary assessment practices in higher education and modern understandings of human cognition. Further, given that assessment practices exert profound influence on learners and their experiences of higher education I would like to investigate this misalignment, beginning with understanding instructors foundational beliefs about assessment practices in higher education and then exploring how those beliefs impact learner experiences.
 
 ---
 
