@@ -36,7 +36,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ![](2.png)
 
-^ However, as our understanding of cognitive processes and learning have advanced beyond the rewards and punishments of behaviourism towards social constructivist practices, assessment practices have remained relatively unchanged. Consequently, there is a misalignment between contemporary assessment practices in higher education and modern understandings of human cognition. 
+^ However, as our understanding of cognitive processes and learning have advanced beyond the rewards and punishments of behaviourism towards social constructivist practices, assessment practices have remained relatively unchanged. Consequently, there is a misalignment between contemporary assessment practices in higher education and modern understandings of human cognition.
 
 ---
 
@@ -64,7 +64,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 # Purpose
 
-> The purpose of this research is to investigate current frameworks in assessment literacy and assessment practices among higher education instructors and the impacts of those on learners. 
+> The purpose of this research is to investigate current frameworks in assessment literacy and assessment practices among higher education instructors and the impacts of those on learners.
 
 ---
 
@@ -90,11 +90,16 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 # Theoretical Framework
 
-^Since 1990, there have been several frameworks proposed for modelling the skills or dispositions necessary for educators, usually focussed on
+^Since 1990, there have been several frameworks proposed for modelling the assessment skills or dispositions necessary for educators. Initial frameworks were published for the K-12 context in the form of sets of standards for high quality assessment practices. These sets of standards were often grounded in behaviourist perspectives of teaching and learning and eventually became outdated. Modern views have evolved to include the idea of assessment literacy as a multi-dimensional construct with a wide variety of influences. Contrary to K12 contexts, though, it seems that a framework for understanding assessment literacy among higher ed instructors should consider their general lack of formal preparation for teaching or assessing learning (Lipnevich et al., 2020; Massey et al., 2020).[[OB1\]](#_msocom_1)
+
+------
+
+
+
+ [[OB1\]](#_msoanchor_1)Exactly! This must be the focal point of your study.
 
 
 
 ---
 
 ![inline](approaches-to-assessment.png)
-
