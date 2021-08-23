@@ -96,10 +96,22 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 
 
- [[OB1\]](#_msoanchor_1)Exactly! This must be the focal point of your study.
+
+
+![inline](approaches-to-assessment.png)
+
+^As a theoretical framework, I draw on DeLuca et al's work in *Approaches to Classroom Assessment* which is reflective both of modern conceptions of pedagogy and also of the multi-dimensional nature of assessment beliefs and practices in classrooms. DeLuca et al.'s model consists of four themes of assessment literacy, each with three dimensions. The four themes are 'Assessment Purpose', 'Assessment Process', Assessment Fairness, and Assessment Theory.
 
 
 
 ---
 
-![inline](approaches-to-assessment.png)
+
+
+# Assessment Purpose
+
+- Assessment *of* Learning
+- Assessment *for* Learning
+- Assessment *as* Learning
+
+^The first theme, assessment purpose, describes three dimensions: assessment of learning, assessment for learning, and assessment as learning. The three dimensions are 
