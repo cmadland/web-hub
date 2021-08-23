@@ -1,12 +1,12 @@
 
 
 
-## Approaches to Assessment in Online Higher Education
-### Colin Madland, M.Ed.
+### Approaches to Assessment in Online Higher Education
+#### Colin Madland, M.Ed.
 
-### PhD Candidacy Oral Presentation, University of Victoria
+#### Ph.D. Candidacy Oral Presentation, University of Victoria
 
-### Thursday, August 26, 2021
+#### Thursday, August 26, 2021
 
 
 ---
@@ -20,7 +20,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 
 
-## Problem
+# Problem
 
 
 
@@ -36,92 +36,65 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ![](2.png)
 
-^ However, as our understanding of cognitive processes and learning have advanced beyond the rewards and punishments of behaviourism towards social constructivist practices, assessment practices have remained relatively unchanged. Consequently, there is a misalignment between contemporary assessment practices in higher education and modern understandings of human cognition. Further, given that assessment practices exert profound influence on learners and their experiences of higher education I would like to investigate this misalignment, beginning with understanding instructors foundational beliefs about assessment practices in higher education and then exploring how those beliefs impact learner experiences.
-
----
-
-### Assessment
-
-
-
----
-
-###### Assessment is a process of reasoning from evidence.
-
-(National Research Council, 2001)
-
-[notes]
-
-How do we come to know what learners know?
-
-[/notes]
-
----
-
-### Assessment Triangle
-
----
-
-![](z-assessment-triangle.png)
-
----
-
-### Validity and Reliability
-
----
-
-![](v-r.png)
-
----
-
-High-stakes decisions (all grading decisions, really) should have a minimum reliability (co-efficient alpha, formerly known as Cronbach's alpha) of .08.
-
-[notes]
-
-Recall from this morning's keynote that most teacher-created assessments fall around 0.4...
-
-[/notes]
-
----
-
-### Assessment as Measurement
-
-> You get what you measure. ~ Dr. Phil Laird
-
----
-
-X=T+E
-
----
-
----
-
-### The Problem with Percentages
-
----
-
-![](learner-grades.png)
-
----
-
-### Humanizing Assessment
-
-Think +1...
-
-- reduced confidence in 'grades'
-- fewer categories of achievement
-- more flexibility
-- ask learners
-- Trust. Learners.
-- more equity
-
----
-
-### [Grading for Equity](https://gradingforequity.org/)
+^ However, as our understanding of cognitive processes and learning have advanced beyond the rewards and punishments of behaviourism towards social constructivist practices, assessment practices have remained relatively unchanged. Consequently, there is a misalignment between contemporary assessment practices in higher education and modern understandings of human cognition. 
 
 ---
 
 
-### Literature Sources
 
-[Direct link to Notion.so](https://www.notion.so/edtechphd/7a55677d7d544d8689b20a85493f982b?v=dabcf187dd854c9e8af840752cb5ba45)
+![](3.png)
+
+
+
+^Complicating the challenge is the trend, accelerated by COVID-19, towards greater use of technologies in higher ed and the pressures from employers who are looking for graduates who display competence in creative and divergent thinking, not only recall or recognition of content knowledge.
+
+
+
+---
+
+
+
+![](4.png)
+
+^Finally, assessment practices exert profound influence on learners and their experiences of higher education, so, taken together, I would like to investigate this misalignment, beginning with understanding instructors foundational beliefs about assessment practices in higher education and then exploring how those beliefs impact learner experiences.
+
+
+
+---
+
+# Purpose
+
+> The purpose of this research is to investigate current frameworks in assessment literacy and assessment practices among higher education instructors and the impacts of those on learners. 
+
+---
+
+# Questions
+
+- Are there distinct patterns in higher education instructors’ approaches to assessment in Canada?
+- Does the prevalence of these patterns differ by:
+  - instructors’ levels of experience in teaching face-to-face versus online?
+  - instructors’ levels of experience using technology?
+
+---
+
+# Questions
+
+- What factors influence instructors’ approaches to assessment?
+- How do different assessment strategies affect learners’ experiences?
+
+
+
+---
+
+
+
+# Theoretical Framework
+
+^Since 1990, there have been several frameworks proposed for modelling the skills or dispositions necessary for educators, usually focussed on
+
+
+
+---
+
+![inline](approaches-to-assessment.png)
+
