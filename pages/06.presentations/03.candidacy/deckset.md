@@ -114,4 +114,47 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 - Assessment *for* Learning
 - Assessment *as* Learning
 
-^The first theme, assessment purpose, describes three dimensions: assessment of learning, assessment for learning, and assessment as learning. The three dimensions are 
+^The first theme, assessment purpose, comprises three dimensions: assessment of learning, assessment for learning, and assessment as learning. Assessment of learning is also known as summative assessment involving instructors gathering evidence of learning from written tests, performance tests, or other situations where learners are required to demonstrate their achievement of the learning outcomes. Assessment of learning usually leads to the assignment of a final grade. Assessment for learning is focused on both instructors and learners acquiring information about their performance that leads to formative feedback that informs future learning activities. The final dimension is assessment as learning which reflects activities which encourage learners to take metacognitive approaches to future learning activities based on the data gathered in learning activities.
+
+
+
+---
+
+
+
+# Assessment Processes
+
+- Design
+- Use and Scoring
+- Communication
+
+^The second theme, assessment process, relates to the logistics of creating, scoring, and communicating the results of assessments. Assessment design is the creation of reliable assessments and items intended to provide evidence with which instructors can infer learning in relation to learning outcomes. Use and scoring relates to the protocols instructors use to score learning data, and communication is the process of inferring achievement and communicating that to learners.
+
+
+
+---
+
+
+
+# Assessment Fairness
+
+- Standard
+- Equitable
+- Differentiated
+
+^The assessment fairness theme focuses on the beliefs of instructors regarding issues of fairness and whether they take a standard approach where all learners are treated equally, an equitable approach where learners with formally identified needs (psychoeducational diagnoses...) are provided with differentiated protocols, and a differentiated approach where all learners' unique needs are addressed.
+
+
+
+---
+
+
+
+# Assessment Theory
+
+- Consistent
+- Contextual
+- Balanced
+
+^Assessment theory is the theme that addresses instructors' knowledge and application of assessment theory. A consistent approach is demonstrated in ensuring consistency in the design, development and scoring of assessments (reliability), a contextual approach ensures the assessment is measuring what it purports to measure (validity of inferences), and a balanced approach considers both the reliability and validity of assessments.
+
