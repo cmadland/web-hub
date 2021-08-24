@@ -90,7 +90,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 # Theoretical Framework
 
-^Since 1990, there have been several frameworks proposed for modelling the assessment skills or dispositions necessary for educators. Initial frameworks were published for the K-12 context in the form of sets of standards for high quality assessment practices. These sets of standards were often grounded in behaviourist perspectives of teaching and learning and eventually became outdated. Modern views have evolved to include the idea of assessment literacy as a multi-dimensional construct with a wide variety of influences. Contrary to K12 contexts, though, it seems that a framework for understanding assessment literacy among higher ed instructors should consider their general lack of formal preparation for teaching or assessing learning (Lipnevich et al., 2020; Massey et al., 2020).[[OB1\]](#_msocom_1)
+^Since 1990, there have been several frameworks proposed for modelling the assessment skills or dispositions necessary for educators. Initial frameworks were published for the K-12 context in the form of sets of standards for high quality assessment practices. These sets of standards were often grounded in behaviourist perspectives of teaching and learning and eventually became outdated. Modern views have evolved to include the idea of assessment literacy as a multi-dimensional construct with a wide variety of influences. Contrary to K12 contexts, though, it seems that a framework for understanding assessment literacy among higher ed instructors should consider their general lack of formal preparation for teaching or assessing learning (Lipnevich et al., 2020; Massey et al., 2020).
 
 ------
 
@@ -158,3 +158,22 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ^Assessment theory is the theme that addresses instructors' knowledge and application of assessment theory. A consistent approach is demonstrated in ensuring consistency in the design, development and scoring of assessments (reliability), a contextual approach ensures the assessment is measuring what it purports to measure (validity of inferences), and a balanced approach considers both the reliability and validity of assessments.
 
+
+
+---
+
+#Learner Impact
+
+![perspectives-lit](/Users/cmadland/Documents/GitHub/web-hub/pages/06.presentations/03.candidacy/perspectives-lit.png) 
+
+^I acknowledge the fact that the constraints of this process left limited opportunity to analyze the literature on the impact of assessment beliefs and practices on learners. There is a robust body of literature in this area with a common framework being Biggs' (1993, 1999) 3P model of teaching and learning. There was question in the feedback I received on the first paper about the need for the 3P model, but I would argue that the 3P model provides a framework for integrating analyses about instructor approaches to assessment and the impact of assessment practice on learners. This is a question that would benefit from substantive conversation. I present the 3P model here as a component of my current thinking.
+
+
+
+---
+
+
+
+![inline](/Users/cmadland/Documents/GitHub/web-hub/pages/06.presentations/03.candidacy/3p-model.png)
+
+^The 3P model of teaching and learning models three phases in a learning experience. Those influences that precede the learning experience include both learner factors (prior learning experiences, including assessment experiences) and instructor factors (including beliefs about assessment, course policies, grading schemes). These factors influence the approaches that learners take to their learning
