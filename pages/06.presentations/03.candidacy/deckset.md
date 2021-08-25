@@ -260,11 +260,25 @@ Pereira, D., Cadime, I., Brown, G., & Flores, M. A. (2021). How do undergraduate
 
 # Methods
 
-^In considering methodologies and methods to answer my research questions I first considered the methodologies and methods identified in my review of the literature. As identified in my paper, there are examples of researchers using quantitative, qualitative, and mixed 
+> "the methods chosen and the strategies used [must] serve the *purpose* of the research" (Bazeley, 2018, p. 8; emphasis in original)
+
+^In considering methodologies and methods to answer my research questions I first considered the methodologies and methods identified in my review of the literature and also the purpose of the study I will be proposing. As identified in my paper, there are examples of researchers using quantitative, qualitative, and mixed methods to investigate assessment literacy, approaches to assessment, and the impacts of assessment on learners. Many studies, particularly those based on early models of assessment literacy used quantitative methods in alignment with the common view that assessment literacy could be reduced to particular knowledge and a set of  skills and that quantitative data could be gathered using tests of knowledge (e.g. Mertler & Campbell, 2005). There are also examples of resarchers using quantitative approaches using more modern instruments. As researchers' views on assessment literacy have evolved towards the idea of approaches to assessment and multi-dimensional, socially mediated constructs, qualitative approaches have become more evident in the literature. So, as the purposes of studies have evolved, as have the methods used to investigate more complex research questions. It seems fitting, then, that with both quantitative and qualitative approaches evident in the literature, there would be a parallel increase in studies using mixed approaches, which is exactly the case. As understandings of assessment have grown in complexity, so have the methodologies and methods used in research. 
+
+---
+
+
+
+# Mixed Research
+
+> Mixed methods research is the type of research in which a researcher or team of researchers combines elements of qualitative and quantitative research approaches (e.g., use of qualitative and quantitative viewpoints, data collection, analysis, inference techniques) for the broad purposes of breadth and depth of understanding and corroboration. (Johnson, et al. 2007, p. 123)
+
+^Mixed research approaches are intended to draw on the strengths of both quantitative and qualitative approaches in order to minimize the weaknesses of each approach. For example, a quantitative study may miss nuanced beliefs or attitudes about assessment in higher ed, while a qualitative study may be so narrowly focussed that the researcher misses larger trends in the population. A mixed approach is justified for the study I will propose due to an epistemological alignment between the study and the philosophically pragmatic approach of many mixed research projects, the purposes of the study (to investigate a multi-dimensional construct and to explore the underlying beliefs about assessment)
 
 ---
 
 
 
 
+
+![methods-viz](methods-viz.png)
 
