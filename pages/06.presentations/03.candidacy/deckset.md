@@ -120,7 +120,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 > "theoretical and philosophical orientations towards assessment purposes, processes, fairness and theory" (DeLuca et al., 2021, p. 2)
 
-
+^The idea of approaches to assessment has grown out of the literature on assessment literacy and represents the view that there aren't necessarily 'correct' beliefs or a canonical set of skills required of all instructors and that becoming assessment literate is a contextually-influenced process (DeLuca et al., 2016).
 
 ---
 
@@ -222,27 +222,35 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 # Key Literature
 
+Biggs, J. B. (1993). From Theory to Practice: A Cognitive Systems Approach. *Higher Education Research & Development*, *12*(1), 73–85. https://doi.org/10/ccdmd9
+
 Black, P., & Wiliam, D. (1998). Assessment and Classroom Learning. *Assessment in Education: Principles, Policy & Practice*, *5*(1), 7–74. https://doi.org/10/fpnss4
+
+
+
+---
+
+
 
 Brookhart, S. M. (2011). Educational Assessment Knowledge and Skills for Teachers. *Educational Measurement: Issues and Practice*, *30*, 3–12. https://doi.org/10/cwcqj4
 
+DeLuca, C., Coombs, A., Macgregor, S., & Rasooli, A. (2019). Toward a differential and situated view of assessment literacy: Studying teachers’ responses to classroom assessment scenarios. *Frontiers in Education*, *4*. https://doi.org/10/gh5k63
+
 
 
 ---
 
 
-
-DeLuca, C., Coombs, A., Macgregor, S., & Rasooli, A. (2019). Toward a differential and situated view of assessment literacy: Studying teachers’ responses to classroom assessment scenarios. *Frontiers in Education*, *4*. https://doi.org/10/gh5k63
 
 DeLuca, C., LaPointe-McEwan, D., & Luhanga, U. (2016). Approaches to classroom assessment inventory: A new instrument to support teacher assessment literacy. *Educational Assessment*, *21*, 248–266. https://doi.org/10/gfgtsg
 
+Massey, K. D., DeLuca, C., & LaPointe-McEwan, D. (2020). Assessment Literacy in College Teaching: Empirical Evidence on the Role and Effectiveness of a Faculty Training Course. *To Improve the Academy*, *39*(1). https://doi.org/10/gj5ngz
+
 
 
 ---
 
 
-
-Massey, K. D., DeLuca, C., & LaPointe-McEwan, D. (2020). Assessment Literacy in College Teaching: Empirical Evidence on the Role and Effectiveness of a Faculty Training Course. *To Improve the Academy*, *39*(1). https://doi.org/10/gj5ngz
 
 Pereira, D., Cadime, I., Brown, G., & Flores, M. A. (2021). How do undergraduates perceive the use of assessment? A study in higher education. *European Journal of Higher Education*, 1–17. https://doi.org/10/gk36vq
 
@@ -252,7 +260,7 @@ Pereira, D., Cadime, I., Brown, G., & Flores, M. A. (2021). How do undergraduate
 
 # Methods
 
-
+^In considering methodologies and methods to answer my research questions I first considered the methodologies and methods identified in my review of the literature. As identified in my paper, there are examples of researchers using quantitative, qualitative, and mixed 
 
 ---
 
