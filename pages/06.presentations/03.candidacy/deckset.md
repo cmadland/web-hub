@@ -220,6 +220,18 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ---
 
+# Technology
+
+^Technology has played a role in how instructors approach assessment, especially since the COVID-19 pandemic. Typically, researchers suggest that technology is used to reinforce or improve the efficiency of traditional approaches to assessment (Oldfield, et al. nd; Timmis, et al. 2016) although there are other researchers who identify the promising potential of technology to enhance assessment practices, expecially in light of the changing nature of higher education (Webb & Ifenthaler, 2018).
+
+
+
+---
+
+
+
+
+
 # Key Literature
 
 Biggs, J. B. (1993). From Theory to Practice: A Cognitive Systems Approach. *Higher Education Research & Development*, *12*(1), 73–85. https://doi.org/10/ccdmd9
@@ -278,7 +290,97 @@ Pereira, D., Cadime, I., Brown, G., & Flores, M. A. (2021). How do undergraduate
 
 
 
+# Visualizing Mixed Research
+
+---
+
 
 
 ![methods-viz](methods-viz.png)
 
+^In planning a mixed research project it is helpful to diagram the different phases and components of the project to more clearly understand the flow, the inputs, and outputs. The project I intend to propose includes a pilot phase followed by a concurrent QUAN+qual data collection and analysis phase, in turn followed by a QUAL collection and analysis phase. The pilot phase is necessary for two primary reasons: first, the quantitative data collection instrument, the *Approaches to Classroom Assessment Inventory* (DeLuca, 2016) was design specifically for k12 contexts and has not, that I have been able to find, been used to investigate the approaches to assessment in higher education instructors. Consequently, a pilot phase may help me understand whether the model as structured is appropriate for use with higher ed instructors. Also, the instrument will require some modifications to better fit the higher ed context, and those modifications will need to be piloted.
+
+
+
+---
+
+
+
+![methods-viz](methods-viz.png)
+
+^Key to mixed research projects is the collection of multiple types of data, analyzing the two sets separately (although sometimes with previous analyses informing subsequent analyses), following the protocols of analysis in each approach, then ensuring that there are connection points between the two approaches (Bazeley, 2018). Connection points in this project are shown with dotted lines. The pilot phase will inform the phase 1 data collection and analysis. Inferences from phase 1a will inform the analysis of phase 1b data as well as the semi-structured interviews in phase 2. Phase 1b inferences will be combined with phase 1a to form phase 1 meta-inferences and will also, in combination with phase 1 meta-inferences inform the questions in the semi-structured interviews. Phase 1 and phase 2 inferences will be combined to form project-level meta-inferences.
+
+
+
+---
+
+
+
+# Participants and Sampling
+
+^the intended population will be a stratified random sample of higher education instructors in English-speaking public Canadian universities. I will begin with a list of public HEI in each province (strata) and randomly select 2-4 universities from each province. I will send the invitation through the faculty associations of each institutions ensuring coverage of full-time faculty as well as sessional and part-time instructors. Each instructor who responds will be asked to nominate 8-10 learners from their classes. I will randomly select 2-3 instructor respondents from each province and send invitations to 4-5 of their nominated learners to participate in the semi-strucutred interviews. This process will create linked quantitative and qualitative data allowing me to connect specific assessment approach profiles of instructors to the responses of specific learners.
+
+
+
+---
+
+
+
+## Instrumentation (Phase 1)
+
+
+
+![ACAI](ACAI.png)
+
+^The instrument I intend to use for the project I will propose is the previously-mentioned *Approaches to Classroom Assessment Inventory (ACAI)*. The ACAI was created for and has been validated for use in K12 contexts, but not in higher ed, so will require modifications to how some items are phrased and also the previously-mentioned pilot phase. I also intend to add further opportunities for respondents to explain their responses by adding open-response questions.
+
+
+
+---
+
+
+
+## Instrumentation (Phase 2)
+
+Possible questions:
+
+- Please describe what you understand assessment to be.
+- Did the assessment strategies that your instructor used help you to learn the course material?
+
+^The semi-structured interview questions will be informed by the results and inferences drawn from the phase 1a+b analyses, but these questions represent possible starting points for the interviews.
+
+---
+
+
+
+- Did [instructor] use technology to administer assessments?
+  - How did their use/not use of technology impact your performance on the assessments?
+- Please describe your *favourite* assessment from [instructor]’s course [course name]?
+  - What made that assessment your favourite?
+
+
+
+---
+
+
+
+# Data and Analyses
+
+- Phase 1
+  - Ordinal data
+  - Non-parametric tests
+    - Mann-Whitney-Wilcoxon
+    - Kruskal-Wallis
+
+^Ordinal data cannot be treated the same as continuous data and is not suitable for descriptive statistical analyses (mean, standard deviation), so more advanced tests which rely on those statistics are not appropriate. Non-parametric tests, such as Mann-Whitney-Wilcoxon (comparing ranked scores between two demographic groups) or the Kruskal-Wallis test (comparing ranked scores between 3 or more demographic groups).
+
+
+
+---
+
+# Known Gaps
+
+- paper format
+- impact on learners
+- impact of technology
+- sampling
