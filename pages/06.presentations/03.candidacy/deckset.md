@@ -30,7 +30,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ![](1.png)
 
-^It used to be that assessment practices and understandings of cognition were in alignment. The behaviourists of the early and mid-20th century argued that learning was a matter of rewarding success in a highly atomized knowledge structure. As such, assessing learner knowedge of that structure could be accomplished by determining whether learners could recognize or identify the correct answer to a series of factual questions about the subject. So the use of selected response tests fit well with the model of cognition of the day.
+^In the 20th century, assessment practices and understandings of cognition were in alignment. The behaviourists of the early and mid-20th century argued that learning was a matter of rewarding success in a highly atomized knowledge structure. As such, assessing learner knowedge of that structure could be accomplished by determining whether learners could recognize or identify the correct answer to a series of factual questions about the subject. So the use of selected response tests fit well with the model of cognition of the day.
 
 ---
 
@@ -46,7 +46,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 
 
-^Complicating the challenge is the trend, accelerated by COVID-19, towards greater use of technologies in higher ed and the pressures from employers who are looking for graduates who display competence in creative and divergent thinking, not only recall or recognition of content knowledge.
+^Complicating the challenge is the trend, accelerated by COVID-19, towards greater use of technologies in higher ed and the pressures from employers who are looking for graduates who display competence in creative and divergent thinking.
 
 
 
@@ -56,7 +56,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ![](4.png)
 
-^Finally, assessment practices exert profound influence on learners and their experiences of higher education, so, taken together, I would like to investigate this misalignment, beginning with understanding instructors foundational beliefs about assessment practices in higher education, their approaches to assessment, and then exploring how those beliefs impact learner experiences.
+^Finally, assessment practices exert profound influence on learners and their experiences of higher education, 
 
 
 
@@ -65,6 +65,8 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 # Purpose
 
 > The purpose of this research is to investigate current approaches to assessment among higher education instructors and the impacts of those on learners.
+
+^so, I would like to investigate this misalignment, beginning with understanding instructors foundational beliefs about assessment practices in higher education or their approaches to assessment, and then exploring how those beliefs impact learner experiences.
 
 ---
 
@@ -75,6 +77,8 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
   - instructors’ levels of experience in teaching face-to-face versus online?
   - instructors’ levels of experience using technology?
 
+^These questions centre around investigating instructor's approaches to assessment and the impact of technology
+
 ---
 
 # Questions
@@ -82,7 +86,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 - What factors influence instructors’ approaches to assessment?
 - How do different assessment strategies affect learners’ experiences?
 
-
+^as well as how instructors' approaches are formed and how they influence learner experiences.
 
 ---
 
@@ -258,7 +262,9 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ![methods-viz](methods-viz.png)
 
-^In planning a mixed research project it is helpful to diagram the different phases and components of the project to more clearly understand the flow, the inputs, and outputs. The project I intend to propose includes a pilot phase followed by a concurrent QUAN+qual data collection and analysis phase, in turn followed by a QUAL collection and analysis phase. The pilot phase is necessary for two primary reasons: first, the quantitative data collection instrument, the *Approaches to Classroom Assessment Inventory* (DeLuca, 2016) was design specifically for k12 contexts and has not, that I have been able to find, been used to investigate the approaches to assessment in higher education instructors. Consequently, a pilot phase may help me understand whether the model as structured is appropriate for use with higher ed instructors. Also, the instrument will require some modifications to better fit the higher ed context, and those modifications will need to be piloted.
+^In planning a mixed research project it is helpful to diagram the different phases and components of the project to more clearly understand the flow, the inputs, and outputs. The project I intend to propose includes a pilot phase followed by a concurrent QUAN+qual data collection and analysis phase, in turn followed by a QUAL collection and analysis phase. 
+
+<!--The pilot phase is necessary for two primary reasons: first, the quantitative data collection instrument, the *Approaches to Classroom Assessment Inventory* (DeLuca, 2016) was design specifically for k12 contexts and has not, that I have been able to find, been used to investigate the approaches to assessment in higher education instructors. Consequently, a pilot phase may help me understand whether the model as structured is appropriate for use with higher ed instructors. Also, the instrument will require some modifications to better fit the higher ed context, and those modifications will need to be piloted.-->
 
 
 
@@ -302,7 +308,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ## Instrumentation (Phase 2)
 
-Possible questions:
+Possible questions for semi-structured interviews:
 
 - Please describe what you understand assessment to be.
 - Did the assessment strategies that your instructor used help you to learn the course material?
@@ -352,6 +358,15 @@ Possible questions:
 
 
 
+# Contributions to Theory
+
+- Validating the use of the ACAI in higher education contexts
+- providing a theoretical understanding of higher education instructors' approaches to assessment
+
+
+
+---
+
 # Known Gaps and Questions
 
 - paper format
@@ -362,20 +377,11 @@ Possible questions:
 - scope of the project
 - demographic questions re: technology and online teaching
 
-
-
----
-
-# Contributions to Theory
-
-- Validating the use of the ACAI in higher education contexts
-- providing a theoretical understanding of higher education instructors' approaches to assessment
-
-
+^Given the word constraints in this particular process, some areas of this project were underdeveloped. These gaps will certainly be addressed in the full formal proposal. I am grateful for your investment in me and this process and am looking forward to your feedback. Thank you.
 
 ---
 
-
+# 
 
 # Key Literature
 
