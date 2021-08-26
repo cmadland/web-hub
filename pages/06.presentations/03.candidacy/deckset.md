@@ -36,7 +36,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ![](2.png)
 
-^ However, as our understanding of cognitive processes and learning have advanced beyond the rewards and punishments of behaviourism towards social constructivist practices, assessment practices have remained relatively unchanged. Consequently, there is a misalignment between contemporary assessment practices in higher education and modern understandings of human cognition.
+^ However, even as our understanding of cognitive processes and learning have advanced beyond the rewards and punishments of behaviourism towards social constructivist practices, assessment practices have remained relatively unchanged. Consequently, there is a misalignment between common assessment practices in higher education and modern understandings of human cognition.
 
 ---
 
@@ -64,7 +64,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 # Purpose
 
-> The purpose of this research is to investigate current frameworks in assessment literacy and assessment practices among higher education instructors and the impacts of those on learners.
+> The purpose of this research is to investigate current approaches to assessment among higher education instructors and the impacts of those on learners.
 
 ---
 
@@ -96,7 +96,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 # Assessment
 
-> “a process of drawing reasonable inferences about what students know on the basis of evidence derived from observations of what they say, do, or make in selected situations” (Pellegrino et al., 2001, p. 112) 
+> “a process of drawing reasonable inferences about what students know on the basis of evidence derived from observations of what they say, do, or make in selected situations” (Pellegrino et al., 2001, p. 112)
 
 
 
@@ -202,7 +202,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 #Learner Impact
 
-![perspectives-lit](perspectives-lit.png) 
+![perspectives-lit](perspectives-lit.png)
 
 ^I acknowledge the fact that the constraints of this process left limited opportunity to analyze the literature on the impact of assessment beliefs and practices on learners. There is a robust body of literature in this area with a common framework being Biggs' (1993, 1999) 3P model of teaching and learning. There was question in the feedback I received on the first paper about the need for the 3P model, but I would argue that the 3P model provides a framework for integrating analyses about instructor approaches to assessment and the impact of assessment practice on learners. This is a question that would benefit from substantive conversation. I present the 3P model here as a component of my current thinking.
 
@@ -274,7 +274,7 @@ Pereira, D., Cadime, I., Brown, G., & Flores, M. A. (2021). How do undergraduate
 
 > "the methods chosen and the strategies used [must] serve the *purpose* of the research" (Bazeley, 2018, p. 8; emphasis in original)
 
-^In considering methodologies and methods to answer my research questions I first considered the methodologies and methods identified in my review of the literature and also the purpose of the study I will be proposing. As identified in my paper, there are examples of researchers using quantitative, qualitative, and mixed methods to investigate assessment literacy, approaches to assessment, and the impacts of assessment on learners. Many studies, particularly those based on early models of assessment literacy used quantitative methods in alignment with the common view that assessment literacy could be reduced to particular knowledge and a set of  skills and that quantitative data could be gathered using tests of knowledge (e.g. Mertler & Campbell, 2005). There are also examples of resarchers using quantitative approaches using more modern instruments. As researchers' views on assessment literacy have evolved towards the idea of approaches to assessment and multi-dimensional, socially mediated constructs, qualitative approaches have become more evident in the literature. So, as the purposes of studies have evolved, as have the methods used to investigate more complex research questions. It seems fitting, then, that with both quantitative and qualitative approaches evident in the literature, there would be a parallel increase in studies using mixed approaches, which is exactly the case. As understandings of assessment have grown in complexity, so have the methodologies and methods used in research. 
+^In considering methodologies and methods to answer my research questions I first considered the methodologies and methods identified in my review of the literature and also the purpose of the study I will be proposing. As identified in my paper, there are examples of researchers using quantitative, qualitative, and mixed methods to investigate assessment literacy, approaches to assessment, and the impacts of assessment on learners. Many studies, particularly those based on early models of assessment literacy used quantitative methods in alignment with the common view that assessment literacy could be reduced to particular knowledge and a set of  skills and that quantitative data could be gathered using tests of knowledge (e.g. Mertler & Campbell, 2005). There are also examples of resarchers using quantitative approaches using more modern instruments. As researchers' views on assessment literacy have evolved towards the idea of approaches to assessment and multi-dimensional, socially mediated constructs, qualitative approaches have become more evident in the literature. So, as the purposes of studies have evolved, as have the methods used to investigate more complex research questions. It seems fitting, then, that with both quantitative and qualitative approaches evident in the literature, there would be a parallel increase in studies using mixed approaches, which is exactly the case. As understandings of assessment have grown in complexity, so have the methodologies and methods used in research.
 
 ---
 
@@ -284,7 +284,7 @@ Pereira, D., Cadime, I., Brown, G., & Flores, M. A. (2021). How do undergraduate
 
 > Mixed methods research is the type of research in which a researcher or team of researchers combines elements of qualitative and quantitative research approaches (e.g., use of qualitative and quantitative viewpoints, data collection, analysis, inference techniques) for the broad purposes of breadth and depth of understanding and corroboration. (Johnson, et al. 2007, p. 123)
 
-^Mixed research approaches are intended to draw on the strengths of both quantitative and qualitative approaches in order to minimize the weaknesses of each approach. For example, a quantitative study may miss nuanced beliefs or attitudes about assessment in higher ed, while a qualitative study may be so narrowly focussed that the researcher misses larger trends in the population. A mixed approach is justified for the study I will propose due to an epistemological alignment between the study and the philosophically pragmatic approach of many mixed research projects, the purposes of the study (to investigate a multi-dimensional construct and to explore the underlying beliefs about assessment)
+^Mixed research approaches are intended to draw on the strengths of both quantitative and qualitative approaches in order to minimize the weaknesses of each approach. For example, a quantitative study may miss nuanced beliefs or attitudes about assessment in higher ed, while a qualitative study may be so narrowly focussed that the researcher misses larger trends in the population. A mixed approach is justified for the study I will propose due to an epistemological alignment between the study and the philosophically pragmatic approach of many mixed research projects, the purposes of the study (to investigate a multi-dimensional construct and to explore the underlying beliefs about assessment). Also, the exploratory nature of the study is well-suited to mixed approaches.
 
 ---
 
@@ -399,7 +399,8 @@ Possible questions:
 - impact of technology
 - sampling (required n)
 - role of Biggs' 3P model
-- scope of the project 
+- scope of the project
+- demographic questions re: technology and online teaching
 
 
 
@@ -407,5 +408,13 @@ Possible questions:
 
 # Opportunities
 
-- Exploring assessment approaches in higher ed
-- 
+- Exploring assessment approaches among higher ed instructors
+- exploring the impact of assessment practices on learners
+- exploring the role of technology (positive and negative) in modern assessment
+
+---
+
+# Contributions to Theory
+
+- Validating the use of the ACAI in higher education contexts
+- providing a theoretical understanding of higher education instructors' approaches to assessment
