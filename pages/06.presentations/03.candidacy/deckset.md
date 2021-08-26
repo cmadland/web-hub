@@ -204,7 +204,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ![perspectives-lit](perspectives-lit.png)
 
-^I acknowledge the fact that the constraints of this process left limited opportunity to analyze the literature on the impact of assessment beliefs and practices on learners. There is a robust body of literature in this area with a common framework being Biggs' (1993, 1999) 3P model of teaching and learning. There was question in the feedback I received on the first paper about the need for the 3P model, but I would argue that the 3P model provides a framework for integrating analyses about instructor approaches to assessment and the impact of assessment practice on learners. This is a question that would benefit from substantive conversation. I present the 3P model here as a component of my current thinking.
+^I acknowledge the fact that my analysis of  the literature on the impact of assessment beliefs and practices on learners was far too limited, a gap which will be addressed in my formal proposal. There is a robust body of literature in this area with a common framework being Biggs' (1993, 1999) 3P model of teaching and learning. I am not yet settled on the possible role of the 3P model of teaching and learning. I would argue that the 3P model provides a framework for integrating analyses about instructor approaches to assessment and the impact of assessment practice on learners. This is a question that would benefit from substantive conversation. I present the 3P model here as a component of my current thinking.
 
 
 
@@ -226,46 +226,6 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 
 
----
-
-
-
-
-
-# Key Literature
-
-Biggs, J. B. (1993). From Theory to Practice: A Cognitive Systems Approach. *Higher Education Research & Development*, *12*(1), 73–85. https://doi.org/10/ccdmd9
-
-Black, P., & Wiliam, D. (1998). Assessment and Classroom Learning. *Assessment in Education: Principles, Policy & Practice*, *5*(1), 7–74. https://doi.org/10/fpnss4
-
-
-
----
-
-
-
-Brookhart, S. M. (2011). Educational Assessment Knowledge and Skills for Teachers. *Educational Measurement: Issues and Practice*, *30*, 3–12. https://doi.org/10/cwcqj4
-
-DeLuca, C., Coombs, A., Macgregor, S., & Rasooli, A. (2019). Toward a differential and situated view of assessment literacy: Studying teachers’ responses to classroom assessment scenarios. *Frontiers in Education*, *4*. https://doi.org/10/gh5k63
-
-
-
----
-
-
-
-DeLuca, C., LaPointe-McEwan, D., & Luhanga, U. (2016). Approaches to classroom assessment inventory: A new instrument to support teacher assessment literacy. *Educational Assessment*, *21*, 248–266. https://doi.org/10/gfgtsg
-
-Massey, K. D., DeLuca, C., & LaPointe-McEwan, D. (2020). Assessment Literacy in College Teaching: Empirical Evidence on the Role and Effectiveness of a Faculty Training Course. *To Improve the Academy*, *39*(1). https://doi.org/10/gj5ngz
-
-
-
----
-
-
-
-Pereira, D., Cadime, I., Brown, G., & Flores, M. A. (2021). How do undergraduates perceive the use of assessment? A study in higher education. *European Journal of Higher Education*, 1–17. https://doi.org/10/gk36vq
-
 
 
 ---
@@ -284,7 +244,7 @@ Pereira, D., Cadime, I., Brown, G., & Flores, M. A. (2021). How do undergraduate
 
 > Mixed methods research is the type of research in which a researcher or team of researchers combines elements of qualitative and quantitative research approaches (e.g., use of qualitative and quantitative viewpoints, data collection, analysis, inference techniques) for the broad purposes of breadth and depth of understanding and corroboration. (Johnson, et al. 2007, p. 123)
 
-^Mixed research approaches are intended to draw on the strengths of both quantitative and qualitative approaches in order to minimize the weaknesses of each approach. For example, a quantitative study may miss nuanced beliefs or attitudes about assessment in higher ed, while a qualitative study may be so narrowly focussed that the researcher misses larger trends in the population. A mixed approach is justified for the study I will propose due to an epistemological alignment between the study and the philosophically pragmatic approach of many mixed research projects, the purposes of the study (to investigate a multi-dimensional construct and to explore the underlying beliefs about assessment). Also, the exploratory nature of the study is well-suited to mixed approaches.
+^Mixed research approaches are intended to draw on the strengths of both quantitative and qualitative approaches in order to minimize the weaknesses of each approach. A mixed approach is justified for the study I will propose due to an epistemological alignment between the study and the philosophically pragmatic approach of many mixed research projects, the purposes of the study, and the exploratory nature of the study.
 
 ---
 
@@ -308,7 +268,7 @@ Pereira, D., Cadime, I., Brown, G., & Flores, M. A. (2021). How do undergraduate
 
 ![methods-viz](methods-viz.png)
 
-^Key to mixed research projects is the collection of multiple types of data, analyzing the two sets separately (although sometimes with previous analyses informing subsequent analyses), following the protocols of analysis in each approach, then ensuring that there are connection points between the two approaches (Bazeley, 2018). Connection points in this project are shown with dotted lines. The pilot phase will inform the phase 1 data collection and analysis. Inferences from phase 1a will inform the analysis of phase 1b data as well as the semi-structured interviews in phase 2. Phase 1b inferences will be combined with phase 1a to form phase 1 meta-inferences and will also, in combination with phase 1 meta-inferences inform the questions in the semi-structured interviews. Phase 1 and phase 2 inferences will be combined to form project-level meta-inferences.
+^Key to mixed research projects is the collection of multiple types of data, analyzing the two sets separately (although sometimes with previous analyses informing subsequent analyses), following the protocols of analysis in each approach, then ensuring that there are connection points between the two approaches (Bazeley, 2018). Connection points in this project are shown with dotted lines. The pilot phase will inform phase 1 analysis, which will in turn inform phase 2.
 
 
 
@@ -372,7 +332,7 @@ Possible questions:
     - Mann-Whitney-Wilcoxon
     - Kruskal-Wallis
 
-^Ordinal data cannot be treated the same as continuous data and is not suitable for descriptive statistical analyses (mean, standard deviation), so more advanced tests which rely on those statistics are not appropriate. Non-parametric tests, such as Mann-Whitney-Wilcoxon (comparing ranked scores between two demographic groups) or the Kruskal-Wallis test (comparing ranked scores between 3 or more demographic groups).
+^Ordinal data are not suitable for descriptive statistical analyses (mean, standard deviation), non-parametric tests, such as Mann-Whitney-Wilcoxon  or the Kruskal-Wallis test will likely be necessary.
 
 
 
@@ -418,3 +378,44 @@ Possible questions:
 
 - Validating the use of the ACAI in higher education contexts
 - providing a theoretical understanding of higher education instructors' approaches to assessment
+
+
+
+---
+
+
+
+# Key Literature
+
+Biggs, J. B. (1993). From Theory to Practice: A Cognitive Systems Approach. *Higher Education Research & Development*, *12*(1), 73–85. https://doi.org/10/ccdmd9
+
+Black, P., & Wiliam, D. (1998). Assessment and Classroom Learning. *Assessment in Education: Principles, Policy & Practice*, *5*(1), 7–74. https://doi.org/10/fpnss4
+
+
+
+---
+
+
+
+Brookhart, S. M. (2011). Educational Assessment Knowledge and Skills for Teachers. *Educational Measurement: Issues and Practice*, *30*, 3–12. https://doi.org/10/cwcqj4
+
+DeLuca, C., Coombs, A., Macgregor, S., & Rasooli, A. (2019). Toward a differential and situated view of assessment literacy: Studying teachers’ responses to classroom assessment scenarios. *Frontiers in Education*, *4*. https://doi.org/10/gh5k63
+
+
+
+---
+
+
+
+DeLuca, C., LaPointe-McEwan, D., & Luhanga, U. (2016). Approaches to classroom assessment inventory: A new instrument to support teacher assessment literacy. *Educational Assessment*, *21*, 248–266. https://doi.org/10/gfgtsg
+
+Massey, K. D., DeLuca, C., & LaPointe-McEwan, D. (2020). Assessment Literacy in College Teaching: Empirical Evidence on the Role and Effectiveness of a Faculty Training Course. *To Improve the Academy*, *39*(1). https://doi.org/10/gj5ngz
+
+
+
+---
+
+
+
+Pereira, D., Cadime, I., Brown, G., & Flores, M. A. (2021). How do undergraduates perceive the use of assessment? A study in higher education. *European Journal of Higher Education*, 1–17. https://doi.org/10/gk36vq
+
