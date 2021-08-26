@@ -366,7 +366,7 @@ Possible questions:
 
 # Data and Analyses
 
-- Phase 1
+- Phase 1a
   - Ordinal data
   - Non-parametric tests
     - Mann-Whitney-Wilcoxon
@@ -378,9 +378,34 @@ Possible questions:
 
 ---
 
-# Known Gaps
+# Data and Analyses
+
+- Phase 1b
+  - theory-driven thematic coding
+- Phase 2
+  - transcripts
+  - data-driven thematic approach
+
+^As I am approaching this qualitative data with the approaches to classroom assessment model in mind, I will code the phase 1b data in alignment with the themes of assessment purpose, process, fairness, and theory while maintaining openness to new themes that might emerge. Phase 2 data will be in the form of audio recordings which will need to be transcribed (or the auto-transcriptions edited) and will be coded with a data-driven thematic approach to uncover emergent themes while maintaining openness to theory-based themes from phase 1.
+
+---
+
+
+
+# Known Gaps and Questions
 
 - paper format
 - impact on learners
 - impact of technology
-- sampling
+- sampling (required n)
+- role of Biggs' 3P model
+- scope of the project 
+
+
+
+---
+
+# Opportunities
+
+- Exploring assessment approaches in higher ed
+- 
