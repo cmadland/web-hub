@@ -56,7 +56,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ![](4.png)
 
-^Finally, assessment practices exert profound influence on learners and their experiences of higher education, 
+^Finally, assessment practices exert profound influence on learners and their experiences of higher education,
 
 
 
@@ -132,7 +132,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 # Theoretical Framework
 
-^Since 1990, there have been several frameworks proposed for modelling the assessment skills or dispositions necessary for educators. Initial frameworks were published for the K-12 context in the form of sets of standards for high quality assessment practices. These sets of standards were often grounded in behaviourist perspectives of teaching and learning and eventually became outdated. Modern views have evolved to include the idea of assessment literacy as a multi-dimensional construct with a wide variety of influences. Contrary to K12 contexts, though, it seems that a framework for understanding assessment literacy among higher ed instructors should consider their general lack of formal preparation for teaching or assessing learning (Lipnevich et al., 2020; Massey et al., 2020).
+^Since 1990, there have been several frameworks proposed for modelling the assessment skills or dispositions necessary for educators. Modern views have evolved to include the idea of assessment literacy as a multi-dimensional construct with a wide variety of influences. Contrary to K12 contexts, though, it seems that a framework for understanding assessment literacy among higher ed instructors should consider their general lack of formal preparation for teaching or assessing learning (Lipnevich et al., 2020; Massey et al., 2020).
 
 ------
 
@@ -156,7 +156,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 - Assessment *for* Learning
 - Assessment *as* Learning
 
-^The first theme, assessment purpose, comprises three dimensions: assessment of learning, assessment for learning, and assessment as learning. Assessment of learning is also known as summative assessment involving instructors gathering evidence of learning from written tests, performance tests, or other situations where learners are required to demonstrate their achievement of the learning outcomes. Assessment of learning usually leads to the assignment of a final grade. Assessment for learning is focused on both instructors and learners acquiring information about their performance that leads to formative feedback that informs future learning activities. The final dimension is assessment as learning which reflects activities which encourage learners to take metacognitive approaches to future learning activities based on the data gathered in learning activities.
+^The first theme, assessment purpose, comprises three dimensions: assessment of learning, assessment for learning, and assessment as learning. Assessment of learning is also known as summative assessment involving instructors gathering evidence of learning from written tests, performance tests, or other situations where learners are required to demonstrate their achievement of the learning outcomes.  Assessment for learning is focused on both instructors and learners acquiring information about their performance that leads to formative feedback that informs future learning activities. The final dimension is assessment as learning which reflects activities which encourage learners to take metacognitive approaches to future learning activities based on the data gathered in learning activities.
 
 
 
@@ -208,7 +208,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ![perspectives-lit](perspectives-lit.png)
 
-^I acknowledge the fact that my analysis of  the literature on the impact of assessment beliefs and practices on learners was far too limited, a gap which will be addressed in my formal proposal. There is a robust body of literature in this area with a common framework being Biggs' (1993, 1999) 3P model of teaching and learning. I am not yet settled on the possible role of the 3P model of teaching and learning. I would argue that the 3P model provides a framework for integrating analyses about instructor approaches to assessment and the impact of assessment practice on learners. This is a question that would benefit from substantive conversation. I present the 3P model here as a component of my current thinking.
+^I acknowledge the fact that my analysis of  the literature on the impact of assessment beliefs and practices on learners was far too limited, a gap which will be addressed in my formal proposal. There is a robust body of literature in this area with a common framework being Biggs' (1993, 1999) 3P model of teaching and learning. I am not yet settled on the possible role of the 3P model of teaching and learning. I would argue that the 3P model provides a framework for integrating analyses about instructor approaches to assessment and the impact of assessment practice on learners.
 
 
 
@@ -262,7 +262,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 ![methods-viz](methods-viz.png)
 
-^In planning a mixed research project it is helpful to diagram the different phases and components of the project to more clearly understand the flow, the inputs, and outputs. The project I intend to propose includes a pilot phase followed by a concurrent QUAN+qual data collection and analysis phase, in turn followed by a QUAL collection and analysis phase. 
+^In planning a mixed research project it is helpful to diagram the different phases and components of the project to more clearly understand the flow, the inputs, and outputs. The project I intend to propose includes a pilot phase followed by a concurrent QUAN+qual data collection and analysis phase, in turn followed by a QUAL collection and analysis phase.
 
 <!--The pilot phase is necessary for two primary reasons: first, the quantitative data collection instrument, the *Approaches to Classroom Assessment Inventory* (DeLuca, 2016) was design specifically for k12 contexts and has not, that I have been able to find, been used to investigate the approaches to assessment in higher education instructors. Consequently, a pilot phase may help me understand whether the model as structured is appropriate for use with higher ed instructors. Also, the instrument will require some modifications to better fit the higher ed context, and those modifications will need to be piloted.-->
 
@@ -381,7 +381,7 @@ Possible questions for semi-structured interviews:
 
 ---
 
-# 
+#
 
 # Key Literature
 
