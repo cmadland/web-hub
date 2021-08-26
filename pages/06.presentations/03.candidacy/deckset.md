@@ -234,7 +234,7 @@ I acknowledge with respect the Lekwungen (Le-KWUNG-en) peoples on whose traditio
 
 > "the methods chosen and the strategies used [must] serve the *purpose* of the research" (Bazeley, 2018, p. 8; emphasis in original)
 
-^In considering methodologies and methods to answer my research questions I first considered the methodologies and methods identified in my review of the literature and also the purpose of the study I will be proposing. As identified in my paper, there are examples of researchers using quantitative, qualitative, and mixed methods to investigate assessment literacy, approaches to assessment, and the impacts of assessment on learners. Many studies, particularly those based on early models of assessment literacy used quantitative methods in alignment with the common view that assessment literacy could be reduced to particular knowledge and a set of  skills and that quantitative data could be gathered using tests of knowledge (e.g. Mertler & Campbell, 2005). There are also examples of resarchers using quantitative approaches using more modern instruments. As researchers' views on assessment literacy have evolved towards the idea of approaches to assessment and multi-dimensional, socially mediated constructs, qualitative approaches have become more evident in the literature. So, as the purposes of studies have evolved, as have the methods used to investigate more complex research questions. It seems fitting, then, that with both quantitative and qualitative approaches evident in the literature, there would be a parallel increase in studies using mixed approaches, which is exactly the case. As understandings of assessment have grown in complexity, so have the methodologies and methods used in research.
+^In considering methodologies and methods to answer my research questions I first considered the methodologies and methods identified in my review of the literature and also the purpose of the study I will be proposing. As identified in my paper, there are examples of researchers using quantitative, qualitative, and mixed methods to investigate assessment literacy, approaches to assessment, and the impacts of assessment on learners. It seems fitting that as understandings of assessment have grown in complexity, so have the methodologies and methods used in research.
 
 ---
 
@@ -366,14 +366,6 @@ Possible questions:
 
 ---
 
-# Opportunities
-
-- Exploring assessment approaches among higher ed instructors
-- exploring the impact of assessment practices on learners
-- exploring the role of technology (positive and negative) in modern assessment
-
----
-
 # Contributions to Theory
 
 - Validating the use of the ACAI in higher education contexts
@@ -418,4 +410,3 @@ Massey, K. D., DeLuca, C., & LaPointe-McEwan, D. (2020). Assessment Literacy in 
 
 
 Pereira, D., Cadime, I., Brown, G., & Flores, M. A. (2021). How do undergraduates perceive the use of assessment? A study in higher education. *European Journal of Higher Education*, 1–17. https://doi.org/10/gk36vq
-
