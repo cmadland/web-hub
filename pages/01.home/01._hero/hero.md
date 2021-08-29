@@ -12,7 +12,7 @@ hero:
         text: 'Colin M. Madland'
         color: auto
     title2: {  }
-    content: 'Educator, technology steward, and PhD student examining assessment in online higher education at the University of Victoria.'
+    content: 'Educator, technology steward, and PhD candidate examining assessment in online higher education at the University of Victoria.'
     buttons:
         -
             text: Teaching
