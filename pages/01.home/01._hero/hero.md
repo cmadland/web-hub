@@ -30,7 +30,7 @@ hero:
             text: CV
             link: 'https://madland.ca/cv'
             classes: 'bg-primary text-white'
-    subtitle: 'phd student | assessment | edtech'
+    subtitle: 'phd candidate | assessment | edtech'
 media_order: colin.jpeg
 ---
 
