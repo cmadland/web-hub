@@ -1,11 +1,11 @@
 ---
-title: 'Approaches to Assessment in Online Higher Education'
+title: 'Approaches to Assessment in Higher Education'
 horizontal: false
 shortcodes: true
 published: false
 ---
 
-# Assessment Approaches in Online Higher Education
+# Assessment Approaches in Higher Education
 
 ### Colin Madland
 
