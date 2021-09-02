@@ -7,13 +7,13 @@
 
 <div class="search-wrapper relative"
      x-data="simpleSearchData({ query: '{{ query|e }}', autocomplete: {{ sidebar ? 1 : 0 }}, url: '{{ url|e }}', separator: '{{ config.system.param_sep }}' })">
-  <form name="search" data-simplesearch-form>
+  <form name="search" action="{{ url(config.plugins.simplesearch.route) }}" data-simplesearch-form>
     <input
-            x-ref="searchField"
+            x-ref="query"
             x-model="query"
             @focus="search($event, $dispatch)"
             @input="search($event, $dispatch)"
-            name="searchfield"
+            name="query"
             class="search-input"
             type="text"
             {% if min_chars > 0 %} min="{{- min_chars -}}" {% endif %}

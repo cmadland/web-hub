@@ -43,3 +43,21 @@ form:
         0: PLUGIN_ADMIN.NO
       validate:
         type: bool
+
+    header.menu_before_icon:
+      type: text
+      toggleable: true
+      label: THEME_TYPHOON.BLUEPRINTS.MENU_BEFORE_ICON
+      help: THEME_TYPHOON.BLUEPRINTS.MENU_BEFORE_ICON_HELP
+
+    header.menu_after_icon:
+      type: text
+      toggleable: true
+      label: THEME_TYPHOON.BLUEPRINTS.MENU_AFTER_ICON
+      help: THEME_TYPHOON.BLUEPRINTS.MENU_AFTER_ICON_HELP
+
+    header.menu_icon_classes:
+      type: text
+      toggleable: true
+      label: THEME_TYPHOON.BLUEPRINTS.MENU_ICON_CLASSES
+      help: THEME_TYPHOON.BLUEPRINTS.MENU_ICON_CLASSES_HELP

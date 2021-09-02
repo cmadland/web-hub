@@ -9,16 +9,17 @@
              alt="{{ page.header.title }}"/>
       </a>
     {% endif %}
-    <div class="{{ prose_style }} max-w-none flex-1 p-4">
-
+    <div class=" max-w-none flex-1 p-4">
+      <div class="{{ prose_style }}">
       {% include 'partials/blog/taxonomy.html.twig' %}
+      </div>
       <a href="{{ url(link) }}" class="transition">
-        <h3 class="text-lg mt-2 font-bold text-gray-600 hover:text-black dark:text-gray-100 dark:hover:text-white">
+        <h3 class="text-xl mt-6 mb-4 font-semibold text-gray-900 hover:text-black dark:text-gray-100 dark:hover:text-white">
           {{ page.header.link ? '»' }} {{ page.header.title|e }}
         </h3>
       </a>
       {% set summary_size = bg_image ?  page.summary|truncate(170, true) : page.summary %}
-      <div class="text-base leading-normal">{{ summary_size|raw }}</div>
+      <div class="{{ prose_style }} text-base leading-normal">{{ summary_size|raw }}</div>
     </div>
     <div class="p-4 -mt-4 text-description text-sm text-gray-500">
       {{ page.date|date(system.pages.dateformat.short) }}

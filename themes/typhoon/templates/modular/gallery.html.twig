@@ -12,15 +12,12 @@
     {% for item in data.items %}
       <div class="inline-flex overflow-hidden rounded-md group safari-corner-overflow-fix">
         {% set item_image = page.media[item.image] %}
-        {% if item.title %}
-          {% set title = item.title %}
-        {% endif %}
-        {% if item.desc %}
-          {% set desc = ".desc-" ~ md5(item.desc) %}
-        {% endif %}
+        {% set title = item.title ?: null %}
+        {% set desc = item.desc ? ".desc-" ~ md5(item.desc) : null %}
         {% set content = item_image.cropZoom(thumb_width,thumb_height).classes('transform duration-200 group-hover:scale-110 group-hover:filter group-hover:brightness-110').html(title, title) %}
         {% if item.video %}
           {% set video = item.video %}
+          {% set image = null %}
         {% else %}
           {% set image = item.image %}
           {% set video = null %}

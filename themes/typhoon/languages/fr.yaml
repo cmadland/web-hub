@@ -1,4 +1,8 @@
 THEME_TYPHOON:
+  LANGUAGES: "Languages"
+  LOGIN:
+    LOGIN: "Connexion"
+    LOGOUT: "Se déconnecter"
   TRANSLATION_TEST: Quark !
   BLOG:
     ITEM:

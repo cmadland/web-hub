@@ -1,13 +1,19 @@
 <?php
 namespace Grav\Theme;
 
+use Composer\Autoload\ClassLoader;
 use Grav\Common\Cache;
+use Grav\Common\Language\Language;
+use Grav\Common\Language\LanguageCodes;
 use Grav\Common\Page\Interfaces\PageInterface;
 use Grav\Common\Page\Media;
 use Grav\Common\Page\Pages;
 use Grav\Common\Theme;
+use Grav\Common\Uri;
+use Grav\Common\User\Interfaces\UserInterface;
 use Grav\Common\Utils;
 use Grav\Plugin\ColorTools\Color;
+use Grav\Plugin\SVGIconsPlugin;
 use RocketTheme\Toolbox\Event\Event;
 use RocketTheme\Toolbox\ResourceLocator\UniformResourceLocator;
 use Twig\TwigFilter;
@@ -24,12 +30,26 @@ class Typhoon extends Theme
     public static function getSubscribedEvents()
     {
         return [
-            'onThemeInitialized'    => ['onThemeInitialized', 0],
-            'onTwigLoader'          => ['onTwigLoader', 0],
-            'onTwigInitialized'     => ['onTwigInitialized', 0],
-            'onPageInitialized'     => ['onPageInitialized', 0],
-            'registerNextGenEditorPlugin' => ['registerNextGenEditorPluginShortcodes', 0],
+            'onThemeInitialized'            => [
+                ['autoload', 100001],
+                ['onThemeInitialized', 0]
+            ],
+            'onTwigLoader'                  => ['onTwigLoader', 0],
+            'onTwigInitialized'             => ['onTwigInitialized', 0],
+            'onPageInitialized'             => ['onPageInitialized', 0],
+            'registerNextGenEditorPlugin'   => ['registerNextGenEditorPluginShortcodes', 0],
+            'onSiteThemeMenu'               => ['onSiteThemeMenu', 0],
         ];
+    }
+
+    /**
+     * [onPluginsInitialized:100000] Composer autoload.
+     *is
+     * @return ClassLoader
+     */
+    public function autoload(): ClassLoader
+    {
+        return require __DIR__ . '/vendor/autoload.php';
     }
 
     public function onThemeInitialized()
@@ -49,6 +69,119 @@ class Typhoon extends Theme
 
         $event['plugins']  = $plugins;
         return $event;
+    }
+
+    public function onSiteThemeMenu($event)
+    {
+        $menu = $event['menu'];
+
+        /** @var Language $language */
+        $language = $this->grav['language'];
+
+        /** @var UserInterface $user */
+        $user = $this->grav['user'] ?? null;
+        $icon_classes = $this->config->get('theme.menu.icon_classes');
+
+        // Login
+        if ($user && $this->config->get( 'theme.menu.login.enabled')) {
+            $login_url = $this->config->get('plugins.login.route');
+            $login_icon = $this->config->get('theme.menu.login.icon');
+            $profile_url = $this->config->get('plugins.login.route_profile');
+
+            if ($user->authenticated && $user->authorized) {
+                $logged_in_display = $this->config->get('theme.menu.login.logged_in_display');
+                $logout_icon = $this->config->get('theme.menu.login.logout_icon');
+
+                $logout_item = new SiteMenuItem([
+                    'text' => $language->translate('THEME_TYPHOON.LOGIN.LOGOUT'),
+                    'href' => Uri::addNonce(Utils::url('/task:login.logout'), 'logout-form', 'logout-nonce'),
+                    'rawroute' => $login_url,
+                    'level' => 2,
+                    'after_icon' => $logout_icon ? SVGIconsPlugin::svgIconFunction($logout_icon, $icon_classes . ' ml-1'):  null,
+                    'id' => 'logout',
+                ]);
+
+                $login_item = [
+                    'text' => $user->{$logged_in_display},
+                    'href' => Utils::url($profile_url),
+                    'links' => [$logout_item->id => $logout_item->toArray()],
+                ];
+            } else {
+                $login_item = [
+                    'text' => $language->translate('THEME_TYPHOON.LOGIN.LOGIN'),
+                    'href' => Utils::url($login_url),
+                ];
+            }
+            $link = new SiteMenuItem([
+                'rawroute' => $login_url,
+                'id' => 'login',
+                'before_icon' => $login_icon ? SVGIconsPlugin::svgIconFunction($login_icon, $icon_classes) : null,
+            ]);
+            $menu->{$link->id} = $link->mergeData($login_item)->toArray();
+        }
+
+        // Langswitcher
+        $langswitcher = $this->grav['langswitcher'] ?? null;
+        if ($langswitcher && $language->enabled() && $this->config->get( 'theme.menu.langswitcher.enabled')) {
+            $lang_icon = $this->config->get('theme.menu.langswitcher.icon');
+            $untranslated_pages_behavior = $this->config->get('plugins.langswitcher.untranslated_pages_behavior');
+            $page = $this->grav['page'];
+            $uri = $this->grav['uri'];
+
+            $entry = new SiteMenuItem([
+                'text' => $language->translate('THEME_TYPHOON.LANGUAGES'),
+                'before_icon' => $lang_icon ? SVGIconsPlugin::svgIconFunction($lang_icon, $icon_classes) : null,
+                'id' => 'langswitcher',
+                'href' => null,
+                'rawroute' => null,
+                'routable' => false,
+                'active_support' => false,
+            ]);
+            $other_languages = [];
+
+            foreach ($langswitcher->languages as $lang) {
+                $show_language = true;
+                if ($lang === $langswitcher->current) {
+                    $entry->mergeData([
+                        'text' => LanguageCodes::getNativeName($lang),
+                        'href' => $page->url(),
+                        'rawroute' => $page->rawroute(),
+                    ]);
+                } else {
+                    $base_lang_url = Utils::url($language->getLanguageUrlPrefix($lang));
+                    $lang_url = $base_lang_url . $langswitcher->page_route . $page->urlExtension();
+                    if ($untranslated_pages_behavior !== 'none') {
+                        $translated_page = $langswitcher->translated_pages[$lang];
+                        if (!$translated_page or !$translated_page->published()) {
+                            if ($untranslated_pages_behavior === 'redirect') {
+                                $lang_url = $base_lang_url . '/';
+                            } elseif ($untranslated_pages_behavior === 'hide') {
+                                $show_language = false;
+                            }
+                        }
+                    }
+                    $language_url = Utils::url($lang_url . $uri->params());
+                    if ($show_language) {
+                        $lang_entry = new SiteMenuItem([
+                            'text' => LanguageCodes::getNativeName($lang),
+                            'href' => $language_url,
+                            'rawroute' => $language_url,
+                            'active_support' => false,
+                            'level' => 2,
+                        ]);
+                        $other_languages[] = $lang_entry->toArray();
+                    }
+                }
+            }
+
+            if (!empty($other_languages)) {
+                $entry->links = $other_languages;
+            }
+
+            $menu->langswitcher = $entry->toArray();
+        }
+
+        return $menu;
     }
 
     // Add images to twig template paths to allow inclusion of SVG files
@@ -245,29 +378,32 @@ class Typhoon extends Theme
 
     public function getMenu()
     {
-        if ($this->links) {
-            return $this->links;
-        }
-
-        /** @var Cache $cache */
-        $cache = $this->grav['cache'];
-        $key = 'typhoon-full-menu-' . $this->cache_key;
-        $links = $cache->fetch($key);
+        $links = $this->links;
 
         if (!$links) {
-            /** @var Pages $pages */
-            $pages = $this->grav['pages'];
+            /** @var Cache $cache */
+            $cache = $this->grav['cache'];
+            $key = 'typhoon-full-menu-' . $this->cache_key;
+            $links = $cache->fetch($key);
 
-            /** @var PageInterface $nav */
-            $nav = $pages->root()->children()->visible();
+            if (!$links) {
+                /** @var Pages $pages */
+                $pages = $this->grav['pages'];
 
-            // Loop through top-level menu items
-            $links = [];
-            foreach ($nav as $page) {
-                $links[$page->slug()] = $this->buildLinkNode($page, 1);
+                /** @var PageInterface $nav */
+                $nav = $pages->root()->children()->visible();
+
+                // Loop through top-level menu items
+                $links = [];
+                foreach ($nav as $page) {
+                    $links[$page->slug()] = $this->buildLinkNode($page, 1);
+                }
+
+                $cache->save($key, $links);
             }
-
-            $cache->save($key, $links);
+            $menu = (object) $links;
+            $this->grav->fireEvent('onSiteThemeMenu', new Event(['menu' => $menu]));
+            $links = (array) $menu;
             $this->links = $links;
         }
 
@@ -276,23 +412,7 @@ class Typhoon extends Theme
 
     public function getPrimaryMenu()
     {
-        if ($this->primary) {
-            return $this->primary;
-        }
-
-        /** @var Cache $cache */
-        $cache = $this->grav['cache'];
-        $key = 'typhoon-primary-menu-' . $this->cache_key;
-        $primary = $cache->fetch($key);
-
-        if (!$primary) {
-            $primary = $this->stripSecondaryItems($this->getMenu());
-            $cache->save($key, $primary);
-            $this->primary = $primary;
-        }
-
-        return $primary;
-
+        return $this->stripSecondaryItems($this->getMenu());
     }
 
     protected function stripSecondaryItems($menu)
@@ -346,6 +466,9 @@ class Typhoon extends Theme
 
     public function isActiveItem($link)
     {
+        if (isset($link['active_support']) && $link['active_support'] === false) {
+            return false;
+        }
         $page_rawroute = $this->rawroute;
         $item_rawroute = $link['rawroute'];
         $active = Utils::startsWith($page_rawroute, $item_rawroute);
@@ -378,34 +501,43 @@ class Typhoon extends Theme
      * @param int $level
      * @return array
      */
-    protected function buildLinkNode(PageInterface $page, $level)
+    protected function buildLinkNode(PageInterface $page, $level): array
     {
+        $icon_classes = $this->config->get('theme.menu.icon_classes');
+        $header = $page->header();
         $children = $page->children()->visible();
         $has_children = $children->count() > 0;
         $split_level = $level >= ($this->primary_menu_levels ?? 100);
-        $page_split_level = $page->header()->show_children_in_secondary_menu ?? false;
+        $page_split_level = $header->show_children_in_secondary_menu ?? false;
         $show_children_in_secondary_menu =  $split_level ?: $page_split_level;
         $open_in_new_tab = $this->config->get( 'theme.external_in_new_tab', false);
-        $external_url = $page->header()->external_url ?? false;
+        $external_url = $header->external_url ?? false;
+        $before_icon = $header->menu_before_icon ?? null;
+        $after_icon = $header->menu_after_icon ?? null;
+        $icon_extra_classes = $header->menu_icon_classes ?? '';
 
-        $link['rawroute'] = $page->rawRoute();
-        $link['href'] = $page->url();
-        $link['text'] = $page->menu();
-        $link['id'] = $page->slug();
-        $link['level'] = $level;
-        $link['show_children_in_secondary_menu'] = $show_children_in_secondary_menu;
-        $link['routable'] = $page->routable();
-        $link['external'] = $external_url && $open_in_new_tab;
+        $link = new SiteMenuItem();
+
+        $link->rawroute = $page->rawRoute();
+        $link->href = $page->url();
+        $link->text = $page->menu();
+        $link->id = $page->slug();
+        $link->level = $level;
+        $link->before_icon = $before_icon ? SVGIconsPlugin::svgIconFunction($before_icon, $icon_classes . ' ' . $icon_extra_classes) : null;
+        $link->after_icon = $after_icon ? SVGIconsPlugin::svgIconFunction($after_icon, $icon_classes . ' ml-1 ' . $icon_extra_classes) : null;;
+        $link->show_children_in_secondary_menu = $show_children_in_secondary_menu;
+        $link->routable = $page->routable();
+        $link->external = $external_url && $open_in_new_tab;
 
         if ($has_children) {
             $child_links = [];
             foreach ($children as $child) {
                 $child_links[$child->slug()] = $this->buildLinkNode($child, $level + 1);
             }
-            $link['links'] = $child_links;
+            $link->links = $child_links;
         }
 
-        return $link;
+        return $link->toArray();
     }
 
     protected function isHex($hex)

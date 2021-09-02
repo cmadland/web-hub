@@ -45,9 +45,9 @@
       {% endif %}
       <div class="{{ content_classes ?: 'w-full' }}">
         {% block content_wrapper %}
-          <div class="{{ prose_style }} max-w-none">
+          <article class="magic-content {{ prose_style }} max-w-none">
             {% block content %}{% endblock %}
-          </div>
+          </article>
         {% endblock %}
       </div>
     </div>
