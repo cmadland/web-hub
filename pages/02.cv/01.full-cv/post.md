@@ -7,11 +7,11 @@ hide_page_title: true
 ---
 
 ### Education
-##### Ph.D. Student, University of Victoria, Current
+##### Ph.D. Candidate, University of Victoria, Current
 
 Department of Curriculum and Instruction, Educational Technology Area  
 Supervisor: Dr. Valerie Irvine  
-Planned dissertation title: “**Understanding the Impact of Online Assessment Practices in Higher Education**”
+Planned dissertation title: “*Approaches to Assessment in Higher Education*”
 
 ##### Master of Education (Distance Education), Athabasca University, 2014
 
@@ -39,6 +39,11 @@ Planned dissertation title: “**Understanding the Impact of Online Assessment P
 
 ### Presentations
 
+- **Madland, C**. (2021, September). *Assessment Approaches in Higher Education*. Let’s Talk about Teaching, Victoria, BC.
+- Clark Gray, B., & **Madland, C**. (2021, June). *Resisting Surveillance Technology.* OTESSA 2021, Online. https://otessa.org/2021/abstracts/resisting-surveillance-technology/
+- ***Madland, C.**, & James, H. (2021, June). *Experiencing a cognitive apprenticeship in the context of co-designing and co-teaching an undergraduate course.* OTESSA 2021, Online. https://otessa.org/2021/abstracts/experiencing-a-cognitive-apprenticeship-in-the-context-of-co-designing-and-co-teaching-an-undergraduate-course/
+- ***Madland, C.** (2021, May). *Humanizing Assessment in Online Higher Education.* OTESSA 2021, Online. https://otessa.org/2021/abstracts/humanizing-assessment-in-online-higher-education/
+- ***Madland, C.** (2021, May). *Indigenous Digital Self-Determination*. OTESSA 2021, Online. https://otessa.org/2021/abstracts/indigenous-digital-self-determination/
 - Chan, K., Irvine, V., & **Madland, C**. (2020, July). Decentralized Synchronous Learning Pods For Learner Discourse and Community-Building: An Alternative to Breakout Rooms. Let's Talk about Teaching, Victoria, BC.
 - Irvine, V., James, H., **Madland, C**., & McCue, R. (2020, July). Teaching in the Open: Supporting Open Access Designs for Social Justice. Let's Talk about Teaching, Victoria, BC.
 - James, H., & **Madland, C**. (2020, July). Co-Designing and Co-Teaching an Online Course. Let's Talk about Teaching, Victoria, BC.
@@ -100,18 +105,18 @@ Planned dissertation title: “**Understanding the Impact of Online Assessment P
 
 ### Experience
 
-#### Courses Taught
+**Sessional Instructor, University of Victoria**
 
-##### University of Victoria
+**2019-Present**
 
-- EDCI 335 - *Learning Design*  
-- EDCI 339 - *Open and Distributed Learning*  
+- *EDCI 335 - Learning Design (2019, 2020, 2021)*
+- *EDCI 339 - Open and Distributed Learning (2019 and 2020)*
 
-##### Trinity Western University
+**Sessional Instructor, Trinity Western University**
 
-- LDRS 663 - *Transformational Blended Learning*
+**2019-Present**
 
-#### Employment
+- *LDRS 663 - Coaching for Transformational Blended Learning (2019, 2020, 2021 - Graduate course)*
 
 ##### Manager of Online Learning and Instructional Technologies, Trinity Western University, Langley, BC
 
@@ -191,8 +196,13 @@ Planned dissertation title: “**Understanding the Impact of Online Assessment P
 - Athabasca University Access to Research Tools, April 2013. ($300)
 - Outstanding Service Award from Thompson Rivers University Open Learning, September 2012.
 
+**PROFESSIONAL LEARNING**
+
+- *Coaching for Leaders,* Smart + Savvy and Associates (2018)
+- [*Interculturalizing the Curriculum*](https://www.tru.ca/intercultural/faculty-staff/interculturalizing-curriculum.html)*,* Thompson Rivers University (2015)
 
 ### Related
+
 ##### Research Assistant, Athabasca University, Athabasca, AB
 
 ###### December 2010-December 2013; and,
