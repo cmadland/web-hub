@@ -3,9 +3,9 @@ title: 'Conference Abstract'
 taxonomy:
     tag:
         - open
+        - Assignment
         - edci614
         - Abstract
-        - Assignment
 hide_git_sync_repo_link: false
 hero_classes: 'overlay-dark-gradient text-light'
 hero_image: IMG_5310.JPG
