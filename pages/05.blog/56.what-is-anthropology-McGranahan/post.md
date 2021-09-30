@@ -15,6 +15,16 @@ show_sidebar: true
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 !!! McGranahan, C. (2015). What is Ethnography? Teaching ethnographic sensibilities without fieldwork. *Teaching Anthropology; Vol 4 (2014): Learning by Example.* https://doi.org/10.22582/ta.v4i1.421
