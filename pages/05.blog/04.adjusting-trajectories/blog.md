@@ -3,9 +3,9 @@ title: 'Adjusting Trajectories'
 published: true
 taxonomy:
     tag:
-        - action research
+        - 'action research'
         - community
-        - giving back
+        - 'giving back'
 hide_git_sync_repo_link: false
 hide_hypothesis: false
 hero_classes: 'overlay-dark-gradient text-light'
