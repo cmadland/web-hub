@@ -17,7 +17,6 @@ show_pagination: false
 hide_from_post_list: true
 ---
 
-
 ### Approaches to Assessment in Online Higher Education
 #### Colin Madland, M.Ed.
 
