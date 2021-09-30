@@ -18,6 +18,16 @@ summary:
     enabled: '1'
     format: short
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 I'm a few weeks into my second course in my program, this one being Advanced Research Methods. the topic du jour this last week was about crafting research questions. Here are some exercises we've gone through this week.
