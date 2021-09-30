@@ -7,3 +7,4 @@ hero:
     image: 'notion team portraits.png'
 visible: false
 ---
+
