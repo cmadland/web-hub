@@ -12,6 +12,16 @@ show_sidebar: false
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 One of the significant drivers for many in the open education field is that of increasing access to higher education, often through reducing costs for course materials. Another approach is to scaffold multiple points of access to higher education through what Irvine, Code, and Richards [2013](http://jolt.merlot.org/vol9no2/irvine_0613.htm) call multi-access learning.
