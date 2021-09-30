@@ -6,9 +6,9 @@ taxonomy:
         - edci614
     tag:
         - open
+        - school
         - ethnography
         - LGBTQ
-        - school
 hide_git_sync_repo_link: false
 hero_classes: 'overlay-dark-gradient text-light'
 hero_image: sharon-mccutcheon-663578-unsplash.jpg
