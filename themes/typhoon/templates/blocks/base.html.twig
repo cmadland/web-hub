@@ -1,8 +1,8 @@
 {% block content_surround %}
   {% if theme_config.menu.primary_location == 'sidebar' %}
-    {% set secondary_menu = typhoon_primary_menu() %}
+    {% set secondary_menu = theme_primary_menu() %}
   {% else %}
-    {% set secondary_menu = typhoon_secondary_menu(page) %}
+    {% set secondary_menu = theme_secondary_menu(page) %}
   {% endif %}
 
   {% set secondary_classes = {
