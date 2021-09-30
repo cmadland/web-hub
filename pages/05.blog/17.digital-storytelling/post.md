@@ -18,6 +18,16 @@ summary:
     enabled: '1'
     format: short
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 For EDCP512A, we are conducting an in-class action research project in small teams. Our group is taking an arts-based approach using digital storytelling as our method.
