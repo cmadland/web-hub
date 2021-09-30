@@ -16,6 +16,14 @@ show_pagination: true
 hide_from_post_list: false
 feed:
     limit: 10
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
 ---
 
 The President of Trinity Western University recently tweeted a brief recognition of the work that educational technologists have been doing over the last few weeks.
