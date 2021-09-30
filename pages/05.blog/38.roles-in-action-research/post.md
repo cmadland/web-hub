@@ -16,6 +16,16 @@ show_sidebar: false
 show_breadcrumbs: false
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 I read two articles this week, each of which described an AR project, but with very different approaches and, I think, different outcomes. My rough notes on each article are available [here (Pedretti)](https://lit.madland.ca/education-action-research/pedrettifacilitatingactionresearch1996) and [here (Wakefield)](https://lit.madland.ca/education-action-research/wakefieldcollaborativeactionresearch2019).
