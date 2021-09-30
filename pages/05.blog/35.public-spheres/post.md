@@ -20,6 +20,14 @@ hide_from_post_list: false
 feed:
     limit: 10
 allow_comments: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
 ---
 
 #### Features of Public Spheres
