@@ -11,6 +11,16 @@ show_sidebar: true
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 In class # 2 of EDCI 681, we were assigned some homework to work through this Epistemic Beliefs Inventory based on
