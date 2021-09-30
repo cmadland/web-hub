@@ -15,6 +15,16 @@ show_sidebar: false
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 Yesterday, [Herbert Tsang](https://twitter.com/prof_tsang) and Qinqin Zhang from TWU hosted a colloquium on Academic Integrity at our Langley campus. I learned a bit about learning after my presentation...
