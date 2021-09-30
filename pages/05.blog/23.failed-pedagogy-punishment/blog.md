@@ -2,9 +2,9 @@
 title: 'The Failed Pedagogy of Punishment'
 taxonomy:
     tag:
+        - pedagogy
         - plagiarism
         - algorithms
-        - pedagogy
 hide_git_sync_repo_link: false
 hide_hypothesis: false
 hero_classes: 'overlay-dark-gradient text-light'
@@ -19,7 +19,6 @@ hide_from_post_list: false
 feed:
     limit: 10
 ---
-
 
 !!!! The following article is reproduced under the Creative Commons license below. It has been slightly modified to be formatted for the web. [Click here to download the original book chapter.](http://digital.auraria.edu/IR00000048/00001/pdf)
 
