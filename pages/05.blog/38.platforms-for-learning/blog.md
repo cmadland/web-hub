@@ -1,7 +1,6 @@
 ---
 title: 'Platforms for Learning'
 published: false
-date:
 hide_git_sync_repo_link: false
 hero_classes: 'overlay-dark-gradient text-light'
 hero_image: martin-reisch-6DivtP_WRYs-unsplash.jpg
