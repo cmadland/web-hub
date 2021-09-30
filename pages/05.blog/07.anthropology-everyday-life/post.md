@@ -14,6 +14,16 @@ show_sidebar: true
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 !!! Ling, M. 1999. The Anthropology of Everyday Life: Teaching about Culture in Schools. In R. Case & P. Clark (Eds.), *The Canadian Anthology of Social Studies: Issues and Strategies for Teachers,* pp. 51-58. Vancouver, BC: Pacific Educational Press.
