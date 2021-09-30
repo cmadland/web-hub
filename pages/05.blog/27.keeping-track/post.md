@@ -18,6 +18,16 @@ show_sidebar: true
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 I'm making an effort to be as open as possible during this PhD. In doing so, I've moved most of my draft work to [GitHub](https://github.com/cmadland), and I'm publishing most stuff from there to [Grav](https://grav.madland.ca).
