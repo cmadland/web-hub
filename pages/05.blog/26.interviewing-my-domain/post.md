@@ -6,6 +6,16 @@ taxonomy:
         - whydomain
 hero_classes: 'overlay-dark-gradient text-light'
 hero_image: simon-rae-254529-unsplash.jpg
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 Yesterday, [@cogdog](https://twitter.com/cogdog) blogged a [request](http://cogdogblog.com/2018/06/interviewing-your-domain/) on behalf of [#OntarioExtend](https://extend-domains.ecampusontario.ca/) asking for those who own their own domains to write a short blog post about their experiences. Here we go...
