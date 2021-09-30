@@ -12,6 +12,16 @@ show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
 published: true
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 Our group engaged in a digital storytelling project using a process that has turned out to be similar to a photovoice method. As might be expected in a 3-week group project, data collection was somewhat rushed. We faced challenges with the seemingly simple process of forming a group and contacting everyone, but ended up with a strong and diverse group.
