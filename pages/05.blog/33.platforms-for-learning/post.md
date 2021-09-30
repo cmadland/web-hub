@@ -11,6 +11,16 @@ show_sidebar: false
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 Often I find that there is an inordinate amount of interest in particular technology tools and their inevitable disruption of higher education. If only we would all use [Prezi/Padlet/Minecraft/Twitter/Grav] more in our teaching, higher ed as we know it would be revolutionized! Maybe that's a little extra, but I think many of us have been there (both receiving and giving the hype).
