@@ -13,6 +13,16 @@ show_sidebar: true
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 !!! Erickson, F. (1987). Conceptions of School Culture: An Overview. *Educational Administration Quarterly,* 23(4), 11–24. https://doi.org/10.1177/0013161X87023004003
