@@ -13,6 +13,16 @@ show_sidebar: true
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: true
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 This post is a sidebar conversation and may be removed.
