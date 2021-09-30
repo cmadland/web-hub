@@ -3,9 +3,9 @@ title: 'Watching Strangers'
 published: true
 taxonomy:
     tag:
-        - observations
         - edcp512
         - ubc
+        - observations
 hide_git_sync_repo_link: false
 hide_hypothesis: false
 hero_classes: 'overlay-dark-gradient text-light'
