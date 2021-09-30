@@ -16,6 +16,16 @@ show_sidebar: false
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 Yesterday, [Amanda Coolidge](https://twitter.com/acoolidge) published an introspective post in which she shares a little bit about how [she is still learning to be in the world we have.](https://acoolidge.opened.ca/never-finished-learning/) You should go read it.
