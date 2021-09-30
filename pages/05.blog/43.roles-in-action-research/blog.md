@@ -1,9 +1,9 @@
 ---
-title: Roles in Action Research
+title: 'Roles in Action Research'
 published: true
 taxonomy:
     category:
-        - action research
+        - 'action research'
         - EDCP512
 hide_git_sync_repo_link: false
 hero_classes: 'overlay-dark-gradient text-light'
