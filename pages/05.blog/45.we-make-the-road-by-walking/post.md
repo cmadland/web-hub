@@ -13,6 +13,16 @@ show_sidebar: false
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 The next several years of my life are going to be filled with more writing than I have done in a long time. Actually more than I have ever done. So, in an attempt to begin to get into a rhythm of writing and thinking, and thinking by writing, and writing while I read, here we go. Last night, I ordered *We Make the Road by Walking: Conversations on Education and Social Change* featuring Myles Horton and Paulo Friere 'talking a book' in 1987.
