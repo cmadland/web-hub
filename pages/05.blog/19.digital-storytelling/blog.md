@@ -5,7 +5,7 @@ date: '21:55 30-10-2019'
 taxonomy:
     tag:
         - EDCP512
-        - digital storytelling
+        - 'digital storytelling'
 hide_git_sync_repo_link: false
 hide_hypothesis: true
 hero_classes: 'text-light overlay-dark-gradient hero-large'
