@@ -13,6 +13,16 @@ show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
 published: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 A couple weeks ago, Dave Cormier encountered a problem with MS Werd...
