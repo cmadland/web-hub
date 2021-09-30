@@ -48,5 +48,9 @@
 
 {% import 'macros/macros.html.twig' as macros %}
 <ul class='{{ classes.root }}'>
-  {{ macros.nav_loop(typhoon_primary_menu(), classes, alpine, svg) }}
+  {% if show_onpage_menu %}
+    {{ macros.nav_loop(theme_onpage_menu(), classes, alpine, svg) }}
+  {% else %}
+    {{ macros.nav_loop(theme_primary_menu(), classes, alpine, svg) }}
+  {% endif %}
 </ul>

@@ -3,6 +3,7 @@ namespace Grav\Theme;
 
 use Composer\Autoload\ClassLoader;
 use Grav\Common\Cache;
+use Grav\Common\Inflector;
 use Grav\Common\Language\Language;
 use Grav\Common\Language\LanguageCodes;
 use Grav\Common\Page\Interfaces\PageInterface;
@@ -207,13 +208,16 @@ class Typhoon extends Theme
 
         // Add Twig functions
         $twig->twig()->addFunction(
-            new TwigFunction('typhoon_full_menu', [$this, 'getMenu'])
+            new TwigFunction('theme_onpage_menu', [$this, 'getOnPageMenu'])
         );
         $twig->twig()->addFunction(
-            new TwigFunction('typhoon_primary_menu', [$this, 'getPrimaryMenu'])
+            new TwigFunction('theme_full_menu', [$this, 'getMenu'])
         );
         $twig->twig()->addFunction(
-            new TwigFunction('typhoon_secondary_menu', [$this, 'getSecondaryMenu'])
+            new TwigFunction('theme_primary_menu', [$this, 'getPrimaryMenu'])
+        );
+        $twig->twig()->addFunction(
+            new TwigFunction('theme_secondary_menu', [$this, 'getSecondaryMenu'])
         );
         $twig->twig()->addFunction(
             new TwigFunction('is_active_item', [$this, 'isActiveItem'])
@@ -410,6 +414,37 @@ class Typhoon extends Theme
         return $links;
     }
 
+    public function getOnPageMenu()
+    {
+        $page = $this->grav['page'];
+        $links = [];
+        $icon_classes = $this->config->get('theme.menu.icon_classes');
+
+        foreach ($page->collection() as $module) {
+            $header = $module->header();
+            $visible = $header->visible ?? true;
+            $before_icon = $header->menu_before_icon ?? null;
+            $after_icon = $header->menu_after_icon ?? null;
+            $icon_extra_classes = $header->menu_icon_classes ?? '';
+
+            if ($visible !== false) {
+                $link = new SiteMenuItem();
+                $link->href = '#' . trim($module->slug(), '_');
+                $link->rawroute = $page->rawRoute() . '/' . $link->href;
+                $link->text = $module->menu();
+                $link->before_icon = $before_icon ? SVGIconsPlugin::svgIconFunction($before_icon, $icon_classes . ' ' . $icon_extra_classes) : null;
+                $link->after_icon = $after_icon ? SVGIconsPlugin::svgIconFunction($after_icon, $icon_classes . ' ml-1 ' . $icon_extra_classes) : null;
+                $links[] = $link->toArray();
+            }
+         }
+
+        $menu = (object) $links;
+        $this->grav->fireEvent('onSiteThemeMenu', new Event(['menu' => $menu]));
+        $links = (array) $menu;
+
+        return $links;
+    }
+
     public function getPrimaryMenu()
     {
         return $this->stripSecondaryItems($this->getMenu());
@@ -524,7 +559,7 @@ class Typhoon extends Theme
         $link->id = $page->slug();
         $link->level = $level;
         $link->before_icon = $before_icon ? SVGIconsPlugin::svgIconFunction($before_icon, $icon_classes . ' ' . $icon_extra_classes) : null;
-        $link->after_icon = $after_icon ? SVGIconsPlugin::svgIconFunction($after_icon, $icon_classes . ' ml-1 ' . $icon_extra_classes) : null;;
+        $link->after_icon = $after_icon ? SVGIconsPlugin::svgIconFunction($after_icon, $icon_classes . ' ml-1 ' . $icon_extra_classes) : null;
         $link->show_children_in_secondary_menu = $show_children_in_secondary_menu;
         $link->routable = $page->routable();
         $link->external = $external_url && $open_in_new_tab;

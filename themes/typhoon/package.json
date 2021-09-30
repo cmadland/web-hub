@@ -12,12 +12,12 @@
   "dependencies": {
     "@tailwindcss/forms": "^0.3.3",
     "@tailwindcss/typography": "^0.4.1",
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.5",
+    "autoprefixer": "^10.3.6",
+    "postcss": "^8.3.8",
     "postcss-import": "^14.0.2",
     "precss": "^4.0.0",
-    "tailwindcss": "^2.2.4",
-    "tailwindcss-debug-screens": "^2.0.0",
+    "tailwindcss": "^2.2.16",
+    "tailwindcss-debug-screens": "^2.1.0",
     "tailwindcss-multi-column": "^1.0.2"
   }
 }

@@ -24,6 +24,7 @@ THEME_TYPHOON:
       HEADLINE: Archives
     SYNDICATE:
       HEADLINE: Syndicate
+  ERROR_ENCOUNTERED: We encountered an error...
   ADMIN:
     MODE: Mode
     OPTIONS_PRODUCTION: Production

@@ -21,7 +21,7 @@
         {% if l.routable %}
           <a class="w-full {{ a_classes }}" href="{{ l.href }}" {% if l.external %}target="_blank"{% endif %}>{{ menu_text|raw }}</a>
         {% else %}
-          <span class="w-full {{ a_classes }} cursor-pointer">{{ menu_text|raw }}</span>
+          <span {{ alpine.button|raw }} class="w-full {{ a_classes }} cursor-pointer">{{ menu_text|raw }}</span>
         {% endif %}
         {%- if has_children -%}
           <button {{ alpine.button|raw }} class="focus:outline-none" aria-label="Expand / collapse menu">

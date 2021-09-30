@@ -1,3 +1,31 @@
+# v2.1.4
+## 09/29/2021
+
+2. [](#improved)
+   * Updated to latest Tailwind `v2.2.16`
+   * Renamed Twig navigations function like `typhoon_primary_menu` to `theme_primary_menu` to make it more generic and immune to DevTools renaming issues [getgrav/grav-premium-issues#152](https://github.com/getgrav/grav-premium-issues/issues/152)
+3. [](#bugfix)
+   * Use modular `slug` for onPageMenu links as it's safer than hyphenized menu [getgrav/grav-premium-issues#156](https://github.com/getgrav/grav-premium-issues/issues/156)
+   * Updated Inter font to support variants such as italic
+
+# v2.1.3
+## 09/01/2021
+
+3. [](#bugfix)
+   * Fixed a bad check for `show_onpage_menu` in `modular.html.twig`
+   
+# v2.1.2
+## 08/31/2021
+
+1. [](#new)
+   * Added missing `onpage_menu:true` for modular pages missing in Typhoon [getgrav/grav-premium-issues#131](https://github.com/getgrav/grav-premium-issues/issues/131)
+2. [](#improved)
+   * Added support for `italic` using Inter Variable font
+   * Updated to latest Tailwind `v2.2.9`
+   * Unroutable pages are clickable in the menu so they open children [getgrav/grav-premium-issues#141](https://github.com/getgrav/grav-premium-issues/issues/141)
+3. [](#bugfix)
+   * Fixed a missing language translation on error page [getgrav/grav-premium-issues#128](https://github.com/getgrav/grav-premium-issues/issues/128)
+   
 # v2.1.1
 ## 06/25/2021
 
