@@ -17,6 +17,14 @@ show_pagination: true
 hide_from_post_list: false
 feed:
     limit: 10
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
 ---
 
 Well, my updates here have stalled. There's actually, I think, a pretty good reason for this, and that is that SARS-CoV-2 has wreaked havoc on my dissertation plans. If you've been following along, my original intent was to explore the intersection of Indigenous Education and technology, from the perspective of a white settler seeking connection and reciprocal understanding. Well, when COVID-19 became a thing and on-site and face-to-face research activities were halted in March 2020, my plans evaporated. Indigenist research really needs to happen in the context of meaningful and reciprocal relationships, and the barriers to that increased substantially with the restrictions enacted by universities worldwide. So my own personal pivot became required.
