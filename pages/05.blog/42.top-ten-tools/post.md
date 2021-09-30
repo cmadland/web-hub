@@ -14,6 +14,16 @@ show_sidebar: true
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 I learned from [Bonni](http://teachinginhighered.com/2018/07/13/top-tools-2018/) the other day that Jane Hart compiles a list of top tech tools for learning each year. Apparently one of the things to do is to write a blog post about your individual take. Here goes...
