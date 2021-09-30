@@ -13,6 +13,16 @@ show_sidebar: true
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 One of the things that has driven me a little batty ever since my MEd work, when I first started having to use PDF versions of articles is that copying text from a PDF for my notes and pasting into Werd works relatively fine except for the fact that the line breaks are copied too.
