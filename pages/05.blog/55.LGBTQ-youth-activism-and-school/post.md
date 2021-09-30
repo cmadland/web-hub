@@ -17,6 +17,16 @@ show_sidebar: true
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 !!! McGlashan, Haley, & Fitzpatrick, K. (2017). LGBTQ youth activism and school: challenging sexuality and gender norms. Health Education, 117(5), 485–497. Retrieved from https://doi.org/10.1108/ HE-10-2016-0053
