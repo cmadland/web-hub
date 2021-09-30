@@ -4,9 +4,9 @@ root_of_blog: true
 content:
     items:
         - '@self.children'
-    limit: 10
+    limit: 50
     order:
-        by: date
+        by: folder
         dir: desc
     pagination: true
 feed:
@@ -21,5 +21,6 @@ hero:
         text: 'Narrating my Learning'
 media_order: 'benjamin-voros-333663-unsplash.jpg,florian-klauer-253-unsplash.jpg,perpetualbeta-wh.png'
 show_sidebar: false
-show_pagination: true
+show_pagination: false
 ---
+
