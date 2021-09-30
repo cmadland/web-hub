@@ -16,6 +16,14 @@ show_pagination: false
 hide_from_post_list: false
 feed:
     limit: 10
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
 ---
 
 ! Published 2013-02-03
