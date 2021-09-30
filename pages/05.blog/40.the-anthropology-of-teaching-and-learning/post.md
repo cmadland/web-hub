@@ -14,6 +14,16 @@ show_sidebar: true
 show_breadcrumbs: true
 show_pagination: true
 hide_from_post_list: false
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 !!! Pelissier, C. (1991). The Anthropology of Teaching and Learning. Annual Review of Anthropology, 20, 75–95. Retrieved from http://www.jstor.org.ezproxy.library.uvic.ca/stable/2155794
