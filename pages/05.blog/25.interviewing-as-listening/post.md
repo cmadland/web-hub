@@ -10,6 +10,16 @@ hero_image: IMG_8739.jpeg
 header_image_alt_text: 'The Clearwater River in BC during autumn.'
 header_image_credit: 'Colin Madland'
 header_image_creditlink: 'https://flickr.com/photos/colinmadland/48894861327/in/datetaken/'
+root_of_blog: true
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+feed:
+    limit: 10
 ---
 
 !!! Chattopadhyay, P. (2018). *Fighting hate with friendship—One Exalted Cyclops at a time | CBC Radio.* In Out in the Open. Retrieved from https://www.cbc.ca/radio/outintheopen/cut-through-hate-1.4450415/fighting-hate-with-friendship-one-exalted-cyclops-at-a-time-1.4450891
