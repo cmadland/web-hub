@@ -20,7 +20,7 @@ hero:
             classes: 'bg-primary hover:bg-gray-800 text-white'
         -
             text: Research
-            link: 'https://madland.ca/research'
+            link: 'https://cmadland.github.io/assessment'
             classes: 'bg-primary text-white'
         -
             text: Writing

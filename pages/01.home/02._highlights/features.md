@@ -13,7 +13,7 @@ features:
         title: Research
         text: 'Assessment practices are key to ensuring alignment between online higher education and an increasingly digital global society.'
         icon: tabler/world.svg
-        link: 'https://madland.ca/research'
+        link: 'https://cmadland.github.io/assessment'
     -
         title: Learning
         text: 'Follow my process in notion.so as I build my dissertation.'
