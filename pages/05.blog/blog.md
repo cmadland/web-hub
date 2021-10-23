@@ -22,5 +22,6 @@ hero:
 media_order: 'benjamin-voros-333663-unsplash.jpg,florian-klauer-253-unsplash.jpg,perpetualbeta-wh.png'
 show_sidebar: false
 show_pagination: false
+show_breadcrumbs: false
 ---
 
