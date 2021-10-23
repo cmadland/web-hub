@@ -1,5 +1,5 @@
 ---
-menu: 'Easy Content'
+menu: 'Assessment'
 title: 'Assessment in Online Higher Education'
 subtitle: 'Current Research'
 image: marvin-meyer-SYTO3xs06fU-unsplash.jpg
