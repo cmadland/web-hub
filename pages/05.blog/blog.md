@@ -6,7 +6,7 @@ content:
         - '@self.children'
     limit: 100
     order:
-        by: folder
+        by: default
         dir: desc
     pagination: true
 feed:
@@ -22,5 +22,7 @@ hero:
 media_order: 'benjamin-voros-333663-unsplash.jpg,florian-klauer-253-unsplash.jpg,perpetualbeta-wh.png'
 show_sidebar: false
 show_pagination: false
+show_breadcrumbs: true
+show_children_in_secondary_menu: false
 ---
 
