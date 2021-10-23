@@ -23,6 +23,6 @@ media_order: 'benjamin-voros-333663-unsplash.jpg,florian-klauer-253-unsplash.jpg
 show_sidebar: false
 show_pagination: false
 show_breadcrumbs: true
-show_children_in_secondary_menu: true
+show_children_in_secondary_menu: false
 ---
 
