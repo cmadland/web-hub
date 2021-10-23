@@ -6,7 +6,7 @@ content:
         - '@self.children'
     limit: 100
     order:
-        by: folder
+        by: default
         dir: desc
     pagination: true
 feed:
