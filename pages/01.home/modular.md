@@ -1,7 +1,7 @@
 ---
 title: Home
 menu: Home
-onpage_menu: true
+onpage_menu: false
 header_bar:
     background: transparent
     text: light
