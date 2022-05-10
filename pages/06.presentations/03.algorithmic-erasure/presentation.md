@@ -8,9 +8,9 @@ shortcodes: true
 
 ## Digital platforms and algorithmic erasure
 #### What are the implications?
-##### Colin Madland(\*), Maxwell Ofosuhene(\*\*), Jennifer Adkins(\*\*)
+##### Colin Madland *️⃣✳️, Maxwell Ofosuhene ✳️, Jennifer Adkins ✳️
 
-\*University of Victoria, \*\*Trinity Western University
+*️⃣ University of Victoria, ✳️Trinity Western University
 
 Find these slides at <http://bit.ly/OTESSA21-A>
 
