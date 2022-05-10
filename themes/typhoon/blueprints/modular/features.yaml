@@ -1,0 +1,37 @@
+title: Features
+extends@: partials/modular
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.media_order:
+              ordering@: 99
+
+            header.variation:
+              type: select
+              label: THEME_TYPHOON.BLUEPRINTS.VARIATION
+              options:
+                horizontal: THEME_TYPHOON.BLUEPRINTS.VARIATION_HORIZONTAL
+                vertical: THEME_TYPHOON.BLUEPRINTS.VARIATION_VERTICAL
+
+            header.features:
+              type: list
+              style: vertical
+              label: THEME_TYPHOON.BLUEPRINTS.VARIATION
+
+              fields:
+                .title:
+                  type: text
+                  label: THEME_TYPHOON.BLUEPRINTS.TITLE
+                .text:
+                  type: text
+                  label: THEME_TYPHOON.BLUEPRINTS.TEXT
+                .icon:
+                  type: text
+                  label: THEME_TYPHOON.BLUEPRINTS.ICON
+                .link:
+                  type: text
+                  label: THEME_TYPHOON.BLUEPRINTS.LINK

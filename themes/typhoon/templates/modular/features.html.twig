@@ -1,0 +1,62 @@
+{% extends 'modular/partials/base.html.twig' %}
+
+{% set columns = page.header.variation == 'vertical' ? 'grid-cols-2 sm:grid-cols-3 lg:grid-cols-4' : 'md:grid-cols-2 xl:grid-cols-3' %}
+
+{% block module_content %}
+  {% include 'modular/partials/title.html.twig' with {include_content: true} %}
+
+  <div class="grid {{ columns }} gap-y-8 gap-x-8 ">
+    {% for feature in page.header.features %}
+      <div class="flex duration-300 transform hover:scale-105">
+        {% if page.header.variation == 'vertical' %}
+
+          <div class="flex flex-col w-full rounded-md group hover:bg-gray-100 dark:hover:bg-gray-800">
+            {% if feature.link %}
+            <a class="group-hover:text-primary dark:group-hover:text-primary" href="{{ url(feature.link) }}">
+              {% endif %}
+              <div class="text-gray-500 group-hover:text-primary rounded-md p-3 text-center">
+                {{ svg_icon(feature.icon, 'w-16 h-16 stroke-current stroke-3/2 mx-auto')|raw }}
+              </div>
+
+              <h3 class="mb-2 text-base md:text-lg group-hover:text-primary text-center">
+                {{ feature.title }}
+              </h3>
+
+              <div class="prose text-center">
+                {{ feature.text|raw }}
+              </div>
+              {% if feature.link %}
+            </a>
+            {% endif %}
+          </div>
+
+        {% else %}
+
+          <div class="flex-shrink-0">
+            <div class="bg-primary text-gray-200 rounded-md p-3">
+              {{ svg_icon(feature.icon, 'w-8 h-8 stroke-current')|raw }}
+            </div>
+          </div>
+          <div class="ml-4">
+            {% if feature.link %}
+            <a class="text-primary hover:text-primary-darker dark:hover:text-primary-lighter"
+               href="{{ url(feature.link) }}">
+              {% endif %}
+              <h3 class="font-bold mb-2 text-lg">
+                {{ feature.title }}
+              </h3>
+              {% if feature.link %}
+            </a>
+            {% endif %}
+            <div class="prose">
+              {{ feature.text|raw }}
+            </div>
+          </div>
+
+        {% endif %}
+      </div>
+
+    {% endfor %}
+  </div>
+{% endblock %}
+

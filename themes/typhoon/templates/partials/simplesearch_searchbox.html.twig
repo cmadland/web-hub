@@ -1,0 +1,50 @@
+{% set min_chars = config.get('plugins.simplesearch.min_query_length', 3) %}
+{% set url = base_url ~ (config.plugins.simplesearch.route == '@self' ? '' : (config.plugins.simplesearch.route == '/' ? '' : config.plugins.simplesearch.route)) ~ '.json/query' %}
+
+{% block javascripts %}
+  {% do assets.addJs('theme://js/simplesearch.js', {group: 'bottom'}) %}
+{% endblock %}
+
+<div class="search-wrapper relative"
+     x-data="simpleSearchData({ query: '{{ query|e }}', autocomplete: {{ sidebar ? 1 : 0 }}, url: '{{ url|e }}', separator: '{{ config.system.param_sep }}' })">
+  <form name="search" action="{{ url(config.plugins.simplesearch.route) }}" data-simplesearch-form>
+    <input
+            x-ref="query"
+            x-model="query"
+            @focus="search($event, $dispatch)"
+            @input="search($event, $dispatch)"
+            name="query"
+            class="search-input"
+            type="text"
+            {% if min_chars > 0 %} min="{{- min_chars -}}" {% endif %}
+            required
+            placeholder="{{ "PLUGIN_SIMPLESEARCH.SEARCH_PLACEHOLDER"|t }}"
+            value="{{ query|e }}"
+            {% if sidebar %}autocomplete="off"{% endif %}
+            data-search-invalid="{{ "PLUGIN_SIMPLESEARCH.SEARCH_FIELD_MINIMUM_CHARACTERS"|t(min_chars)|raw }}"
+    />
+    {% if config.plugins.simplesearch.display_button %}
+      <button type="submit" class="search-submit">
+        <img src="{{ url('plugin://simplesearch/assets/search.svg') }}"/>
+      </button>
+    {% endif %}
+  </form>
+
+  {% if sidebar %}
+    <div
+            x-cloak
+            x-show="hasResults()"
+            x-on:click.away="hide"
+            class="search-results absolute left-0 right-0 bg-white dark:bg-gray-700 shadow-lg border dark:border-gray-600 rounded top-full mt-px z-10 p-2"
+    >
+      <ul class="list-none my-3 divide-y divide-gray-300 dark:divide-gray-600">
+        <template x-for="item in searchResults" :key="item">
+          <li>
+            <a class="px-4 py-3 block hover:bg-gray-200 dark:hover:bg-gray-600" :href="item.route"
+               x-text="item.title"></a>
+          </li>
+        </template>
+      </ul>
+    </div>
+  {% endif %}
+</div>

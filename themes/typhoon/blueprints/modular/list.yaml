@@ -1,0 +1,32 @@
+title: List
+extends@: partials/modular
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.media_order:
+              ordering@: 99
+
+            header.list:
+              name: features
+              type: list
+              style: vertical
+              label: THEME_TYPHOON.BLUEPRINTS.FEATURES
+
+              fields:
+                .title:
+                  type: text
+                  label: THEME_TYPHOON.BLUEPRINTS.TITLE
+                .text:
+                  type: editor
+                  label: THEME_TYPHOON.BLUEPRINTS.TEXT
+                .category:
+                  type: text
+                  label: THEME_TYPHOON.BLUEPRINTS.CATEGORY
+                .color:
+                  type: text
+                  toggleable: true
+                  label: THEME_TYPHOON.BLUEPRINTS.COLOR_CLASSES

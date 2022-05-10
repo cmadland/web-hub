@@ -1,0 +1,17 @@
+form:
+  fields:
+
+    header.subtitle:
+      toggleable: true
+      type: text
+      label: THEME_TYPHOON.BLUEPRINTS.SUBTITLE
+
+    header.title_text:
+      toggleable: true
+      type: select
+      label: THEME_TYPHOON.BLUEPRINTS.TITLE_COLOR
+      default: auto
+      options:
+        auto: THEME_TYPHOON.BLUEPRINTS.TITLE_COLOR_AUTO
+        light: THEME_TYPHOON.BLUEPRINTS.TITLE_COLOR_LIGHT
+        dark: THEME_TYPHOON.BLUEPRINTS.TITLE_COLOR_DARK

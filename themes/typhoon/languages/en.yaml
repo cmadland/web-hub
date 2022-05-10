@@ -1,0 +1,268 @@
+THEME_TYPHOON:
+  LANGUAGES: "Languages"
+  LOGIN:
+    LOGIN: "Login"
+    LOGOUT: "Logout"
+  BLOG:
+    ITEM:
+      CONTINUE_READING: Continue reading...
+      NEXT_POST: Next Post
+      PREV_POST: Previous Post
+  SIDEBAR:
+    SIMPLE_SEARCH:
+      HEADLINE: Search
+    RELATED_POSTS:
+      HEADLINE: Related Posts
+    RANDOM_ARTICLE:
+      HEADLINE: Random Article
+      FEELING_LUCKY: I'm Feeling Lucky!
+    SOME_TEXT_WIDGET:
+      HEADLINE: Some Text Widget
+    POPULAR_TAGS:
+      HEADLINE: Popular Tags
+    ARCHIVES:
+      HEADLINE: Archives
+    SYNDICATE:
+      HEADLINE: Syndicate
+  ERROR_ENCOUNTERED: We encountered an error...
+  ADMIN:
+    MODE: Mode
+    OPTIONS_PRODUCTION: Production
+    OPTIONS_DEVELOPMENT: Development
+    EXTERNAL_URLS_NEW_TAB: External URLs in new tab
+    APPEND_SITE_TITLE: Append Site Title to HTML Title
+    CONFIGURATION: Configuration
+    DEFAULT_COLORS: Default Colors
+    TEXT_COLOR: Text Color
+    TEXT_COLOR_HELP: Any valid Tailwind color, e.g. text-primary | text-gray-800 | text-blue-700 etc
+    PRIMARY_COLOR: Primary Color
+    PRIMARY_COLOR_HELP: The primary color used throughout the page
+    LIGHTER_BRIGHTNESS: Lighter Brightness
+    LIGHTER_BRIGHTNESS_HELP: The percentage amount brighter for *-primary-lighter colors
+    DARKER_BRIGHTNESS: Darker Brightness
+    DARKER_BRIGHTNESS_HELP: The percentage amount darker for *-primary-darker colors
+    THEME_DEFAULTS: Theme Defaults
+    THEME: Theme
+    THEME_HELP: Defines the default theme appearance, light or dark. When System is selected, it will obey the system settings
+    SYSTEM: System
+    LIGHT: Light
+    DARK: Dark
+    FOOTER: Footer
+    USER_SELECTOR: User Selector
+    USER_SELECTOR_HELP: Allows the user to remember the selection persistently. When disabled the selection will only be remember within the current session.
+    REMEMBER_SELECTION: Remember Selection
+    REMEMBER_SELECTION_HELP: Allows the user to remember the selection persistently. When disabled the selection will only be remember within the current session.
+    LAYOUT_DEFAULTS: Layout Defaults
+    BODY_CLASSES: Body Classes
+    BODY_CLASSES_HELP: Provide default tailwind classes for the HTML body tag
+    WRAPPER_CLASSES: Wrapper Classes
+    WRAPPER_CLASSES_HELP: Overide the wrapper classes used to set the max-width of the page
+    SECTION_CLASSES: Section Classes
+    SECTION_CLASSES_HELP: Override the classes to wrap the content section for regular or modular pages
+    MENU_CONFIGURATION: Menu Configuration
+    PRIMARY_MENU_LOCATION: Primary Menu Location
+    PRIMARY_MENU_LOCATION_HELP: Either in the horizontal "header" or "sidebar" location
+    HEADER: Header
+    SIDEBAR: Sidebar
+    PRIMARY_HEADER_LEVELS: Primary Header Levels
+    PRIMARY_HEADER_LEVELS_HELP: The number of level in the primary menu.  Further nested levels will be shown in a side navigation. Only valid for 'header' primary menu
+    DISPLAY_MOBILE_NAVIGATION: Display Mobile Navigation
+    DISPLAY_MOBILE_NAVIGATION_HELP: Display the hambuger menu for mobile navigation on small devices
+    HEADER_BAR_DEFAULTS: Header Bar Defaults
+    CUSTOM_LOGO: Custom Logo
+    CUSTOM_LOGO_DESC: Will be used instead of default Grav logo
+    STRIP_LOGO_SVG_STYLE: Strip Logo SVG Style
+    STRIP_LOGO_SVG_STYLE_HELP: Use this if your Custom Logo SVG has hardcoded style and you want the fill color to be dynamic
+    CUSTOM_FAVICON: Custom Favicon
+    CUSTOM_FAVICON_DESC: Will be used instead of default Grav Favicon
+    ICON_CLASSES: Icon Classes
+    ICON_CLASSES_HELP: Tailwind classes to provide style for icons used in the menu
+    MENU_LOGIN_SECTION: Menu Login Section
+    ENABLE_LOGIN_MENU: Enable Login Menu
+    ENABLE_LOGIN_MENU_HELP: If Login plugin is installed and enabled you can control if the login menu item should display
+    LOGIN_ICON: Login Icon
+    LOGIN_ICON_HELP: Icon to display based on SVG-Icons support, leave blank for no icon (e.g. tabler/rocket.svg)
+    LOGGED_IN_DISPLAY: Logged-in Display
+    LOGGED_IN_DISPLAY_HELP: What should display in the menu when logged in
+    LOGOUT_ICON: Logout Icon
+    LOGOUT_ICON_HELP: Icon to display based on SVG-Icons support, leave blank for no icon (e.g. tabler/rocket.svg)
+    MENU_LANGSWITCHER_SECTION: Menu Langswitcher Section
+    ENABLE_LANGSWITCHER_MENU: Enable Langswitcher menu
+    ENABLE_LANGSWITCHER_MENU_HELP: If Langswitcher plugin is installed and enabled you can control if the login menu item should display
+    LANGSWITCHER_ICON: Langswitcher Icon
+    LANGSWITCHER_ICON_HELP: Icon to display based on SVG-Icons support, leave blank for no icon (e.g. tabler/rocket.svg)
+    HEADER_BAR_BACKGROUND: Background
+    HEADER_BAR_BACKGROUND_HELP: Top logo/menu section background for this page
+    HEADER_BAR_BACKGROUND_AUTO: Automatic Background Color
+    HEADER_BAR_BACKGROUND_LIGHT: Light Background Color
+    HEADER_BAR_BACKGROUND_DARK: Dark Background Color
+    HEADER_BAR_BACKGROUND_TRANSPARENT: Transparent Background
+    HEADER_BAR_BACKGROUND_CUSTOM: Custom Background CSS
+    HEADER_BAR_CUSTOM_BACKGROUND_STYLE: Custom Background Style
+    HEADER_BAR_CUSTOM_BACKGROUND_STYLE_HELP: If you set Background to custom, this CSS is used for the background of the header bar
+    HEADER_BAR_TEXT: Text
+    HEADER_BAR_TEXT_HELP: Top logo/menu section text for this page
+    HEADER_BAR_TEXT_AUTO: Automatic Text Color
+    HEADER_BAR_TEXT_LIGHT: Light Text Color
+    HEADER_BAR_TEXT_DARK: Dark Text Color
+    HERO_DEFAULTS: Hero Defaults
+    HERO_DISPLAY: Display
+    HERO_DISPLAY_HELP: If this page should have a hero
+    HERO_ALIGNMENT: Hero Alignment
+    HERO_ALIGNMENT_LEFT: Left
+    HERO_ALIGNMENT_CENTER: Center
+    HERO_ALIGNMENT_RIGHT: Right
+    HERO_IMAGE: Image
+    HERO_IMAGE_HELP: Stream location of default hero image
+    HERO_PADDING_CLASSES: Padding Classes
+    HERO_OVERLAY: Overlay
+    HERO_OVERLAY_HELP: Select custom and provide a custom color below for an exact color, else select the best choice for the image
+    HERO_OVERLAY_TITLE: Hero Overlay
+    HERO_OVERLAY_DARK: Dark
+    HERO_OVERLAY_DARKER: Darker
+    HERO_OVERLAY_LIGHT: Light
+    HERO_OVERLAY_LIGHTER: Lighter
+    HERO_OVERLAY_PRIMARY: Primary
+    HERO_OVERLAY_NONE: None
+    HERO_OVERLAY_CUSTOM: Custom
+    HERO_CUSTOM_OVERLAY_COLOR: Custom Overlay Color
+    HERO_CUSTOM_OVERLAY_COLOR_HELP: You must set the Overlay to "custom" for this to be used
+    HERO_OVERLAY_GRADIENT_OPACITY: Overlay Gradient Opacity
+    HERO_OVERLAY_GRADIENT_OPACITY_HELP: Provide a start and end opacity for Overlay
+    HERO_OVERLAY_GRADIENT_DIRECTION: Overlay Gradient Direction
+    HERO_OVERLAY_GRADIENT_DIRECTION_RIGHT: To Right
+    HERO_OVERLAY_GRADIENT_DIRECTION_BOTTOM: To Bottom
+    HERO_OVERLAY_GRADIENT_DIRECTION_TOP: To Top
+    HERO_OVERLAY_GRADIENT_DIRECTION_LEFT: To Left
+    HERO_BUTTONS: Buttons
+    HERO_SETTINGS: Hero Settings
+    FOOTER_PAGE_ROUTE: Page Route for Footer data
+    FOOTER_PAGE_ROUTE_HELP: Use a page for data rather than these options to enable multi-language support
+    FOOTER_PAGE_EXISTS_SUCCESS: 'The "Footer Page Route" provided above is valid and will be used for configuration. The configuration below is being ignored...'
+    FOOTER_PAGE_EXISTS_ERROR: 'NOTE: Footer Page as defined above cannot be found or is not a valid "modular/footer" type, using theme configuration below:'
+    FOOTER_ENABLE_MENU_LINKS: Enable Menu Links
+    FOOTER_ENABLE_MENU_LINKS_HELP: If Menu links should display
+    FOOTER_MENU_LINKS: Menu Links
+    FOOTER_MENU_ITEM: Menu Item
+    FOOTER_MENU_PLACEHOLDER: Some Link
+    FOOTER_MENU_LINK: Link
+    FOOTER_ENABLE_SOCIAL_LINKS: Enable Social Links
+    FOOTER_ENABLE_SOCIAL_LINKS_HELP: If social links should display
+    FOOTER_SOCIAL_LINKS: Social Links
+    FOOTER_SOCIAL_NETWORK: Social Network
+    FOOTER_SOCIAL_LINK: Link
+    FOOTER_COPYRIGHT: Footer Copyright
+    NOTICES: Notices
+    NOTICES_PAGE_ROUTE: Page Route for Notices data
+    NOTICES_PAGE_ROUTE_HELP: Use a page for data rather than these options to enable multi-language support
+    NOTICE_CONTENT: Notice Content
+    NOTICE_ENABLED: Enabled
+    NOTICE_ONLY_HOMEPAGE: Only Homepage
+    NOTICE_TYPE: Type
+    NOTICE_ALERT: Alert (blue)
+    NOTICE_CRITICAL: Critical (red)
+    NOTICE_NOTE: Note (yellow)
+    NOTICE_SUCCESS: Success (green)
+    NOTICE_LEARNMORE: Learn More Link
+    NOTICES_PAGE_EXISTS_SUCCESS: 'The "Notices Page Route" provided above is valid and will be used for configuration. The configuration below is being ignored...'
+    NOTICES_PAGE_EXISTS_ERROR: 'NOTE: Notices Page as defined above cannot be found or is not a valid "modular/notices" type, using theme configuration below:'
+  BLUEPRINTS:
+    SUBTITLE: Subtitle
+    TITLE_COLOR: Title Color
+    TITLE_COLOR_PLACEHOLDER: Any valid Tailwind color, e.g. text-primary | text-gray-800 | text-blue-700 etc
+    TITLE_COLOR_AUTO: Auto Selected Text
+    TITLE_COLOR_LIGHT: Light Text
+    TITLE_COLOR_DARK: Dark Text
+    TITLE_TEXT: Title Text
+    TITLE_TEXT_PLACEHOLDER: Defaults to page title if not provided
+    TITLE2_TEXT: Title 2 Text
+    TITLE2_TEXT_PLACEHOLDER: Defaults to page title if not provided
+    TITLE2_COLOR: Title 2 Color
+    TITLE2_COLOR_PLACEHOLDER: Any valid Tailwind color, e.g. text-primary | text-gray-800 | text-blue-700 etc
+    SIZE_CLASSES_LEFT: Size Classes Left
+    SIZE_CLASSES_RIGHT: Size Classes Right
+    RIGHT_CONTENT: Right Content
+    LEFT_CONTENT: Left Content
+    VARIATION: Variation
+    VARIATION_HORIZONTAL: Horizontal
+    VARIATION_VERTICAL: Vertical
+    FEATURES: Features
+    TITLE: Title
+    TEXT: Text
+    ICON: Icon
+    LINK: Link
+    IMAGE: Image
+    CLASSES: Classes
+    CATEGORY: Category
+    DESCRIPTION: Description
+    VIDEO: Video
+    VIDEO_HELP: Either a local video file, or an external YouTube URL
+    GRID_CLASSES: Grid Classes
+    GRID_CLASSES_HELP: TailwindCSS classes that define the columns at various breakpoints + spacing
+    THUMBNAIL_WIDTH: Thumbnail Width
+    THUMBNAIL_HEIGHT: Thumbnail Height
+    GALLERY_ITEMS: Gallery Items
+    IAMGE_ALIGN: Image Alignment
+    LEFT_SIDE: Left Side
+    RIGHT_SIDE: Right Side
+    COLOR_CLASSES: Color Classes
+    MAX_COLUMNS: Max Columns
+    BLOG_AUTHOR: Post Author
+    BLOG_SHOW_BREADCRUMBS: Show Breadcrumbs
+    BLOG_SHOW_SIDEBAR: Show Sidebar
+    BLOG_SHOW_PAGINATION: Show Sidebar
+    BLOG_CONFIGURATION: Blog Configuration
+    BLOG_ROOT: Root of Blog
+    BLOG_ITEMS: Items
+    BLOG_FILTER: Filter
+    BLOG_MAX_ITEM_COUNT: Max Item Count
+    BLOG_ORDER_BY: Order By
+    BLOG_ORDER_BY_FOLDER: Folder
+    BLOG_ORDER_BY_TITLE: Title
+    BLOG_ORDER_BY_DATE: Date
+    BLOG_ORDER_BY_DEFAULT: Default
+    BLOG_ORDER: Order
+    BLOG_ORDER_ASC: Ascending
+    BLOG_ORDER_DESC: Descending
+    BLOG_TAXONOMY_FILTERS: URL Taxonomy Filters
+    BLOG_PAGINATION: Pagination
+    COLORS_DEFAULT_TEXT_COLOR: Default Text Color
+    COLORS_DEFAULT_TEXT_COLOR_HELP: Any valid Tailwind color, e.g. text-primary | text-gray-800 | text-blue-700 etc
+    COLORS_PRIMARY_COLOR: Primary Color
+    COLORS_PRIMARY_COLOR_HELP: The primary color used throughout the page
+    HEADER_BAR_BACKGROUND: Background
+    HEADER_BAR_BACKGROUND_HELP: Top logo/menu section background for this page
+    HEADER_BAR_BACKGROUND_AUTO: Automatic Background Color
+    HEADER_BAR_BACKGROUND_LIGHT: Light Background Color
+    HEADER_BAR_BACKGROUND_DARK: Dark Background Color
+    HEADER_BAR_BACKGROUND_TRANSPARENT: Transparent Background
+    HEADER_BAR_BACKGROUND_CUSTOM: Custom Background CSS
+    HEADER_BAR_CUSTOM_BACKGROUND_STYLE: Custom Background Style
+    HEADER_BAR_CUSTOM_BACKGROUND_STYLE_HELP: If you set Background to custom, this CSS is used for the background of the header bar
+    HEADER_BAR_TEXT: Text
+    HEADER_BAR_TEXT_HELP: Top logo/menu section text for this page
+    HEADER_BAR_TEXT_AUTO: Automatic Text Color
+    HEADER_BAR_TEXT_LIGHT: Light Text Color
+    HEADER_BAR_TEXT_DARK: Dark Text Color
+    HEADER_SHOW_CHILDREN: Show Children in Secondary menu
+    HERO: Hero
+    HERO_CONTENT: Hero Content
+    SUBTITLE_HELP: Subtitle that displays above the title
+    DEFAULT_TEXT: Default Text
+    DEFAULT_TEXT_HELP: Default text for the hero section, if 'Auto', the color is determined by the overlay
+    DEFAULT_TEXT_AUTO: Auto Selected Color
+    DEFAULT_TEXT_LIGHT: Light Text Color
+    DEFAULT_TEXT_DARK: Dark Text Color
+    LAYOUT_CLASSES: Layout Classes
+    LAYOUT_CONFIGURATION: Layout Configuration
+    COLORS: Colors
+    HEADER_CONFIGURATION: Header Configuration
+    POST: Post
+    MENU_BEFORE_ICON: Menu "Before" Icon
+    MENU_BEFORE_ICON_HELP: Icon to display in-front of the menu item, based on SVG-Icons support (e.g. tabler/rocket.svg)
+    MENU_AFTER_ICON: Menu "After" Icon
+    MENU_AFTER_ICON_HELP: Icon to display afer the menu item, based on SVG-Icons support (e.g. tabler/rocket.svg)
+    MENU_ICON_CLASSES: Menu Icon Classes
+    MENU_ICON_CLASSES_HELP: Extra classes to override the deafult theme-level icon classes
+
+

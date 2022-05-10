@@ -1,0 +1,55 @@
+{% block content_surround %}
+  {% if theme_config.menu.primary_location == 'sidebar' %}
+    {% set secondary_menu = theme_primary_menu() %}
+  {% else %}
+    {% set secondary_menu = theme_secondary_menu(page) %}
+  {% endif %}
+
+  {% set secondary_classes = {
+    default: {
+      a: "flex px-1 pl-3 w-full border-l-2 border-transparent transition duration-150 ease-in-out text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary",
+      li: {
+        base: "pl-4",
+        inactive: "",
+        active: "active text-gray-800 dark:text-gray-100",
+      }
+    }
+  } %}
+
+  {% set alpine = {
+    parent: 'x-data="{ selected: MENU_STATE }"',
+    button: '@click="selected = !selected"',
+    child: 'x-show="selected"
+          x-transition:enter="transition duration-500"
+          x-transition:enter-start="opacity-0"
+          x-transition:enter-end="opacity-1"',
+    svg_open: 'x-show="selected"',
+    svg_closed: 'x-show="!selected"'
+  } %}
+
+  {% set svg = {
+    closed: svg_icon('tabler/plus.svg', 'h-4 w-4 text-gray-300'),
+    open: svg_icon('tabler/minus.svg', 'h-4 w-4 text-gray-500')
+  } %}
+
+  <div class="{{ theme_var('wrapper_spacing') }} {{ theme_var('section_classes')|e }} py-12">
+    <div class="flex">
+      {% if secondary_menu %}
+        <nav class="hidden md:block w-1/4 lg:1/5 border-r border-gray-200 dark:border-gray-700 pr-3">
+          {% import 'macros/macros.html.twig' as macros %}
+          <ul class="sidebar-nav -ml-4 text-sm">
+            {{ macros.nav_loop(secondary_menu, secondary_classes, alpine, svg) }}
+          </ul>
+        </nav>
+        {% set content_classes = 'w-full md:w-3/4 lg:4/5 md:pl-6' %}
+      {% endif %}
+      <div class="{{ content_classes ?: 'w-full' }}">
+        {% block content_wrapper %}
+          <article class="magic-content {{ prose_style }} max-w-none">
+            {% block content %}{% endblock %}
+          </article>
+        {% endblock %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

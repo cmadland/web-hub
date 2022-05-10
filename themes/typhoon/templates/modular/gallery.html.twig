@@ -1,0 +1,42 @@
+{% extends 'modular/partials/base.html.twig' %}
+
+{% block module_content %}
+  {% include 'modular/partials/title.html.twig' with {include_content: true} %}
+  {% set data = page.header.gallery %}
+  {% set grid_classes = data.grid_classes|default('grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-2 gap-x-2') %}
+  {% set thumb_width = data.thumb.width|default(600) %}
+  {% set thumb_height = data.thumb.height|default(450) %}
+
+  <div class="grid {{ grid_classes }}">
+    {% set gallery = md5(page.url) %}
+    {% for item in data.items %}
+      <div class="inline-flex overflow-hidden rounded-md group safari-corner-overflow-fix">
+        {% set item_image = page.media[item.image] %}
+        {% set title = item.title ?: null %}
+        {% set desc = item.desc ? ".desc-" ~ md5(item.desc) : null %}
+        {% set content = item_image.cropZoom(thumb_width,thumb_height).classes('transform duration-200 group-hover:scale-110 group-hover:filter group-hover:brightness-110').html(title, title) %}
+        {% if item.video %}
+          {% set video = item.video %}
+          {% set image = null %}
+        {% else %}
+          {% set image = item.image %}
+          {% set video = null %}
+        {% endif %}
+        {% set class = 'inline-block' %}
+        {% include "partials/lightbox.html.twig" %}
+      </div>
+    {% endfor %}
+
+    <div class="hidden">
+      {% for item in data.items %}
+        {% if item.desc %}
+          <div class="glightbox-desc desc-{{ md5(item.desc) }}">
+            <div class="prose">
+              <p>{{ item.desc|markdown(false) }}</p>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}

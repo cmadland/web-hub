@@ -1,0 +1,27 @@
+{% extends 'modular/partials/base.html.twig' %}
+
+{% set align_right = page.header.image_align|default('right') == 'right' %}
+{% set image = page.media.files[page.header.image].url|defined(page.media.images|first.url) %}
+
+{% block module_content %}
+  {% include 'modular/partials/title.html.twig' with {include_content: false} %}
+
+  <div class="flex {{ align_right ? 'md:flex-row-reverse' : '' }} justify-center md:justify-start flex-wrap md:flex-no-wrap">
+    {% if image %}
+      <div class="w-full md:w-1/2 {{ align_right ? 'md:pl-8': 'md:pr-8' }} {{ page.header.image_classes }}">
+        <img class="mb-8 md:mb-0 rounded-md" alt="{{ image }}" src="{{ image }}">
+      </div>
+    {% endif %}
+    <div class="w-full md:w-1/2 {{ align_right ? 'md:pr-8': 'md:pl-8' }} md:pr-8 mb-4 md:mb-0">
+
+      {% if page.content %}
+        <div class="md:text-lg prose">
+          {{ page.content|raw }}
+        </div>
+      {% endif %}
+
+    </div>
+
+  </div>
+{% endblock %}
+

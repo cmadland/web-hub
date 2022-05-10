@@ -1,0 +1,63 @@
+title: Notices
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+
+          fields:
+            content:
+              unset@: true
+            header.media_order:
+              unset@: true
+
+            header.notices:
+              type: list
+              label:
+              style: vertical
+              collapsed: true
+              field_classes: 'notices-list'
+              min_height: '85px'
+
+              fields:
+                .content:
+                  type: textarea
+                  label: THEME_TYPHOON.ADMIN.NOTICE_CONTENT
+                .enabled:
+                  type: toggle
+                  label: THEME_TYPHOON.ADMIN.NOTICE_ENABLED
+                  highlight: 1
+                  default: 1
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+                .only_homepage:
+                  type: toggle
+                  label: THEME_TYPHOON.ADMIN.NOTICE_ONLY_HOMEPAGE
+                  highlight: 1
+                  default: 1
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+                .type:
+                  type: select
+                  label: THEME_TYPHOON.ADMIN.NOTICE_TYPE
+                  default: alert
+                  options:
+                    alert: THEME_TYPHOON.ADMIN.NOTICE_ALERT
+                    critical: THEME_TYPHOON.ADMIN.NOTICE_CRITICAL
+                    note: THEME_TYPHOON.ADMIN.NOTICE_NOTE
+                    success: THEME_TYPHOON.ADMIN.NOTICE_SUCCESS
+                .learn_more_link:
+                  type: text
+                  label: THEME_TYPHOON.ADMIN.NOTICE_LEARNMORE
+
+
+        hero:
+          unset@: true

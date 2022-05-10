@@ -1,0 +1,14 @@
+{% set theme_config = config.theme %}
+{% set prose_style = 'prose md:prose-md' %}
+{% set base_text_style = theme_var('colors.text_style')|e %}
+{% set debugger_enabled = config.system.debugger.enabled|e %}
+{% set brightness_lighter = theme_config.colors.brightness_lighter|e %}
+{% set brightness_darker = theme_config.colors.brightness_darker|e %}
+{% set primary_color = color(theme_var('colors.primary')) %}
+{% set header_background = theme_var('header_bar.background', 'light')|e %}
+{% set header_custom_style = theme_var('header_bar.custom_style')|e %}
+{% set header_text = theme_var('header_bar.text', 'default')|e %}
+{% set hero_display = theme_var('hero.display') %}
+{% set favicon_file = theme_var('custom_favicon') %}
+{% block render_body %}{% endblock %}
+

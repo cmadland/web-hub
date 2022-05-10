@@ -1,0 +1,27 @@
+{% set colors = {
+  'alert': ['bg-blue-700', 'text-white'],
+  'critical': ['bg-red-700', 'text-white'],
+  'note': ['bg-orange-300', 'text-gray-900'],
+  'success': ['bg-green-700', 'text-white'],
+} %}
+
+{% set is_homepage = page.route == '/' %}
+{% set notices = page.find(theme_config.notices_page_route).header.notices ?: theme_config.notices %}
+
+{% for notice in notices %}
+  {% if notice.enabled and not (notice.only_homepage and not is_homepage) %}
+    <div class="relative {{ colors[notice.type]|first }}">
+      <div class="max-w-screen-xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
+        <div class="pr-16 sm:text-center sm:px-16">
+          <p class="font-medium {{ colors[notice.type]|last }}">
+            {{ notice.content|markdown(false) }}
+            {% if notice.learn_more_link %}
+              <span class="block sm:ml-2 sm:inline-block"><a href="{{ url(notice.learn_more_link) }}"
+                                                             class="{{ colors[notice.type]|last }} font-bold underline">Learn more →</a></span>
+            {% endif %}
+          </p>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}

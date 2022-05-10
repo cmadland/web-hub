@@ -1,0 +1,15 @@
+{% set show_onpage_menu = header.onpage_menu == true %}
+
+{% extends 'partials/base.html.twig' %}
+
+{% block hero %}
+  {% for module in page.collection() if module.template == 'modular/hero' %}
+    {{ module.content|raw }}
+  {% endfor %}
+{% endblock %}
+
+{% block content_surround %}
+  {% for module in page.collection() if module.template != 'modular/hero' %}
+    {{ module.content|raw }}
+  {% endfor %}
+{% endblock %}

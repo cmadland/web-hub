@@ -1,0 +1,35 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.title:
+              style: horizontal
+            section_title:
+              type: section
+              ordering@: 2
+              import@:
+                type: modular/partials/title
+
+        advanced:
+          fields:
+            section_layout:
+              type: section
+              title: THEME_TYPHOON.BLUEPRINTS.LAYOUT_CLASSES
+              underline: true
+              ordering@: 1
+
+              import@:
+                type: partials/layout
+
+            section_colors:
+              unset@: true
+
+            section_header:
+              unset@: true
+
+        hero:
+          unset@: true

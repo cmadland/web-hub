@@ -1,0 +1,18 @@
+{% set item_col = show_sidebar ? 'w-full md:w-9/12' : 'w-full' %}
+{% set sidebar_col = show_sidebar ? 'w-full md:w-3/12' : 'hidden' %}
+
+<div>
+  <div class="flex flex-wrap text-left">
+
+    <div class="{{ item_col }} md:pr-8 text-left">
+      {% block items %}{% endblock %}
+    </div>
+
+    {% if show_sidebar %}
+      <div id="sidebar" class="{{ sidebar_col }} flex flex-wrap text-left flex-col lg:px-4 my-6">
+        {% block sidebar %}{% endblock %}
+      </div>
+    {% endif %}
+
+  </div>
+</div>

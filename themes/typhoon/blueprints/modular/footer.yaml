@@ -1,0 +1,82 @@
+title: Footer
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+
+          fields:
+            content:
+              unset@: true
+            header.media_order:
+              unset@: true
+
+            header.footer.menu_enabled:
+              type: toggle
+              label: THEME_TYPHOON.ADMIN.FOOTER_ENABLE_MENU_LINKS
+              help: THEME_TYPHOON.ADMIN.FOOTER_ENABLE_MENU_LINKS_HELP
+              highlight: 1
+              default: 1
+              options:
+                1: PLUGIN_ADMIN.YES
+                0: PLUGIN_ADMIN.NO
+              validate:
+                type: bool
+
+            header.footer.menu:
+              type: list
+              label: THEME_TYPHOON.ADMIN.FOOTER_MENU_LINKS
+              fields:
+                .label:
+                  type: text
+                  label: THEME_TYPHOON.ADMIN.FOOTER_MENU_ITEM
+                  placeholder: THEME_TYPHOON.ADMIN.FOOTER_MENU_PLACEHOLDER
+                .link:
+                  type: text
+                  label: THEME_TYPHOON.ADMIN.FOOTER_MENU_LINK
+                  placeholder: '/some/page or https://acme.com/path'
+
+            header.footer.social_enabled:
+              type: toggle
+              label: THEME_TYPHOON.ADMIN.FOOTER_ENABLE_SOCIAL_LINKS
+              help: THEME_TYPHOON.ADMIN.FOOTER_ENABLE_SOCIAL_LINKS_HELP
+              highlight: 1
+              default: 1
+              options:
+                1: PLUGIN_ADMIN.YES
+                0: PLUGIN_ADMIN.NO
+              validate:
+                type: bool
+
+            header.footer.social:
+              type: list
+              label: THEME_TYPHOON.ADMIN.FOOTER_SOCIAL_LINKS
+              fields:
+                .network:
+                  type: select
+                  label: THEME_TYPHOON.ADMIN.FOOTER_SOCIAL_NETWORK
+                  options:
+                    github: Github
+                    twitter: Twitter
+                    facebook: Facebook
+                    instagram: Instagram
+                    linkedin: LinkedIn
+                    pinterest: Pinterest
+                    youtube__brands: YouTube
+                    vimeo__brands: Vimeo
+                    500px__brands: 500px
+                    gitbook__brands: Gitbook
+                .link:
+                  type: text
+                  label: THEME_TYPHOON.ADMIN.FOOTER_SOCIAL_LINK
+                  placeholder: 'https://socialnetwork.com/username'
+
+            header.footer.copyright:
+              type: editor
+              rows: 5
+              label: THEME_TYPHOON.ADMIN.FOOTER_COPYRIGHT
+
+        hero:
+          unset@: true

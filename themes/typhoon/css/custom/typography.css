@@ -1,0 +1,66 @@
+[x-cloak] { display: none; }
+
+body {
+  &.debug-screens:before {
+    @apply left-inherit right-0;
+  }
+
+  @apply text-gray-700;
+}
+
+.site-logo {
+  img, svg {
+    @apply h-full;
+  }
+}
+
+.foo {
+  @apply text-3xl;
+}
+
+/** Prose fixes **/
+
+.prose {
+  a {
+    @apply transition duration-300 text-primary no-underline;
+
+    &:hover {
+      @apply text-primary-darker;
+    }
+  }
+
+  .no-prose {
+    a {
+      @apply transition-none;
+    }
+    p {
+      margin: initial;
+    }
+  }
+
+  .btn, .button, a.btn, a.button {
+    @apply px-4 lg:px-8 py-3 leading-6 font-medium rounded-md text-gray-100 hover:text-white bg-primary filter hover:brightness-90 transition duration-300 ease-in-out inline-block;
+  }
+  & > ul > li {
+    & > *:last-child {
+      margin: inherit;
+    }
+  }
+  ul > li:before {
+    @apply bg-gray-500;
+  }
+
+  ol > li:before {
+    @apply text-gray-500;
+  }
+  ul.archives > li {
+    @apply pl-0;
+  }
+}
+
+
+/** Menu open/close **/
+.menu-visible {
+  @apply opacity-100 block;
+}
+

@@ -1,0 +1,74 @@
+enabled: true                                                       # Enable the theme
+external_in_new_tab: false                                          # Open external URLs in new tab
+append_site_title: true                                             # Append Site Title to HTML Title
+custom_logo:                                                        # Will be used instead of default Grav logo
+custom_logo_strip_svg_style: false                                  # Use this if your Custom Logo SVG has hardcoded style and you want the fill color to be dynamic
+custom_favicon:                                                     # will be used instead of default Grav Favicon
+colors:                                                             # Doesn't work for modular as the CSS is page-level
+  text_style: 'text-gray-600 dark:text-gray-400'                    # Text color (Any valid Tailwind color)
+  brightness_lighter: '20'                                          # The percentage amount brighter for *-primary-lighter colors
+  brightness_darker: '20'                                           # The percentage amount darker for *-primary-darker colors
+  primary: '#006AE1'                                                # The primary accent color used throughout the page (Any valid Tailwind color)
+appearance:
+  theme: system                                                     # Defines the default theme appearance: light|dark|system
+  selector: true                                                    # Allows the user to switch appearance from the footer dropdown
+  storage: true                                                     # Allows the user to remember the selection persistently.
+body_classes:                                                       # Provide a default classes for the body tag
+section_classes: bg-white dark:bg-gray-900 py-8 md:py-24            # Override the classes to wrap the content section for regular or modular pages
+wrapper_spacing: xl:container xl:mx-auto md:px-6 px-4               # Override the wrapper classes used to set the max-width of the page
+menu:
+  primary_location: header                                          # Location of primary menu: header|sidebar
+  primary_menu_levels: 3                                            # The number of level in the primary dropdown-menu. Levels greater than this in sidebar
+  mobile_nav: true                                                  # Display mobile navigation for smaller devices
+  icon_classes: 'hidden md:inline-block h-4 w-4 text-gray-500 mr-1'
+  login:
+    enabled: true
+    icon: tabler/user.svg
+    logged_in_display: username                                     # [username | fullname | email]
+    logout_icon: tabler/logout.svg
+  langswitcher:
+    enabled: true
+    icon: tabler/world.svg
+header_bar:
+  background: auto                                                  # Top logo/menu section background for this page: auto|light|dark|transparent|custom
+  custom_style:                                                     # If you set Background to custom, this CSS is used for the background of the header bar
+  text: auto                                                        # Top logo/menu section text for this page: auto|light|dark
+hero:
+  display: true                                                     # If this page should have a hero
+  overlay: dark                                                     # Select custom and provide a custom color below for an exact color, else select the best choice for the image: dark|darker|light|lighter|primary|none|custom
+  overlay_direction: right                                          # Overlay Gradient Direction: right|bottom|top|left
+  alignment: left                                                   # Hero text alignment: left|right|center
+  image: 'theme://images/headers/sea-and-sky.jpg'                   # Stream location of default hero image
+  custom: '#3C4043'                                                 # Custom overlay color. You must set the Overlay to "custom" for this to be used
+  padding: 'pt-32 md:pt-40 lg:pt-48 xl:pt-56 pb-16 md:pb-20 lg:pb-24 xl:pb-32' # Hero padding classes
+footer:
+  menu_enabled: true                                                # If Menu links should display
+  menu:
+    -
+      label: Terms & Conditions                                     # Text label for menu item
+      link: '#'                                                     # Grav route starting with `/` or external URL
+    -
+      label: Privacy Policy
+      link: '#'
+  social_enabled: true                                              # If Social links should display
+  social:
+    -
+      network: twitter                                              # Social icon for network
+      link: https://twitter.com/getgrav                             # External URL for network
+    -
+      network: github
+      link: https://github.com/getgrav
+  copyright: "[Grav](https://getgrav.org?classes=hover:text-primary,font-bold) was \r\n[svg-icon icon=\"code\" class=\"text-gray-700 dark:text-gray-400 w-4 h-4\"] with\r\n[svg-icon icon=\"heart\" class=\"text-red-700 w-4 h-4 animate-pulse\"] by \r\n[Trilby Media, LLC](https://trilby.media?classes=hover:text-primary,font-bold)\r\n"                  # Copyright line. Can be markdown (with shortcodes) or HTML
+notices:
+  -
+    content: 'An example **critical** message that should show up on homepage only' # Content of the notice
+    enabled: false                                                                  # If the notice is enabled
+    only_homepage: true                                                             # Display only on homepage or all pages
+    type: critical                                                                  # Notice type: alert|critical|note|success
+    learn_more_link: https://getgrav.org                                            # Grav route starting with `/` or external URL
+  -
+    content: 'An example **note** that should appear on all pages! No link..'
+    enabled: false
+    only_homepage: false
+    type: note
+    learn_more_link: null

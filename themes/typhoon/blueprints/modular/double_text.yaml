@@ -1,0 +1,38 @@
+title: Double Text
+extends@: partials/modular
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.media_order:
+              ordering@: 99
+
+            header.title_color:
+              type: text
+              toggleable: true
+              label: THEME_TYPHOON.BLUEPRINTS.TITLE_COLOR
+              placeholder: 'text-dark'
+
+            header.size_left:
+              type: text
+              toggleable: true
+              placeholder: 'w-full md:w-1/2 mr-0 md:mr-8 mb-4 md:mb-0'
+              label: THEME_TYPHOON.BLUEPRINTS.SIZE_CLASSES_LEFT
+
+            header.size_right:
+              type: text
+              toggleable: true
+              placeholder: 'w-full md:w-1/2'
+              label: THEME_TYPHOON.BLUEPRINTS.SIZE_CLASSES_RIGHT
+
+            header.content:
+              type: editor
+              toggleable: true
+              label: THEME_TYPHOON.BLUEPRINTS.RIGHT_CONTENT
+
+            content:
+              ordering@: 6
+              label: THEME_TYPHOON.BLUEPRINTS.LEFT_CONTENT

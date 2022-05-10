@@ -1,0 +1,23 @@
+{% extends 'modular/partials/base.html.twig' %}
+
+{% set column_count = page.header.columns ?: 3 %}
+{% set column_classes = 'col-count-1' %}
+{% if 2 <= column_count %}
+  {% set column_classes = column_classes ~ ' sm:col-count-2 sm:gap-x-6' %}
+{% endif %}
+{% if 3 <= column_count %}
+  {% set column_classes = column_classes ~ ' lg:col-count-3 lg:gap-x-10' %}
+{% endif %}
+{% if 4 <= column_count %}
+  {% set column_classes = column_classes ~ ' xl:col-count-4 xl:gap-x-12' %}
+{% endif %}
+
+{% block module_content %}
+  <div class="">
+    {% include 'modular/partials/title.html.twig' with {include_content: false} %}
+
+    <div class="mt-3 prose {{ column_classes }}">
+      {{ page.content|raw }}
+    </div>
+  </div>
+{% endblock %}

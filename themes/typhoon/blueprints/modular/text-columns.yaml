@@ -1,0 +1,22 @@
+title: Text Columns
+extends@: partials/modular
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.media_order:
+              ordering@: 99
+
+            header.columns:
+              toggleable: true
+              type: range
+              label: THEME_TYPHOON.BLUEPRINTS.MAX_COLUMNS
+              validate:
+                min: 1
+                max: 4
+
+            content:
+              ordering@: 9

@@ -1,0 +1,54 @@
+title: Gallery
+extends@: partials/modular
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.media_order:
+              ordering@: 99
+
+            header.gallery.grid_classes:
+              type: text
+              default: 'grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-2 gap-x-2'
+              label: THEME_TYPHOON.BLUEPRINTS.GRID_CLASSES
+              help: THEME_TYPHOON.BLUEPRINTS.GRID_CLASSES_HELP
+
+
+            header.gallery.thumb.width:
+              type: number
+              label: THEME_TYPHOON.BLUEPRINTS.THUMBNAIL_WIDTH
+              size: x-small
+              append: px
+              default: 600
+
+            header.gallery.thumb.height:
+              type: number
+              label: THEME_TYPHOON.BLUEPRINTS.THUMBNAIL_HEIGHT
+              size: x-small
+              append: px
+              default: 450
+
+            header.gallery.items:
+              type: list
+              style: vertical
+              label: THEME_TYPHOON.BLUEPRINTS.GALLERY_ITEMS
+
+              fields:
+                .title:
+                  type: text
+                  label: THEME_TYPHOON.BLUEPRINTS.TITLE
+                .image:
+                  type: filepicker
+                  preview_images: true
+                  label: THEME_TYPHOON.BLUEPRINTS.IMAGE
+                .desc:
+                  type: textarea
+                  rows: 4
+                  label: THEME_TYPHOON.BLUEPRINTS.DESCRIPTION
+                .video:
+                  type: text
+                  label: THEME_TYPHOON.BLUEPRINTS.VIDEO
+                  help: THEME_TYPHOON.BLUEPRINTS.VIDEO_HELP

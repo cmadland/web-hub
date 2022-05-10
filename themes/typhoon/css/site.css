@@ -1,0 +1,14 @@
+@import "./custom/dark.css";
+@import "./custom/fonts.css";
+@import "./custom/forms.css";
+@import "./custom/navigation.css";
+@import "./custom/plugins.css";
+@import "./custom/social.css";
+@import "./custom/typography.css";
+@import "./custom/bugs.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+

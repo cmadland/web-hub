@@ -1,0 +1,31 @@
+title: Image Block
+extends@: partials/modular
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.media_order:
+              ordering@: 99
+
+            header.image:
+              type: filepicker
+              toggleable: true
+              preview_images: true
+              label: THEME_TYPHOON.BLUEPRINTS.IMAGE
+
+            header.image_align:
+              type: toggle
+              toggleable: true
+              label: THEME_TYPHOON.BLUEPRINTS.IMAGE_ALIGN
+              default: right
+              highlight: right
+              size: medium
+              options:
+                left: THEME_TYPHOON.BLUEPRINTS.LEFT_SIDE
+                right: THEME_TYPHOON.BLUEPRINTS.RIGHT_SIDE
+
+            content:
+              ordering@: 9
