@@ -8,7 +8,7 @@ shortcodes: true
 
 ## Digital platforms and algorithmic erasure
 #### What are the implications?
-##### Colin Madland U+2020, Maxwell Ofosuhene, Jennifer Adkins
+##### Colin Madland <U+2020>, Maxwell Ofosuhene, Jennifer Adkins
 
 University of Victoria, Trinity Western University
 
