@@ -10,15 +10,15 @@ features:
         icon: tabler/chart-radar.svg
         link: 'https://madland.ca/presentations/indigenous-digital-sovereignty#/indigenous-digital-sovereignty-0'
     -
-        title: '#PhDChat'
-        text: null
+        title: 'Humanizing Assessment'
+        text: OTESSA 2021
         icon: tabler/school.svg
-        link: 'https://twitter.com/hashtag/phdchat'
+        link: 'https://madland.ca/presentations/assessment-online-highered#/assessment-online-highered-0'
     -
-        title: '#EdTechUVic'
-        text: null
-        icon: tabler/bolt.svg
-        link: 'https://twitter.com/hashtag/edtechuvic'
+        title: 'Algorithmic Erasure'
+        text: OTESSA 2022
+        icon: tabler/camera.svg
+        link: 'https://madland.ca/presentations/algorithmic-erasure'
     -
         title: '#AgainstSurveillance'
         text: null
