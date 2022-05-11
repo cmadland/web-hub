@@ -23,7 +23,7 @@ We are located on the traditional, ancestral, and unceded territory of the Kwant
 
 ### Context
 
-![alt-text](1.jpeg "horizontal Screenshot showing a white man on the left side of the image and a black man on the right")
+![](1.jpeg)
 
 [notes]
 In the fall of 2020, just as universities were beginning the first full semester of COVID, Maxwell and I were in a meeting together, and afterwards, Maxwell asked me to help troubleshoot Zoom. Apparently, his head kept disappearing from the feed when he used a virtual background. It quickly became clear to me what was happening, and we began a conversation about digital camera algorithms, white balance, and the long-standing issue of Black people not being visible in photographs.
