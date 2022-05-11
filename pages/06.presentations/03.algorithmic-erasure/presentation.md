@@ -42,7 +42,7 @@ In the fall of 2020, just as universities were beginning the first full semester
 
 ---
 
-<iframe src="https://player.vimeo.com/video/29017688?h=44bf2a4b01&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/29017688?h=44bf2a4b01&byline=0&portrait=0" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/29017688">BETTER OFF TED &quot;Racial Sensitivity&quot; - Highlights</a> from <a href="https://vimeo.com/whitedwarf">White Dwarf Productions</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ---
