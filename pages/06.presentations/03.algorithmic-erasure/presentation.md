@@ -6,130 +6,26 @@ shortcodes: true
 
 
 
-## Digital platforms and algorithmic erasure
+## Digital Platforms And Algorithmic Erasure
 #### What are the implications?
 ##### Colin Madland (TWU, UVic), Maxwell Ofosuhene (TWU), Jennifer Adkins (TWU, UBC)
 
-Find these slides at <http://bit.ly/OTESSA21-A>
+Find these slides at <https://bit.ly/otessa22-a>
 
 
 ---
 
 ### Acknowledging the Land and the People
 
-The University of Alberta respectfully acknowledges that we are located on Treaty 6 territory and Homeland of the Métis, a traditional gathering place for diverse Indigenous peoples including the Cree, Blackfoot, Métis, Nakota Sioux, Iroquois, Dene, Ojibway/ Saulteaux/Anishinaabe, Inuit, and many others whose histories, languages, and cultures continue to influence our vibrant community.
-
-
----
-
-
-Additionally, [I wish to acknowledge the devastating discovery of 215 residential school children very close to where I was born](https://tkemlups.ca/remains-of-children-of-kamloops-residential-school-discovered/) as an uninvited settler in Tk’emlúps te Secwépemc territory.
+We are located on the traditional, ancestral, and unceded territory of the Kwantlen, the Katzie, and the Stó:lô First Nations. We work here as an uninvited visitor and honour and respect the Indigenous Peoples who have stewarded this land and whose relationship to it continues to this day.
 
 ---
 
 ### Context
 
+![alt-text](1.jpeg "horizontal Screenshot showing a white man on the left side of the image and a black man on the right")
 [notes]
-As a result of the COVID-19 pandemic, my previous dissertation topic became impossible (see session 2.1), but the resulting pivot to emergency remote teaching in the spring of 2020 laid bare many of the systemic inequities of higher ed in Canada. Since then, I have come to believe that assessment beliefs and practices can be powerful drivers for progress for the benefit of learners, or for hegemony and the status quo.
-
-This presentation represents an early conceptualization of my dissertation project on assessment in online higher education. I welcome your thoughts and questions.
-
+In the fall of 2020, just as universities were beginning the first full semester of COVID, Maxwell and I were in a meeting together, and afterwards, Maxwell asked me to help troubleshoot Zoom. Apparently, his head kept disappearing from the feed when he used a virtual background. It quickly became clear to me what was happening, and we began a conversation about digital camera algorithms, white balance, and the long-standing issue of Black people not being visible in photographs.
 [/notes]
 
 ---
-
-### Assessment
-
-> Use the chat to enter a word or three that represents 'assessment in online higher education'. How would you finish the sentence that begins 'Assessment is...'?
-
-[notes]
-Responses might relate to purposes of assessment, reactions to assessment, beliefs about assessment, the results of assessment...
-[/notes]
-
----
-
-###### Assessment is a process of reasoning from evidence.
-
-(National Research Council, 2001)
-
-[notes]
-
-How do we come to know what learners know?
-
-[/notes]
-
----
-
-### Assessment Triangle
-
----
-
-![](z-assessment-triangle.png)
-
----
-
-### Validity and Reliability
-
----
-
-![](v-r.png)
-
----
-
-High-stakes decisions (all grading decisions, really) should have a minimum reliability (co-efficient alpha, formerly known as Cronbach's alpha) of .08.
-
-[notes]
-
-Recall from this morning's keynote that most teacher-created assessments fall around 0.4...
-
-[/notes]
-
----
-
-### Assessment as Measurement
-
-> You get what you measure. ~ Dr. Phil Laird
-
----
-
-X=T+E
-
----
-
-![](1.png)
-
----
-
-![](2.png)
-
----
-
-### The Problem with Percentages
-
----
-
-![](learner-grades.png)
-
----
-
-### Humanizing Assessment
-
-Think +1...
-
-- reduced confidence in 'grades'
-- fewer categories of achievement
-- more flexibility
-- ask learners
-- Trust. Learners.
-- more equity
-
----
-
-### [Grading for Equity](https://gradingforequity.org/)
-
----
-
-
-### Literature Sources
-
-[Direct link to Notion.so](https://www.notion.so/edtechphd/7a55677d7d544d8689b20a85493f982b?v=dabcf187dd854c9e8af840752cb5ba45)
