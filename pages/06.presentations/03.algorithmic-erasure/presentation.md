@@ -36,3 +36,8 @@ In the fall of 2020, just as universities were beginning the first full semester
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 ---
+
+<blockquote class="embedly-card" data-card-key="05acda8fea1b4f099c92b66268f422dd" data-card-theme="dark" data-card-branding="0" data-card-type="article"><h4><a href="https://twitter.com/dantley/status/1390789795408842752?s=20&t=0zVrcyZO66uUrcn-fWAYIg">Dantley Davis on Twitter: "https://t.co/m9UK0mXWQ2 / Twitter"</a></h4><p>https://t.co/m9UK0mXWQ2</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+---
