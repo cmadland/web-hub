@@ -21,7 +21,7 @@ We are located on the traditional, ancestral, and unceded territory of the Kwant
 
 ---
 
-### Context
+
 
 ![](1.jpeg)
 
