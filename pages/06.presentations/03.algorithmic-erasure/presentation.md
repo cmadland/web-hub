@@ -1,7 +1,6 @@
 ---
 title: 'Algorithmic Erasure'
 horizontal: false
-shortcodes: true
 ---
 
 
@@ -31,19 +30,3 @@ In the fall of 2020, just as universities were beginning the first full semester
 
 ---
 
-
-https://twitter.com/Zoom/status/1307405523667484672?s=20&t=0zVrcyZO66uUrcn-fWAYIg
-
----
-
-<blockquote class="embedly-card" data-card-key="05acda8fea1b4f099c92b66268f422dd" data-card-theme="dark" data-card-branding="0" data-card-type="article"><h4><a href="https://twitter.com/dantley/status/1390789795408842752?s=20&t=0zVrcyZO66uUrcn-fWAYIg">Dantley Davis on Twitter: "https://t.co/m9UK0mXWQ2 / Twitter"</a></h4><p>https://t.co/m9UK0mXWQ2</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-
----
-
-<iframe src="https://player.vimeo.com/video/29017688?h=44bf2a4b01&byline=0&portrait=0" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-
-
-<p><a href="https://vimeo.com/29017688">BETTER OFF TED &quot;Racial Sensitivity&quot; - Highlights</a> from <a href="https://vimeo.com/whitedwarf">White Dwarf Productions</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
----
