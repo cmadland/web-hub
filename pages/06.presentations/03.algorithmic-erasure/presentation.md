@@ -32,8 +32,7 @@ In the fall of 2020, just as universities were beginning the first full semester
 ---
 
 
-<blockquote class="embedly-card" data-card-key="05acda8fea1b4f099c92b66268f422dd" data-card-theme="dark" data-card-type="article"><h4><a href="https://twitter.com/Zoom/status/1307405523667484672?s=20&t=0zVrcyZO66uUrcn-fWAYIg">Zoom on Twitter: "Hey Colin, we'd like to get to the bottom of this. Would you and your colleague be willing to meet with our virtual background engineers to try to replicate this issue? Please DM us so we can set a time. Thank you! / Twitter"</a></h4><p>Hey Colin, we'd like to get to the bottom of this. Would you and your colleague be willing to meet with our virtual background engineers to try to replicate this issue? Please DM us so we can set a time. Thank you!</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+https://twitter.com/Zoom/status/1307405523667484672?s=20&t=0zVrcyZO66uUrcn-fWAYIg
 
 ---
 
