@@ -30,3 +30,4 @@ In the fall of 2020, just as universities were beginning the first full semester
 
 ---
 
+![](2.jpeg)
