@@ -1,5 +1,5 @@
 ---
-title: 'Jane Hart's Top 10'
+title: 'Jane Hart - Top 10'
 published: true
 taxonomy:
     tag:
