@@ -18,7 +18,7 @@ hide_from_post_list: false
 root_of_blog: true
 ---
 
-[Jane Hart hosts an annual survey of people who submit their top ten tools for learning](https://www.toptools4learning.com/voting/)...here are mine for 2022. An `*` indicates a tool that is Free/libre and Open Source, and `+` is a tool that is free but not open source.
+[Jane Hart hosts an annual survey of people who submit their top ten tools for learning](https://www.toptools4learning.com/voting/)...here are mine for 2022. An `*` indicates a tool that is Free/libre and Open Source, and `+` is a tool that is free but not open source. I use all of these tools both personally and professionally.
 
 1. *[GitHub](https://github.com) - I use GitHub for both work (online learning, instructional design) and learning (PhD in EdTech). I remain convinced that git is THE killer app for open education. I clone my repos on multiple computers, so I have at least 3 backups of my work at all times.
 2. *[VSCode](https://code.visualstudio.com/) - tightly integrated with git is VSCode from Microsoft. I use it for composing my dissertation, my websites (this post too), as well as course materials and faculty support sites. Everything is in Markdown.
