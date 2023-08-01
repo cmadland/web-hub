@@ -25,7 +25,7 @@ Planned dissertation title: “*Technology-Integrated Assessment in Higher Educa
       style="width: 1em; margin-inline-start: 0.5em"
       alt="ORCID iD icon"/>
     https://orcid.org/0000-0002-1761-1903
-    </a>
+</a>
 ##### Master of Education (Distance Education), Athabasca University, 2014
 
 - Thesis: [Structured Student Interactions in Online Distance Education: Exploring the Study Buddy Activity](http://hdl.handle.net/10791/47)
