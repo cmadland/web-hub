@@ -16,14 +16,14 @@ features:
         link: 'https://cmadland.github.io/assessment'
     -
         title: Learning
-        text: 'Follow my process in notion.so as I build my dissertation.'
-        icon: tabler/notebook.svg
-        link: 'https://www.notion.so/edtechphd/7a55677d7d544d8689b20a85493f982b?v=99b42da027324ab580d1ba155896bca3'
+        text: 'Follow my process in GitHub as I build my dissertation.'
+        icon: tabler/brand-github.svg
+        link: 'https://github.com/cmadland/obsidian'
     -
         title: Social
-        text: 'Find me on Twitter'
-        icon: tabler/brand-twitter.svg
-        link: 'https://twitter.com/colinmadland'
+        text: 'Find me on Mastodon'
+        icon: tabler/brand-mastodon.svg
+        link: 'https://scholar.social/@cmadland'
 ---
 
 As a teacher, researcher, and a learner, I believe in practicing openness as a way of being in the world. If you see something here that catches your eye, let me know!
