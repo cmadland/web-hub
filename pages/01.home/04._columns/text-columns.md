@@ -6,6 +6,10 @@ columns: 1
 published: true
 ---
 
+
+In my research and practice of teaching and learning in higher education, I ground my work in several broad principles related to ontological (who we are), teleological (what we do), and epistemological (how we know) perspectives.
+
+<!--
 ### Learners
 
 The learner is most central to the process of learning. It is their motivations, backgrounds, contexts, and experiences that must first inform the structure of the learning environment and the approach taken in the learning process...
@@ -19,5 +23,6 @@ I believe in the value of openness in education, which is enacted on several dif
 
 ### Innovation and Disruption
 Pedagogical practices are ripe for disruption in higher education. It is no longer sufficient to 'cover' content and expect learners to repeat back what they have learned. Citizens in the 21st century require competence in collaboration, divergent thinking, empathy, and communication...
+-->
 
-[Find out more...](https://madland.ca/philosophy?classes=btn,mt-4,w-content,block)
+[Find out more...](https://cmadland.github.io/cv/portfolio?classes=btn,mt-4,w-content,block)
