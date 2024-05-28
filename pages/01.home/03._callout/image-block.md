@@ -1,6 +1,6 @@
 ---
 menu: 'Assessment'
-title: 'Assessment in Online Higher Education'
+title: 'Technology-Integrated Assessment in Higher Education'
 subtitle: 'Current Research'
 image: marvin-meyer-SYTO3xs06fU-unsplash.jpg
 image_align: right
